@@ -188,9 +188,9 @@ SMTP_PASS=your_brevo_password
 
 ## 🗺️ Development Roadmap
 
-- **Phase 1 — MVP** (Weeks 1–4): Auth, Homestay Discovery, Basic Booking, Owner Dashboard
-- **Phase 2 — AI Features** (Weeks 5–8): Trip Planner, Recommender, Chatbot, Reviews
-- **Phase 3 — Intelligence Layer** (Weeks 9–12): Review Analyzer, Analytics Dashboard, Monthly AI Summaries
+- **Phase 1 — MVP** (Weeks 1–3): Auth, Homestay Discovery, Basic Booking, Owner Dashboard
+- **Phase 2 — AI Features** (Weeks 4–6): Trip Planner, Recommender, Chatbot, Reviews
+- **Phase 3 — Intelligence Layer** (Weeks 7–9): Review Analyzer, Analytics Dashboard, Monthly AI Summaries
 
 ---
 
