@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import DarkModeToggle from './DarkModeToggle'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -41,10 +42,19 @@ export default function Navbar() {
             >
               About
             </NavLink>
+            <NavLink
+              to="/components"
+              className={({ isActive }) =>
+                isActive ? 'text-terra-500' : 'text-cream-200 hover:text-white transition-colors'
+              }
+            >
+              Components
+            </NavLink>
           </div>
 
-          <div className="hidden md:flex items-center gap-3">
-            <Link to="/login" className="text-sm text-cream-200 hover:text-white transition-colors">
+          <div className="hidden md:flex items-center gap-2">
+            <DarkModeToggle />
+            <Link to="/login" className="text-sm text-cream-200 hover:text-white transition-colors px-2">
               Sign in
             </Link>
             <Link to="/register" className="btn-primary !py-2 !px-4 text-sm">
@@ -52,21 +62,24 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <button
-            className="md:hidden p-2 rounded-md text-cream-200 hover:text-white hover:bg-forest-800 transition-colors"
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle menu"
-          >
-            {menuOpen ? (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            ) : (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            )}
-          </button>
+          <div className="md:hidden flex items-center gap-2">
+            <DarkModeToggle />
+            <button
+              className="p-2 rounded-md text-cream-200 hover:text-white hover:bg-forest-800 transition-colors"
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label="Toggle menu"
+            >
+              {menuOpen ? (
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
+          </div>
         </div>
 
         {menuOpen && (
@@ -75,6 +88,7 @@ export default function Navbar() {
               { to: '/homestays', label: 'Homestays' },
               { to: '/planner', label: 'Trip Planner' },
               { to: '/about', label: 'About' },
+              { to: '/components', label: 'Components' },
               { to: '/login', label: 'Sign in' },
             ].map(({ to, label }) => (
               <NavLink

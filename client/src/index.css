@@ -14,8 +14,16 @@
     font-family: system-ui, 'Segoe UI', sans-serif;
   }
 
+  .dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
+
   h1, h2, h3 {
     @apply text-forest-900 font-semibold leading-tight;
+  }
+
+  .dark h1, .dark h2, .dark h3 {
+    @apply text-gray-100;
   }
 }
 
@@ -27,7 +35,8 @@
 
   .btn-outline {
     @apply border-2 border-forest-800 text-forest-800 px-6 py-3 rounded-md font-medium
-           hover:bg-forest-900 hover:text-white transition-colors duration-200 inline-block;
+           hover:bg-forest-900 hover:text-white transition-colors duration-200 inline-block
+           dark:border-gray-400 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white;
   }
 }
 
