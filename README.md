@@ -185,6 +185,68 @@ SMTP_PASS=your_brevo_password
 ```
 
 ---
+## ⚡ How to Run Backend Locally (Week 4)
+
+The backend uses **Node.js + Express** with in-memory data (MongoDB integration comes in Week 5).
+
+### Prerequisites
+- Node.js v18+
+- npm v9+
+
+### Steps
+
+```bash
+# 1. Navigate to the server directory
+cd server
+
+# 2. Install dependencies
+npm install
+
+# 3. Create your environment file
+cp .env.example .env
+# Edit .env if needed — defaults work for local dev
+
+# 4. Start the dev server (with auto-reload)
+npm run dev
+
+# Or start without nodemon:
+npm start
+```
+
+The API will be available at **http://localhost:5000**
+
+### Available Endpoints (Week 4)
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/homestays` | List all homestays (filter by `district`, `type`, `minPrice`, `maxPrice`) |
+| GET | `/api/homestays/search?q=` | Full-text search |
+| GET | `/api/homestays/:id` | Single homestay with reviews |
+| POST | `/api/homestays` | Create new listing |
+| PUT | `/api/homestays/:id` | Update listing |
+| DELETE | `/api/homestays/:id` | Delete listing |
+| GET | `/api/homestays/:id/reviews` | Get reviews for a homestay |
+| POST | `/api/homestays/:id/reviews` | Add a review |
+| GET | `/api/bookings` | List all bookings |
+| POST | `/api/bookings` | Create booking enquiry |
+| GET | `/api/stats` | Platform-level stats |
+
+### Running the Frontend
+
+```bash
+# In a separate terminal
+cd client
+npm install
+npm run dev
+```
+
+Frontend: **http://localhost:5173** (proxies `/api` calls to port 5000 automatically)
+
+### API Testing (Postman)
+
+Import `W4_APICollection_SIP2026.json` into Postman or Thunder Client. Set the `base_url` variable to `http://localhost:5000/api`. All 11 endpoints have saved example responses.
+
+---
 
 ## 🗺️ Development Roadmap
 
