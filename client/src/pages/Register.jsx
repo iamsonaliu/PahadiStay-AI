@@ -1,10 +1,37 @@
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Navbar from '../components/layout/Navbar'
 import Footer from '../components/layout/Footer'
-import { Link } from 'react-router-dom'
+import { Button, Input } from '../components/ui'
+import toast, { Toaster } from 'react-hot-toast'
 
 export default function Register() {
+  const [role, setRole]       = useState('Traveller')
+  const [form, setForm]       = useState({ firstName: '', lastName: '', email: '', password: '' })
+  const [errors, setErrors]   = useState({})
+  const [loading, setLoading] = useState(false)
+
+  function validate() {
+    const e = {}
+    if (!form.firstName.trim()) e.firstName = 'First name is required'
+    if (!form.lastName.trim())  e.lastName  = 'Last name is required'
+    if (!form.email.trim())     e.email     = 'Email is required'
+    if (form.password.length < 8) e.password = 'Password must be at least 8 characters'
+    setErrors(e)
+    return Object.keys(e).length === 0
+  }
+
+  async function handleRegister() {
+    if (!validate()) return
+    setLoading(true)
+    await new Promise(r => setTimeout(r, 800))
+    toast.success('Auth integration coming in Phase 2!')
+    setLoading(false)
+  }
+
   return (
     <div className="min-h-screen flex flex-col">
+      <Toaster position="top-right" />
       <Navbar />
 
       <main className="flex-1 flex items-center justify-center py-14 px-4">
@@ -17,69 +44,38 @@ export default function Register() {
 
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
             <div className="grid grid-cols-2 gap-2 mb-5">
-              {['Traveller', 'Homestay Owner'].map((role) => (
+              {['Traveller', 'Homestay Owner'].map(r => (
                 <button
-                  key={role}
-                  className="py-2 text-sm border border-gray-200 rounded-lg text-gray-600
-                             hover:border-forest-800 hover:text-forest-900 transition-colors first:bg-forest-900 first:text-white first:border-forest-900"
+                  key={r}
+                  type="button"
+                  onClick={() => setRole(r)}
+                  className={`py-2 text-sm border rounded-lg transition-colors ${
+                    role === r
+                      ? 'bg-forest-900 text-white border-forest-900'
+                      : 'border-gray-200 text-gray-600 hover:border-forest-800 hover:text-forest-900'
+                  }`}
                 >
-                  {role}
+                  {r}
                 </button>
               ))}
             </div>
 
             <div className="space-y-4">
               <div className="grid grid-cols-2 gap-3">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">First name</label>
-                  <input
-                    type="text"
-                    className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm
-                               focus:outline-none focus:ring-2 focus:ring-forest-700"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Last name</label>
-                  <input
-                    type="text"
-                    className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm
-                               focus:outline-none focus:ring-2 focus:ring-forest-700"
-                  />
-                </div>
+                <Input label="First name" value={form.firstName} onChange={e => setForm(f => ({ ...f, firstName: e.target.value }))} error={errors.firstName} required />
+                <Input label="Last name"  value={form.lastName}  onChange={e => setForm(f => ({ ...f, lastName:  e.target.value }))} error={errors.lastName}  />
               </div>
+              <Input label="Email" type="email" value={form.email} onChange={e => setForm(f => ({ ...f, email: e.target.value }))} error={errors.email} required />
+              <Input label="Password" type="password" placeholder="Min 8 characters" value={form.password} onChange={e => setForm(f => ({ ...f, password: e.target.value }))} error={errors.password} required />
 
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1.5">Email</label>
-                <input
-                  type="email"
-                  className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm
-                             focus:outline-none focus:ring-2 focus:ring-forest-700"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1.5">Password</label>
-                <input
-                  type="password"
-                  className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm
-                             focus:outline-none focus:ring-2 focus:ring-forest-700"
-                />
-              </div>
-
-              <button
-                type="button"
-                className="w-full bg-terra-500 hover:bg-terra-600 text-white py-2.5 rounded-lg
-                           font-medium text-sm transition-colors"
-              >
+              <Button variant="primary" className="w-full" loading={loading} onClick={handleRegister}>
                 Create account
-              </button>
+              </Button>
             </div>
 
             <div className="mt-5 text-center text-sm text-gray-500">
               Already have an account?{' '}
-              <Link to="/login" className="text-terra-500 hover:text-terra-600 font-medium">
-                Sign in
-              </Link>
+              <Link to="/login" className="text-terra-500 hover:text-terra-600 font-medium">Sign in</Link>
             </div>
           </div>
         </div>

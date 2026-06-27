@@ -1,10 +1,34 @@
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Navbar from '../components/layout/Navbar'
 import Footer from '../components/layout/Footer'
-import { Link } from 'react-router-dom'
+import { Button, Input } from '../components/ui'
+import toast, { Toaster } from 'react-hot-toast'
 
 export default function Login() {
+  const [form, setForm]       = useState({ email: '', password: '' })
+  const [errors, setErrors]   = useState({})
+  const [loading, setLoading] = useState(false)
+
+  function validate() {
+    const e = {}
+    if (!form.email.trim())    e.email    = 'Email is required'
+    if (!form.password.trim()) e.password = 'Password is required'
+    setErrors(e)
+    return Object.keys(e).length === 0
+  }
+
+  async function handleLogin() {
+    if (!validate()) return
+    setLoading(true)
+    await new Promise(r => setTimeout(r, 800))
+    toast.success('Auth integration coming in Phase 2!')
+    setLoading(false)
+  }
+
   return (
     <div className="min-h-screen flex flex-col">
+      <Toaster position="top-right" />
       <Navbar />
 
       <main className="flex-1 flex items-center justify-center py-14 px-4">
@@ -17,48 +41,42 @@ export default function Login() {
 
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
             <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1.5">Email</label>
-                <input
-                  type="email"
-                  placeholder="you@example.com"
-                  className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm
-                             focus:outline-none focus:ring-2 focus:ring-forest-700 focus:border-transparent"
-                />
-              </div>
-
+              <Input
+                label="Email"
+                type="email"
+                placeholder="you@example.com"
+                value={form.email}
+                onChange={e => setForm(f => ({ ...f, email: e.target.value }))}
+                error={errors.email}
+                required
+              />
               <div>
                 <div className="flex justify-between items-center mb-1.5">
-                  <label className="block text-sm font-medium text-gray-700">Password</label>
+                  <label className="text-sm font-medium text-gray-700">Password</label>
                   <a href="#" className="text-xs text-terra-500 hover:text-terra-600">Forgot?</a>
                 </div>
-                <input
+                <Input
                   type="password"
                   placeholder="••••••••"
-                  className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm
-                             focus:outline-none focus:ring-2 focus:ring-forest-700 focus:border-transparent"
+                  value={form.password}
+                  onChange={e => setForm(f => ({ ...f, password: e.target.value }))}
+                  error={errors.password}
                 />
               </div>
 
-              <button
-                type="button"
-                className="w-full bg-forest-900 hover:bg-forest-800 text-white py-2.5 rounded-lg
-                           font-medium text-sm transition-colors"
-              >
+              <Button variant="secondary" className="w-full" loading={loading} onClick={handleLogin}>
                 Sign in
-              </button>
+              </Button>
             </div>
 
             <div className="mt-5 text-center text-sm text-gray-500">
               Don't have an account?{' '}
-              <Link to="/register" className="text-terra-500 hover:text-terra-600 font-medium">
-                Register
-              </Link>
+              <Link to="/register" className="text-terra-500 hover:text-terra-600 font-medium">Register</Link>
             </div>
           </div>
 
           <p className="text-xs text-gray-400 text-center mt-4">
-            Auth integration coming in Phase 1 development.
+            Auth integration coming in Phase 2 development.
           </p>
         </div>
       </main>

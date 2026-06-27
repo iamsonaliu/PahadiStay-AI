@@ -2,6 +2,12 @@ import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import DarkModeToggle from './DarkModeToggle'
 
+const navLinks = [
+  { to: '/homestays', label: 'Homestays' },
+  { to: '/planner',   label: 'Trip Planner' },
+  { to: '/about',     label: 'About' },
+]
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -18,38 +24,17 @@ export default function Navbar() {
           </Link>
 
           <div className="hidden md:flex items-center gap-8 text-sm font-medium">
-            <NavLink
-              to="/homestays"
-              className={({ isActive }) =>
-                isActive ? 'text-terra-500' : 'text-cream-200 hover:text-white transition-colors'
-              }
-            >
-              Homestays
-            </NavLink>
-            <NavLink
-              to="/planner"
-              className={({ isActive }) =>
-                isActive ? 'text-terra-500' : 'text-cream-200 hover:text-white transition-colors'
-              }
-            >
-              Trip Planner
-            </NavLink>
-            <NavLink
-              to="/about"
-              className={({ isActive }) =>
-                isActive ? 'text-terra-500' : 'text-cream-200 hover:text-white transition-colors'
-              }
-            >
-              About
-            </NavLink>
-            <NavLink
-              to="/components"
-              className={({ isActive }) =>
-                isActive ? 'text-terra-500' : 'text-cream-200 hover:text-white transition-colors'
-              }
-            >
-              Components
-            </NavLink>
+            {navLinks.map(({ to, label }) => (
+              <NavLink
+                key={to}
+                to={to}
+                className={({ isActive }) =>
+                  isActive ? 'text-terra-500' : 'text-cream-200 hover:text-white transition-colors'
+                }
+              >
+                {label}
+              </NavLink>
+            ))}
           </div>
 
           <div className="hidden md:flex items-center gap-2">
@@ -84,13 +69,7 @@ export default function Navbar() {
 
         {menuOpen && (
           <div className="md:hidden border-t border-forest-800 py-3 pb-4 space-y-1">
-            {[
-              { to: '/homestays', label: 'Homestays' },
-              { to: '/planner', label: 'Trip Planner' },
-              { to: '/about', label: 'About' },
-              { to: '/components', label: 'Components' },
-              { to: '/login', label: 'Sign in' },
-            ].map(({ to, label }) => (
+            {[...navLinks, { to: '/login', label: 'Sign in' }].map(({ to, label }) => (
               <NavLink
                 key={to}
                 to={to}

@@ -1,56 +1,12 @@
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import Navbar from '../components/layout/Navbar'
 import Footer from '../components/layout/Footer'
 import Hero from '../components/homestay/Hero'
 import HomestayCard from '../components/homestay/HomestayCard'
-import { Link } from 'react-router-dom'
-
-// placeholder data until the API is wired up
-const sampleHomestays = [
-  {
-    _id: '1',
-    name: 'Bugyali Homestay',
-    village: 'Chopta',
-    district: 'Rudraprayag',
-    pricePerNight: 1800,
-    averageRating: 4.8,
-    totalReviews: 24,
-    propertyType: 'Forest Cottage',
-    imageUrls: ['https://images.unsplash.com/photo-1604537466608-109fa2f16c3b?w=600&q=80'],
-  },
-  {
-    _id: '2',
-    name: 'Pahadi Nest',
-    village: 'Munsiyari',
-    district: 'Pithoragarh',
-    pricePerNight: 2200,
-    averageRating: 4.9,
-    totalReviews: 18,
-    propertyType: 'Mountain Bungalow',
-    imageUrls: ['https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80'],
-  },
-  {
-    _id: '3',
-    name: 'Deodar House',
-    village: 'Kanatal',
-    district: 'Tehri Garhwal',
-    pricePerNight: 1500,
-    averageRating: 4.6,
-    totalReviews: 31,
-    propertyType: 'Village Cottage',
-    imageUrls: ['https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80'],
-  },
-  {
-    _id: '4',
-    name: 'Riverside Camp',
-    village: 'Lansdowne',
-    district: 'Pauri Garhwal',
-    pricePerNight: 1200,
-    averageRating: 4.4,
-    totalReviews: 12,
-    propertyType: 'Riverside Camp',
-    imageUrls: ['https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80'],
-  },
-]
+import { Skeleton } from '../components/ui'
+import toast, { Toaster } from 'react-hot-toast'
+import { homestayService, statsService } from '../services/api'
 
 const features = [
   {
@@ -71,12 +27,54 @@ const features = [
 ]
 
 export default function Home() {
+  const [homestays, setHomestays] = useState([])
+  const [stats, setStats] = useState(null)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    async function load() {
+      try {
+        const [hRes, sRes] = await Promise.all([
+          homestayService.getAll(),
+          statsService.get(),
+        ])
+        setHomestays(hRes.data.slice(0, 4))
+        setStats(sRes.data)
+      } catch (err) {
+        toast.error('Could not load homestays. Is the server running?')
+      } finally {
+        setLoading(false)
+      }
+    }
+    load()
+  }, [])
+
   return (
     <div className="min-h-screen flex flex-col">
+      <Toaster position="top-right" />
       <Navbar />
 
       <main className="flex-1">
         <Hero />
+
+        {/* live stats strip */}
+        {stats && (
+          <div className="bg-terra-500 text-white">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+              {[
+                { label: 'Homestays Listed', value: stats.totalHomestays },
+                { label: 'Guest Reviews', value: stats.totalReviews },
+                { label: 'Avg Rating', value: `${stats.avgRating} ★` },
+                { label: 'Districts', value: stats.districtsRepresented },
+              ].map(({ label, value }) => (
+                <div key={label}>
+                  <div className="text-2xl font-bold">{value}</div>
+                  <div className="text-xs text-white/80 mt-0.5">{label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* featured homestays */}
         <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
@@ -97,16 +95,20 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {sampleHomestays.map((stay) => (
-              <HomestayCard key={stay._id} homestay={stay} />
-            ))}
-          </div>
+          {loading ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {[1, 2, 3, 4].map(i => <Skeleton key={i} variant="card" />)}
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {homestays.map(stay => (
+                <HomestayCard key={stay._id} homestay={stay} />
+              ))}
+            </div>
+          )}
 
           <div className="mt-6 sm:hidden text-center">
-            <Link to="/homestays" className="btn-outline text-sm">
-              View all homestays
-            </Link>
+            <Link to="/homestays" className="btn-outline text-sm">View all homestays</Link>
           </div>
         </section>
 
@@ -131,9 +133,7 @@ export default function Home() {
             </div>
 
             <div className="text-center mt-10">
-              <Link to="/planner" className="btn-primary">
-                Plan my Uttarakhand trip
-              </Link>
+              <Link to="/planner" className="btn-primary">Plan my Uttarakhand trip</Link>
             </div>
           </div>
         </section>
