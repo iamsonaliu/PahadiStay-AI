@@ -47,7 +47,6 @@ export const toast = {
   info: (message, options = {}) =>
     hotToast(message, {
       style: styles.info,
-      icon: 'ℹ️',
       duration: 3500,
       ...options,
     }),
