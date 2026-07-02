@@ -4,47 +4,134 @@
 
 @layer base {
   :root {
-    --color-forest: #1a3a2a;
-    --color-cream: #f5f0e8;
-    --color-terra: #c4622d;
+    /* Accessibility font-size scale (A+/A/A-) drives rem sizing */
+    --font-scale: 1;
+    --color-forest: #00684a;
+    --color-cream: #f8f7f1;
+    --color-terra: #e0891e;
+  }
+
+  html {
+    font-size: calc(16px * var(--font-scale));
+    scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-cream-100 text-gray-800 antialiased;
-    font-family: system-ui, 'Segoe UI', sans-serif;
+    @apply bg-cream-100 text-gray-700 antialiased;
+    font-family: 'Space Grotesk', system-ui, 'Segoe UI', sans-serif;
   }
 
   .dark body {
-    @apply bg-gray-900 text-gray-100;
+    @apply bg-forest-900 text-gray-100;
   }
 
-  h1, h2, h3 {
-    @apply text-forest-900 font-semibold leading-tight;
+  /* Large headings use the condensed display face (Bebas Neue) */
+  h1, h2 {
+    @apply font-display text-forest-900 leading-tight tracking-wide;
   }
 
-  .dark h1, .dark h2, .dark h3 {
-    @apply text-gray-100;
+  h3, h4 {
+    @apply text-forest-900 font-semibold leading-tight tracking-tight;
   }
+
+  .dark h1, .dark h2, .dark h3, .dark h4 {
+    @apply text-cream-50;
+  }
+
+  ::selection {
+    @apply bg-forest-600 text-white;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { @apply bg-cream-200; }
+  ::-webkit-scrollbar-thumb { @apply bg-forest-600/60 rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-forest-600; }
 }
 
 @layer components {
+  /* ---- Buttons ---- */
   .btn-primary {
-    @apply bg-terra-500 text-white px-6 py-3 rounded-md font-medium
-           hover:bg-terra-600 transition-colors duration-200 inline-block;
+    @apply inline-flex items-center justify-center gap-2 bg-forest-600 text-white px-6 py-3
+           rounded-xl font-medium shadow-soft hover:bg-forest-700 hover:shadow-card
+           active:scale-[0.98] transition-all duration-200;
+  }
+  .btn-accent {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-medium text-white
+           shadow-soft bg-saffron-gradient hover:brightness-105 active:scale-[0.98]
+           transition-all duration-200;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border-2 border-forest-600 text-forest-700
+           px-6 py-3 rounded-xl font-medium hover:bg-forest-600 hover:text-white
+           transition-colors duration-200
+           dark:border-forest-300 dark:text-forest-100 dark:hover:bg-forest-600 dark:hover:text-white;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg font-medium
+           text-forest-700 hover:bg-forest-50 transition-colors
+           dark:text-cream-100 dark:hover:bg-white/10;
   }
 
-  .btn-outline {
-    @apply border-2 border-forest-800 text-forest-800 px-6 py-3 rounded-md font-medium
-           hover:bg-forest-900 hover:text-white transition-colors duration-200 inline-block
-           dark:border-gray-400 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white;
+  /* ---- Cards & surfaces ---- */
+  .card {
+    @apply bg-white rounded-2xl shadow-soft border border-cream-200/70
+           dark:bg-forest-800 dark:border-white/10;
   }
+  .glass {
+    @apply bg-white/85 backdrop-blur-md border border-white/40 shadow-soft;
+  }
+
+  /* ---- Pills / badges ---- */
+  .pill {
+    @apply inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1 rounded-full;
+  }
+  .eyebrow {
+    @apply text-terra-500 text-xs font-semibold uppercase tracking-[0.18em];
+  }
+
+  /* ---- Inputs ---- */
+  .input {
+    @apply w-full px-4 py-3 rounded-xl border border-cream-300 bg-white text-gray-800 text-sm
+           focus:outline-none focus:ring-2 focus:ring-forest-500 focus:border-transparent
+           transition-shadow dark:bg-forest-800 dark:border-white/10 dark:text-cream-50;
+  }
+  .label {
+    @apply block text-sm font-medium text-forest-800 mb-1.5 dark:text-cream-100;
+  }
+
+  /* ---- Layout helpers ---- */
+  .container-px { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
+  .section { @apply py-16 md:py-24; }
+
+  /* ---- Prose for AI markdown output ---- */
+  .ai-prose h1, .ai-prose h2, .ai-prose h3 { @apply text-forest-800 font-semibold mt-5 mb-2; }
+  .ai-prose h2 { @apply text-xl; }
+  .ai-prose h3 { @apply text-lg; }
+  .ai-prose p  { @apply mb-3 leading-relaxed; }
+  .ai-prose ul { @apply list-disc pl-5 mb-3 space-y-1; }
+  .ai-prose ol { @apply list-decimal pl-5 mb-3 space-y-1; }
+  .ai-prose strong { @apply text-forest-700 font-semibold; }
+  .ai-prose a { @apply text-sky-600 underline; }
 }
 
-/* mountain silhouette divider — the signature element */
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-saffron-gradient;
+  }
+  .animate-delay-100 { animation-delay: 0.1s; }
+  .animate-delay-200 { animation-delay: 0.2s; }
+  .animate-delay-300 { animation-delay: 0.3s; }
+}
+
+/* Mountain silhouette divider — the signature element */
 .mountain-divider {
   width: 100%;
-  height: 40px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 40' preserveAspectRatio='none'%3E%3Cpath d='M0,40 L0,28 L100,10 L200,22 L320,4 L440,18 L560,0 L680,14 L800,6 L920,20 L1040,8 L1160,16 L1200,12 L1200,40 Z' fill='%231a3a2a' opacity='0.08'/%3E%3C/svg%3E");
+  height: 60px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 60' preserveAspectRatio='none'%3E%3Cpath d='M0,60 L0,40 L120,14 L240,32 L380,6 L520,26 L660,2 L800,20 L940,8 L1080,28 L1200,16 L1200,60 Z' fill='%23f8f7f1'/%3E%3C/svg%3E");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
+/* Leaflet inside rounded containers */
+.leaflet-container { border-radius: 1rem; font-family: 'Space Grotesk', sans-serif; z-index: 0; }
