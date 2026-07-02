@@ -1,0 +1,6989 @@
+{
+  "generated": "2026-06-28T07:06:28.145Z",
+  "license": "ODbL - (c) OpenStreetMap contributors",
+  "elements": [
+    {
+      "type": "node",
+      "id": 342116234,
+      "lat": 30.467355,
+      "lon": 78.0077257,
+      "tags": {
+        "name": "Clouds End",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 443422262,
+      "lat": 30.1713933,
+      "lon": 78.8649517,
+      "tags": {
+        "name": "GMVN Guest House, Khirsu",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 506152924,
+      "lat": 30.4549857,
+      "lon": 78.084301,
+      "tags": {
+        "name": "Hotel Paradise Continental",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 567473845,
+      "lat": 29.9482297,
+      "lon": 78.1580687,
+      "tags": {
+        "name": "Aarti Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 761911864,
+      "lat": 30.2248269,
+      "lon": 78.7321828,
+      "tags": {
+        "name": "Maletha Riverside Resort",
+        "note": "A little expensive, but nice    08-AUG-07 18:22:05",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1021961337,
+      "lat": 30.1022277,
+      "lon": 78.29231,
+      "tags": {
+        "name": "Hotel Ellbee Ganga View",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1044504379,
+      "lat": 30.3271845,
+      "lon": 78.0482559,
+      "tags": {
+        "name": "Pacific Hotel",
+        "smoking": "yes",
+        "stars": "3",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1171045390,
+      "lat": 30.0459353,
+      "lon": 78.23634,
+      "tags": {
+        "addr:city": "Shyampur Rishikesh",
+        "addr:housenumber": "Baljeet Farm",
+        "addr:postcode": "249204",
+        "name": "Song River Dharma Ashram",
+        "note": "Song River Dharma Ashram is a nourishing place and offer meditation and yoga courses and retreats.",
+        "operator": "Sonu Singh Bist",
+        "phone": "+91 963 906 0712",
+        "tourism": "hotel",
+        "website": "http://www.song-river-dhamra-ashram.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1185819789,
+      "lat": 30.1252424,
+      "lon": 78.3306774,
+      "tags": {
+        "name": "Hotel Surya",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1239486672,
+      "lat": 30.452388,
+      "lon": 78.0563398,
+      "tags": {
+        "addr:city": "Mussoorie",
+        "addr:full": "Sterling Holiday Resorts, Radha Bhawan Estate, Circular Road, Mussoorie",
+        "addr:postcode": "248179",
+        "addr:street": "Circular Road",
+        "email": "sterlingmussoorie@sterlingresort.co.in",
+        "name": "Sterling Holidays",
+        "phone": "+91 0135 2631713;+91 0135 2631715",
+        "tourism": "hotel",
+        "website": "http://www.sterlingholidays.in/our-resorts/sterling-destination-network/mussoorie.aspx"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332264552,
+      "lat": 29.3759295,
+      "lon": 79.4621646,
+      "tags": {
+        "name": "Green Leaf",
+        "note": "Not sure if this is a hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1347457962,
+      "lat": 29.4224356,
+      "lon": 79.5532856,
+      "tags": {
+        "name": "KMVN Ramgarh",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1347466390,
+      "lat": 29.4764321,
+      "lon": 79.6446336,
+      "tags": {
+        "name": "KMVN Mukteshwar",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1347475838,
+      "lat": 29.5908242,
+      "lon": 79.647871,
+      "tags": {
+        "name": "KMVN Almora",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1347480256,
+      "lat": 29.6987555,
+      "lon": 79.7541406,
+      "tags": {
+        "name": "Forest Department GH",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1347480275,
+      "lat": 29.6955118,
+      "lon": 79.7637537,
+      "tags": {
+        "name": "KMVN Binsar",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1347489320,
+      "lat": 30.0031994,
+      "lon": 79.5685349,
+      "tags": {
+        "name": "GMVN Gwaldam",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1413093393,
+      "lat": 30.0917838,
+      "lon": 78.3836746,
+      "tags": {
+        "name": "Rishikesh Valley",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1446998389,
+      "lat": 30.4601512,
+      "lon": 78.0624404,
+      "tags": {
+        "brand": "ITC",
+        "name": "Welcomhotel by ITC Savoy Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1676753958,
+      "lat": 29.2146156,
+      "lon": 79.5283741,
+      "tags": {
+        "name": "Sharda Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1803577554,
+      "lat": 29.3952024,
+      "lon": 79.4435036,
+      "tags": {
+        "name": "Armadale",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1805682831,
+      "lat": 29.3869978,
+      "lon": 79.4479774,
+      "tags": {
+        "internet_access": "yes",
+        "name": "Ayan Jungle Camp",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2377319204,
+      "lat": 30.1131227,
+      "lon": 78.306908,
+      "tags": {
+        "name": "Laxmi Lodge",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2412743384,
+      "lat": 30.0417234,
+      "lon": 78.24159,
+      "tags": {
+        "name": "song river",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2617724153,
+      "lat": 30.4236322,
+      "lon": 78.2477001,
+      "tags": {
+        "name": "GMVN",
+        "operator": "Garhwal Mandal",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2619676632,
+      "lat": 30.1136412,
+      "lon": 78.2825949,
+      "tags": {
+        "internet_access": "no",
+        "name": "GMVN-Bharat Bhoomi",
+        "operator": "Garhwal Mandal Vikas Nigam",
+        "phone": "+91-135-2433002",
+        "smoking": "no",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2657566341,
+      "lat": 30.127467,
+      "lon": 78.3184711,
+      "tags": {
+        "name": "Bhandari Swiss Cottage",
+        "phone": "+91135 243 2939",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2657566342,
+      "lat": 30.1309674,
+      "lon": 78.324667,
+      "tags": {
+        "name": "Om Blessed Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2657763353,
+      "lat": 29.9501136,
+      "lon": 78.1601587,
+      "tags": {
+        "name": "La Casa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2658110176,
+      "lat": 30.4588288,
+      "lon": 78.0681904,
+      "tags": {
+        "name": "Padmini Nivas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2802900843,
+      "lat": 29.6788372,
+      "lon": 79.7197416,
+      "tags": {
+        "name": "RESORT / GUEST HOUSE BINSAR",
+        "operator": "Forest department Binsar National Park",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2916293701,
+      "lat": 30.688214,
+      "lon": 77.873408,
+      "tags": {
+        "addr:street": "State Road",
+        "atm": "yes",
+        "name": "Uttrayan Hotel chakrata",
+        "source": "Local",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3068361888,
+      "lat": 30.3395192,
+      "lon": 78.0008738,
+      "tags": {
+        "building": "yes",
+        "name": "Central Academy Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3068361903,
+      "lat": 30.3440115,
+      "lon": 77.994218,
+      "tags": {
+        "access": "private",
+        "name": "New Hostel",
+        "operator": "Forest Research Institute",
+        "source": "gps",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3068361907,
+      "lat": 30.3375702,
+      "lon": 78.0017873,
+      "tags": {
+        "name": "Shisham Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3188830465,
+      "lat": 29.9461529,
+      "lon": 78.1580817,
+      "tags": {
+        "name": "Hotel Arjun",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3474642238,
+      "lat": 29.6464119,
+      "lon": 79.6647415,
+      "tags": {
+        "addr:street": "Almora Bageshwar Highway",
+        "internet_access": "wlan",
+        "loc_name": "Kasar Devi",
+        "name": "The Real Place",
+        "operator": "Mr. Bhagwat",
+        "phone": "+919470736132",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3811570228,
+      "lat": 31.1505971,
+      "lon": 78.4292893,
+      "tags": {
+        "name": "Forest Rest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3812555001,
+      "lat": 30.1200241,
+      "lon": 78.3192261,
+      "tags": {
+        "name": "Yoga Villa",
+        "phone": "01352440144",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3812555002,
+      "lat": 30.1204867,
+      "lon": 78.3195937,
+      "tags": {
+        "name": "Negi Bhawan",
+        "phone": "8126375433",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3812555003,
+      "lat": 30.1205528,
+      "lon": 78.3205379,
+      "tags": {
+        "name": "Swasti Yogshala",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3812555177,
+      "lat": 30.1199481,
+      "lon": 78.3182708,
+      "tags": {
+        "name": "Narayana Kunj",
+        "phone": "+919758881169",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815682835,
+      "lat": 30.1172076,
+      "lon": 78.3134465,
+      "tags": {
+        "name": "Pink",
+        "phone": "9756538724",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815682836,
+      "lat": 30.1168635,
+      "lon": 78.3134134,
+      "tags": {
+        "name": "Himalaya",
+        "phone": "9012052669",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815682837,
+      "lat": 30.117549,
+      "lon": 78.3132748,
+      "tags": {
+        "name": "Green View",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815682838,
+      "lat": 30.1174239,
+      "lon": 78.3136966,
+      "tags": {
+        "name": "Ganga",
+        "phone": "+917579153663",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815685511,
+      "lat": 30.1172258,
+      "lon": 78.3127686,
+      "tags": {
+        "name": "Brijwasi Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815685512,
+      "lat": 30.1169469,
+      "lon": 78.3133079,
+      "tags": {
+        "name": "Nirvana Palace",
+        "phone": "+911352440300",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815686781,
+      "lat": 30.117654,
+      "lon": 78.3128951,
+      "tags": {
+        "name": "Green",
+        "name:en": "Hotel Green",
+        "phone": "7434948",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815686782,
+      "lat": 30.1174695,
+      "lon": 78.3135746,
+      "tags": {
+        "name": "Baba Ji",
+        "phone": "9917139737",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815692269,
+      "lat": 30.1172884,
+      "lon": 78.3130203,
+      "tags": {
+        "name": "Vashishth",
+        "phone": "00911352440029",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815692270,
+      "lat": 30.1171737,
+      "lon": 78.313555,
+      "tags": {
+        "name": "Rama",
+        "phone": "01352434417",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815692272,
+      "lat": 30.1170238,
+      "lon": 78.3128921,
+      "tags": {
+        "name": "Yog Vashishth",
+        "phone": "+91352440030",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3817282577,
+      "lat": 30.1215898,
+      "lon": 78.3286004,
+      "tags": {
+        "name": "Guru Ganga",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3817282578,
+      "lat": 30.1219442,
+      "lon": 78.3285071,
+      "tags": {
+        "name": "Pyramid",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822420121,
+      "lat": 30.1189437,
+      "lon": 78.3181689,
+      "tags": {
+        "name": "Akshi Yogashala",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822420123,
+      "lat": 30.1201061,
+      "lon": 78.3176679,
+      "tags": {
+        "name": "Ananda",
+        "phone": "09758164982",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822425465,
+      "lat": 30.1198049,
+      "lon": 78.3176472,
+      "tags": {
+        "name": "Krishna Cottage",
+        "phone": "01352440193",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822425470,
+      "lat": 30.1201381,
+      "lon": 78.3176116,
+      "tags": {
+        "name": "Sudesh",
+        "phone": "01353240140",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822427034,
+      "lat": 30.1193887,
+      "lon": 78.3183408,
+      "tags": {
+        "name": "Sarika Home",
+        "phone": "00911352440156",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822427036,
+      "lat": 30.1199754,
+      "lon": 78.3178991,
+      "tags": {
+        "name": "Gayatri Kunj",
+        "phone": "01352440840",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822427038,
+      "lat": 30.1201779,
+      "lon": 78.317462,
+      "tags": {
+        "name": "Hari Palace",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822431075,
+      "lat": 30.1194132,
+      "lon": 78.3185477,
+      "tags": {
+        "name": "Rishikesh Yog Peeth",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822628390,
+      "lat": 30.1140226,
+      "lon": 78.3108641,
+      "tags": {
+        "name": "Last Chance",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3822628407,
+      "lat": 30.1194216,
+      "lon": 78.3173948,
+      "tags": {
+        "name": "Moksha",
+        "phone": "01352440040",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3846344061,
+      "lat": 29.1856133,
+      "lon": 79.0036454,
+      "tags": {
+        "addr:street": "Bazpur Road",
+        "name": "Hotel Sherina",
+        "phone": "+915947272999",
+        "tourism": "hotel",
+        "website": "http://www.hotelsharina.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4030163467,
+      "lat": 30.1847663,
+      "lon": 78.1682265,
+      "tags": {
+        "name": "Padmini Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4063497856,
+      "lat": 30.4601837,
+      "lon": 78.0964649,
+      "tags": {
+        "name": "Rokeby Manor",
+        "smoking": "no",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4100508994,
+      "lat": 30.1246416,
+      "lon": 78.3309934,
+      "tags": {
+        "addr:city": "Rishikesh",
+        "addr:housenumber": "Luxman Jhula",
+        "addr:postcode": "249302",
+        "addr:street": "Near divya hotel",
+        "name": "Hotel Orange Classic",
+        "rooms": "18",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4102939590,
+      "lat": 30.0624771,
+      "lon": 78.4869687,
+      "tags": {
+        "addr:housenumber": "35th mile",
+        "addr:street": "Devprayag Roaf",
+        "internet_access": "wlan",
+        "name": "Raga on the Ganges Resort",
+        "tourism": "hotel",
+        "website": "https://www.ragaontheganges.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4110125604,
+      "lat": 29.9460968,
+      "lon": 78.1584395,
+      "tags": {
+        "addr:street": "Jassa Ram Road",
+        "internet_access": "wlan",
+        "name": "Hotel Swagat Palace",
+        "phone": "+91 1334 221 581",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4147180411,
+      "lat": 30.2834606,
+      "lon": 77.975838,
+      "tags": {
+        "addr:city": "Dehradun",
+        "addr:housenumber": "Wildlife Institute of India",
+        "addr:postcode": "248001",
+        "addr:street": "Chandrabani",
+        "description": "Old guest house located inside the Wildlife Institute of India Campus. ",
+        "name": "Old Guest house",
+        "official": "Wildlife Institute of India",
+        "operator": "Wildlife Institute of India",
+        "smoking": "no",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4147180412,
+      "lat": 30.2853795,
+      "lon": 77.9745521,
+      "tags": {
+        "name": "New Guest House",
+        "smoking": "no",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4147180413,
+      "lat": 30.2838324,
+      "lon": 77.9752462,
+      "tags": {
+        "addr:city": "Dehradun",
+        "addr:postcode": "248001",
+        "name": "Old Hostel",
+        "operator": "Wildlife Institute of India",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4152488109,
+      "lat": 29.1972585,
+      "lon": 79.5121113,
+      "tags": {
+        "name": "Hotel Harbola",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4153573789,
+      "lat": 29.1682312,
+      "lon": 79.5202234,
+      "tags": {
+        "name": "Diber DRDO",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4165485989,
+      "lat": 30.45712,
+      "lon": 78.0759936,
+      "tags": {
+        "name": "Bunkotel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4165999093,
+      "lat": 30.4572747,
+      "lon": 78.07541,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Bunkotel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4168560291,
+      "lat": 30.8140434,
+      "lon": 77.8393622,
+      "tags": {
+        "name": "PlaceForSleep (warm&simple&cheap100rp) family house ask people",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4203708608,
+      "lat": 30.3654948,
+      "lon": 78.0700421,
+      "tags": {
+        "name": "Four Points by Sheraton Dehradun Hotel",
+        "short_name": "Four Points",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4211862090,
+      "lat": 30.4558635,
+      "lon": 78.1038766,
+      "tags": {
+        "name": "Prospect Point Lodge",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4211923370,
+      "lat": 30.4565337,
+      "lon": 78.1025138,
+      "tags": {
+        "name": "Pine Tree Lodge",
+        "phone": "9760245445",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4211970483,
+      "lat": 30.4585091,
+      "lon": 78.0918902,
+      "tags": {
+        "name": "The Cliffe",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4212033322,
+      "lat": 30.4586967,
+      "lon": 78.0728436,
+      "tags": {
+        "name": "Tulip Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4212040743,
+      "lat": 30.4601407,
+      "lon": 78.0725575,
+      "tags": {
+        "name": "Club Mahindra",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4226929892,
+      "lat": 30.1304473,
+      "lon": 78.3260418,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Vedas Tapovan",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4241730489,
+      "lat": 30.3236389,
+      "lon": 78.0551147,
+      "tags": {
+        "name": "Soho",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4264135789,
+      "lat": 30.1243587,
+      "lon": 78.3304812,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Maa Ganga Guesthouse",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4264650994,
+      "lat": 28.9788787,
+      "lon": 79.3964412,
+      "tags": {
+        "name": "Hotel Amber",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4264667589,
+      "lat": 28.9772077,
+      "lon": 79.3925696,
+      "tags": {
+        "name": "Hotel Rudra Continental & Restaurant bar",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4266645670,
+      "lat": 30.1274042,
+      "lon": 78.3229371,
+      "tags": {
+        "name": "Ganesha Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4269258093,
+      "lat": 30.1038628,
+      "lon": 78.296369,
+      "tags": {
+        "addr:street": "Hira Lal Road",
+        "internet_access": "wlan",
+        "name": "Hotel Akash Ganga",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4269649289,
+      "lat": 30.1244055,
+      "lon": 78.3305441,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "shiv shanti guesthouse",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4269649389,
+      "lat": 30.5561902,
+      "lon": 79.5562823,
+      "tags": {
+        "name": "Snow Crest Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4367973004,
+      "lat": 30.1316494,
+      "lon": 78.324895,
+      "tags": {
+        "addr:city": "Rishikesh",
+        "addr:country": "IN",
+        "addr:postcode": "249192",
+        "addr:state": "Uttarakhand",
+        "branch": "Tapovan",
+        "brand": "Zostel",
+        "email": "reservations@zostel.com",
+        "internet_access": "wlan",
+        "name": "Zostel",
+        "name:en": "Zostel",
+        "tourism": "hostel",
+        "website": "https://www.zostel.com/zostel/Rishikesh/",
+        "wikidata": "Q39054466"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4411229695,
+      "lat": 30.1227275,
+      "lon": 78.3287457,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "ANNA Café",
+        "name:de": "ANNA Café",
+        "name:en": "ANNA Café",
+        "phone": "+919793856886",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4421831590,
+      "lat": 30.7438484,
+      "lon": 79.4934267,
+      "tags": {
+        "name": "GMVN Hotel Devlok",
+        "name:en": "GMVN Hotel Devlok",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4421831591,
+      "lat": 30.7375377,
+      "lon": 79.4938996,
+      "tags": {
+        "name": "Janki Guest House",
+        "name:en": "Janki Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4457764090,
+      "lat": 30.1297025,
+      "lon": 78.3229509,
+      "tags": {
+        "addr:postcode": "249192",
+        "addr:street": "Badrinath Road",
+        "email": "VishwaChandera@yahoo.com",
+        "internet_access": "wlan",
+        "name": "Hotel Vishwa Chandra Palace",
+        "name:en": "Hotel Vishwa Chandra Palace",
+        "opening_hours": "24/7",
+        "operator": "Vinay Singh",
+        "phone": "01352435087",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4465992090,
+      "lat": 29.6523146,
+      "lon": 79.6656922,
+      "tags": {
+        "addr:street": "Binsar st. Kasaar Devi",
+        "email": "mr.kishanmehra@yahoo.com",
+        "internet_access": "wlan",
+        "name": "Jungal Guest House",
+        "name:hi": "Jungal Guest House",
+        "opening_hours": "24/7",
+        "operator": "Kishan sing",
+        "phone": "+919410158598",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4492901389,
+      "lat": 30.1237522,
+      "lon": 78.3296846,
+      "tags": {
+        "name": "Hotel Om",
+        "name:en": "Hotel Om",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4520573391,
+      "lat": 30.1264449,
+      "lon": 78.3277994,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Hotel Devaaya Palace",
+        "name:en": "Hotel Devaaya Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4529420789,
+      "lat": 28.9937011,
+      "lon": 80.0710961,
+      "tags": {
+        "addr:street": "International Highway",
+        "air_conditioning": "no",
+        "internet_access": "no",
+        "name": "Mahakali",
+        "name:en": "Mahakali",
+        "name:hi": "महाकाली होटल",
+        "operator": "Govind Pande",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4535332590,
+      "lat": 29.6444215,
+      "lon": 79.4408023,
+      "tags": {
+        "addr:street": "Ranikhet",
+        "name": "East Railway Guest House",
+        "name:en": "East Railway Guest House",
+        "name:hi": "East Ranikhet Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4646819790,
+      "lat": 30.4782252,
+      "lon": 79.2105621,
+      "tags": {
+        "addr:housenumber": "1. bhulkuna",
+        "addr:postcode": "246473",
+        "addr:street": "Chopta Gopeshwar road",
+        "email": "pushirawat@gmail.com",
+        "name": "Rhodendron forest - Mud hut @ Chopta",
+        "name:en": "Rhodendron forest - Mud hut @ Chopta",
+        "opening_hours": "24/7",
+        "operator": "Pushpendra Singh Rawat",
+        "phone": "7895031411",
+        "tourism": "guest_house",
+        "website": "http://www.peacetrips.com/chopta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4646860089,
+      "lat": 30.4161073,
+      "lon": 79.3423964,
+      "tags": {
+        "addr:housenumber": "1 Gwaanaa Dhaar",
+        "addr:postcode": "246401",
+        "addr:street": "Gopeshwar Ghinghraan road",
+        "email": "info@peachesandpears.net",
+        "name": "Peaches and Pears B&B",
+        "name:en": "Peaches and Pears B&B",
+        "operator": "Tulsi Rawat",
+        "phone": "9917012636",
+        "tourism": "guest_house",
+        "website": "https://www.peachesandpears.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4662746089,
+      "lat": 30.1098769,
+      "lon": 78.3044908,
+      "tags": {
+        "addr:housenumber": "24 chandrabhaga",
+        "addr:postcode": "249201",
+        "addr:street": "chandreshwar road",
+        "email": "shivgangamylove@rediffmail.com",
+        "name": "Swiss cottage. 1961",
+        "name:en": "Swiss cottage. 1961",
+        "phone": "9412992856",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4720033589,
+      "lat": 30.1317941,
+      "lon": 78.3236115,
+      "tags": {
+        "name": "Tatsa",
+        "name:hi": "Tatsa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4750023421,
+      "lat": 29.3815111,
+      "lon": 79.4646998,
+      "tags": {
+        "name": "Hotel Prashant",
+        "name:en": "Hotel Prashant",
+        "name:hi": "होटल प्रशान्त",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4762330607,
+      "lat": 29.644063,
+      "lon": 79.6630198,
+      "tags": {
+        "name": "Ganga Guest House",
+        "name:en": "Ganga Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4762367441,
+      "lat": 29.651886,
+      "lon": 79.668637,
+      "tags": {
+        "name": "Pappu Cottage",
+        "name:en": "Pappu Cottage",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4766205093,
+      "lat": 28.9927738,
+      "lon": 80.0705885,
+      "tags": {
+        "bar": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Bohra Ji Hotel & Restaurant",
+        "name:en": "Bohra Ji Hotel & Restaurant",
+        "name:hi": "बोहरा जी होटल & रेस्टोरेंट",
+        "opening_hours": "Mo-Su,PH 10:00-22:00",
+        "rooms": "0",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4766208188,
+      "lat": 29.4041986,
+      "lon": 80.0862567,
+      "tags": {
+        "name": "KMVN Guest House",
+        "tourism": "guest_house",
+        "website": "https://www.kmvn.gov.in/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4770119746,
+      "lat": 29.5988016,
+      "lon": 79.6598263,
+      "tags": {
+        "name": "Bansal's Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4770923986,
+      "lat": 30.7297963,
+      "lon": 78.437446,
+      "tags": {
+        "name": "Hotel Govind Palace",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4771056231,
+      "lat": 30.9028942,
+      "lon": 78.6801684,
+      "tags": {
+        "name": "Guest house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4771101731,
+      "lat": 30.9935749,
+      "lon": 78.9404052,
+      "tags": {
+        "name": "Guest house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4771345381,
+      "lat": 30.9508469,
+      "lon": 79.0518554,
+      "tags": {
+        "name": "GMVN Guest house",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4781094025,
+      "lat": 30.1221768,
+      "lon": 78.3262962,
+      "tags": {
+        "name": "bisht house",
+        "name:hi": "bisht house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4793451323,
+      "lat": 28.9921645,
+      "lon": 80.0700669,
+      "tags": {
+        "name": "Rautela hotel",
+        "name:en": "Rautela hotel",
+        "name:hi": "रौतेला होटल",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4793476023,
+      "lat": 28.9351937,
+      "lon": 79.7051449,
+      "tags": {
+        "name": "Hotel Sitar International",
+        "name:en": "Hotel Sitar International",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4800962824,
+      "lat": 29.2600111,
+      "lon": 78.859491,
+      "tags": {
+        "name": "Sandhu Hotel and Restaurant",
+        "name:en": "Sandhu Hotel and Restaurant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4800977430,
+      "lat": 29.3906436,
+      "lon": 79.1282279,
+      "tags": {
+        "name": "Hotel Corbett Kingdom",
+        "name:en": "Hotel Corbett Kingdom",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4830776631,
+      "lat": 30.129946,
+      "lon": 78.3253178,
+      "tags": {
+        "name": "Anand Prakash Yoga",
+        "name:en": "Anand Prakash Yoga",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4850182121,
+      "lat": 30.0793641,
+      "lon": 78.1708268,
+      "tags": {
+        "name": "Nature Care Village",
+        "name:en": "Nature Care Village",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4850182321,
+      "lat": 30.1267328,
+      "lon": 78.3318092,
+      "tags": {
+        "name": "Yoga guesthouse",
+        "name:en": "Yoga guesthouse",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4853077721,
+      "lat": 30.1078358,
+      "lon": 78.2943034,
+      "tags": {
+        "name": "Avdhoot Ashram",
+        "name:en": "Avdhoot Ashram",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4879748750,
+      "lat": 29.6461303,
+      "lon": 79.6650963,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Flower home stay",
+        "name:en": "Flower home stay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4922436521,
+      "lat": 30.3275168,
+      "lon": 78.0447796,
+      "tags": {
+        "addr:city": "Dehradun",
+        "addr:district": "Dehradun",
+        "addr:postcode": "248001",
+        "air_conditioning": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Hotel Park View Premium",
+        "name:en": "Hotel Park View Premium",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4951872021,
+      "lat": 30.1259493,
+      "lon": 78.3310138,
+      "tags": {
+        "name": "Mango Tree Guesthouse",
+        "name:en": "Mango Tree Guesthouse",
+        "name:ko": "망고트리 게스트하���스",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4952735222,
+      "lat": 30.3323047,
+      "lon": 78.0490516,
+      "tags": {
+        "name": "Hotel deepsika",
+        "name:en": "Hotel deepsika",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4975096722,
+      "lat": 29.9465408,
+      "lon": 78.155293,
+      "tags": {
+        "name": "Hotel City Center",
+        "name:en": "Hotel City Center",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4978659802,
+      "lat": 30.7291933,
+      "lon": 78.4364496,
+      "tags": {
+        "name": "Kali Kamli Dharamshala",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4984042424,
+      "lat": 30.1317535,
+      "lon": 78.3245528,
+      "tags": {
+        "name": "Sai ganga cottage",
+        "name:en": "Sai ganga cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4984042425,
+      "lat": 30.1316071,
+      "lon": 78.3252917,
+      "tags": {
+        "name": "Rainbow Holiday Home",
+        "name:en": "Rainbow Holiday Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4984042427,
+      "lat": 30.1511784,
+      "lon": 78.4183034,
+      "tags": {
+        "name": "Hill Top Camp",
+        "name:en": "Hill Top Camp",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4984049421,
+      "lat": 30.1317826,
+      "lon": 78.3245968,
+      "tags": {
+        "name": "Hotel Rishikesh",
+        "name:en": "Hotel Rishikesh",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5001731232,
+      "lat": 30.4559348,
+      "lon": 78.0805002,
+      "tags": {
+        "name": "Hotel raj palace",
+        "name:en": "Hotel raj palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5001731233,
+      "lat": 30.4560532,
+      "lon": 78.0803593,
+      "tags": {
+        "name": "Rose paying guest house",
+        "name:en": "Rose paying guest house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5001731429,
+      "lat": 30.4601285,
+      "lon": 78.0690152,
+      "tags": {
+        "name": "Kasmanda Palace",
+        "name:en": "Kasmanda Palace",
+        "phone": "01352632424",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5001733327,
+      "lat": 30.4603399,
+      "lon": 78.0659847,
+      "tags": {
+        "name": "Hotel Mayur",
+        "name:en": "Hotel Mayur",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5001733328,
+      "lat": 30.4602652,
+      "lon": 78.0658324,
+      "tags": {
+        "name": "Hotel Paramount",
+        "name:en": "Hotel Paramount",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5001748322,
+      "lat": 30.2946939,
+      "lon": 78.0550938,
+      "tags": {
+        "name": "D-towerz",
+        "name:en": "D-towerz",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5001748325,
+      "lat": 30.4593301,
+      "lon": 78.0708475,
+      "tags": {
+        "name": "The three oaks boutique hotel",
+        "name:en": "The three oaks boutique hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5001751021,
+      "lat": 30.4598542,
+      "lon": 78.0688759,
+      "tags": {
+        "name": "Paradise Mansion",
+        "name:en": "Paradise Mansion",
+        "tourism": "chalet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5031581922,
+      "lat": 30.3418278,
+      "lon": 77.928167,
+      "tags": {
+        "addr:street": "Sai vihar near apartments",
+        "name": "My Home",
+        "name:en": "My Home",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5034020534,
+      "lat": 29.932623,
+      "lon": 78.0707331,
+      "tags": {
+        "addr:city": "Haridwar",
+        "addr:district": "Sidcul",
+        "addr:subdistrict": "Sector 11",
+        "fixme": "location correct?",
+        "name": "Gardenia",
+        "tourism": "hotel",
+        "website": "http://www.gardeniahotel.in"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5060366023,
+      "lat": 29.6507741,
+      "lon": 79.6646442,
+      "tags": {
+        "name": "Freedom",
+        "name:en": "Freedom",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5077010643,
+      "lat": 29.1986411,
+      "lon": 78.9779001,
+      "tags": {
+        "addr:city": "Kashipur",
+        "addr:postcode": "244713",
+        "addr:street": "NH 74",
+        "addr:unit": "Vaishali Colony",
+        "internet_access": "wlan",
+        "name": "The Manor Kashipur Hotel",
+        "operator": "Leisure Hotels Ltd.",
+        "tourism": "hotel",
+        "website": "https://www.leisurehotels.co.in/the-manor-kashipur/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5167489064,
+      "lat": 29.406938,
+      "lon": 79.0083738,
+      "tags": {
+        "name": "Jim's Jungle Retreat",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5167489065,
+      "lat": 29.4134877,
+      "lon": 79.0022456,
+      "tags": {
+        "name": "The Golden Tusk",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5167489066,
+      "lat": 29.410422,
+      "lon": 79.0042137,
+      "tags": {
+        "name": "Tusk & Roar",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244444821,
+      "lat": 30.1298242,
+      "lon": 78.3208958,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Moustache Rishikesh",
+        "opening_hours": "24/7",
+        "phone": "+91 96500 15650",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5300200528,
+      "lat": 29.6606634,
+      "lon": 79.6718756,
+      "tags": {
+        "name": "The kumaon",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5326870723,
+      "lat": 29.9446967,
+      "lon": 78.1562403,
+      "tags": {
+        "name": "Aasta Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5417800173,
+      "lat": 29.8620274,
+      "lon": 77.8944728,
+      "tags": {
+        "name": "Govind Bhawan",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5463821509,
+      "lat": 29.5969839,
+      "lon": 79.6564387,
+      "tags": {
+        "name": "Hotel Himsagar",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5498038521,
+      "lat": 30.1008826,
+      "lon": 78.3828027,
+      "tags": {
+        "name": "Veda5",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5515807607,
+      "lat": 29.4259085,
+      "lon": 79.391182,
+      "tags": {
+        "name": "Geeli Mitti",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5645503321,
+      "lat": 30.0685331,
+      "lon": 80.2362183,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Johar hilltop",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5655418621,
+      "lat": 29.9454102,
+      "lon": 78.1577932,
+      "tags": {
+        "name": "Maan Hotel",
+        "opening_hours": "24/7",
+        "phone": "8954793658",
+        "tourism": "guest_house",
+        "website": "http://www.maanhotel.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5689549822,
+      "lat": 29.6535985,
+      "lon": 79.6690306,
+      "tags": {
+        "name": "Laxmi",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5689617421,
+      "lat": 29.6497967,
+      "lon": 79.6643482,
+      "tags": {
+        "name": "Mohan's",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5869300985,
+      "lat": 30.3974729,
+      "lon": 78.0743407,
+      "tags": {
+        "addr:city": "Dehradun",
+        "addr:postcode": "248009",
+        "addr:street": "Dehradun-Mussoorie Road",
+        "name": "DIT boys Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5869300986,
+      "lat": 30.4003182,
+      "lon": 78.0766244,
+      "tags": {
+        "name": "Girls Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5869300987,
+      "lat": 30.3990575,
+      "lon": 78.0773248,
+      "tags": {
+        "name": "IMS boys hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5933577653,
+      "lat": 30.4691805,
+      "lon": 78.0541671,
+      "tags": {
+        "name": "Kaveri Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5933577654,
+      "lat": 30.4693192,
+      "lon": 78.0542744,
+      "tags": {
+        "name": "Narmada Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5933577655,
+      "lat": 30.4696151,
+      "lon": 78.0535931,
+      "tags": {
+        "name": "Ganga Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5933591158,
+      "lat": 30.4700945,
+      "lon": 78.0538221,
+      "tags": {
+        "name": "Mahanadi Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5938142186,
+      "lat": 30.1184363,
+      "lon": 78.3057877,
+      "tags": {
+        "name": "Vasundhara Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5977438765,
+      "lat": 29.6555028,
+      "lon": 79.6960023,
+      "tags": {
+        "name": "Mohan Ram Guesthouse ",
+        "phone": "+91 75006 01195",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5994398366,
+      "lat": 30.7362598,
+      "lon": 78.4003677,
+      "tags": {
+        "name": "Hotel Akash Ganga",
+        "tourism": "hotel",
+        "website": "https://www.akashgangahotel.com/ravis/index.php"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6009154285,
+      "lat": 30.123016,
+      "lon": 78.3276382,
+      "tags": {
+        "name": "laxman Jhula Regency Boutique Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6044200285,
+      "lat": 30.1311042,
+      "lon": 78.3249234,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Hashtag Hostel",
+        "opening_hours": "24/7",
+        "phone": "+919911555659",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6051101118,
+      "lat": 30.9451225,
+      "lon": 77.8498943,
+      "tags": {
+        "name": "Hotel Fatehpuri",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6051102251,
+      "lat": 30.9452919,
+      "lon": 77.8498606,
+      "tags": {
+        "name": "Hotel Vasundhara",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6051104988,
+      "lat": 30.9453385,
+      "lon": 77.8496178,
+      "tags": {
+        "name": "Apurva Hotel & Restaurant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6066342085,
+      "lat": 30.3163847,
+      "lon": 78.0336059,
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Royal",
+        "rooms": "yes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6066360185,
+      "lat": 30.2972652,
+      "lon": 78.0052973,
+      "tags": {
+        "addr:city": "Dehradun",
+        "addr:district": "Dehradun",
+        "addr:housenumber": "1",
+        "addr:postcode": "248001",
+        "addr:street": "Shakti Vihar, Saharanpur Road",
+        "building": "yes",
+        "email": "info@hoteltheonix.com",
+        "name": "Hotel The Onix",
+        "tourism": "hotel",
+        "website": "https://www.hoteltheonix.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6089252394,
+      "lat": 30.4964054,
+      "lon": 77.7920048,
+      "tags": {
+        "name": "Government hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6089252395,
+      "lat": 30.1301056,
+      "lon": 78.3257753,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Rishikesh Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6115841388,
+      "lat": 30.3416253,
+      "lon": 78.0603692,
+      "tags": {
+        "name": "Ajanta",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6121571816,
+      "lat": 30.3278663,
+      "lon": 78.0452688,
+      "tags": {
+        "name": "Hotel Central Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6121571817,
+      "lat": 30.3459101,
+      "lon": 78.0610941,
+      "tags": {
+        "name": "Hotel Sunrise",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6123644585,
+      "lat": 30.3694276,
+      "lon": 78.0743902,
+      "tags": {
+        "name": "Hotel Radiance",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6123644590,
+      "lat": 30.3662903,
+      "lon": 78.0708428,
+      "tags": {
+        "name": "Lemontree Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6123647179,
+      "lat": 30.3711774,
+      "lon": 78.0768768,
+      "tags": {
+        "name": "Sri Sharada Peetham Guest House",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6147612906,
+      "lat": 30.3330449,
+      "lon": 78.0225344,
+      "tags": {
+        "name": "Ramada Dehradun Chakrata Road",
+        "operator": "Ramada",
+        "tourism": "hotel",
+        "website": "http://ramadadehradun.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6172371417,
+      "lat": 30.4947817,
+      "lon": 79.7028786,
+      "tags": {
+        "addr:city": "Joshimath",
+        "addr:housenumber": "Thuaa",
+        "addr:postcode": "246443",
+        "addr:street": "Village Lata",
+        "brand": "Econo Lodge",
+        "brand:wikidata": "Q5333330",
+        "brand:wikipedia": "en:Econo Lodge",
+        "internet_access:fee": "no",
+        "name": "Shepherds Lodge Devangan",
+        "operator": "Nanda Devi Institute",
+        "rooms": "7",
+        "smoking": "outside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6177846885,
+      "lat": 29.9456634,
+      "lon": 78.1580395,
+      "tags": {
+        "name": "Madhuban guest house",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6187386837,
+      "lat": 30.7842482,
+      "lon": 77.8285037,
+      "tags": {
+        "addr:city": "Chakrata Thesil",
+        "addr:housenumber": "Koti Village",
+        "addr:postcode": "248123",
+        "addr:street": "Koti Kanasar",
+        "description": "Kanasar ecolodge is a family run ecotourism initiative, located in an apple orchard near Koti village. The Eco-lodge has two cottages which can accommodate 6 to 8 people each and 5 tents.",
+        "email": "kanasarecolodge@gmail.com",
+        "internet_access": "yes",
+        "name": "Kanasar Ecolodge",
+        "note": "Open only to Indian Citizens (This is a Protected Area and not accessible to foreign nationals)",
+        "operator": "Inder Singh Rana",
+        "phone": "+919458388555",
+        "rooms": "4",
+        "smoking": "outside",
+        "tourism": "hotel",
+        "website": "http://kanasarecolodge.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6257669585,
+      "lat": 30.1301862,
+      "lon": 78.32343,
+      "tags": {
+        "name": "Mild life",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6414477985,
+      "lat": 30.1288927,
+      "lon": 78.3226756,
+      "tags": {
+        "addr:street": "Tapovan",
+        "name": "Nakshatra",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6479961791,
+      "lat": 30.0057528,
+      "lon": 78.8719277,
+      "tags": {
+        "addr:street": "Naugaonkhal Kirkhu Marg",
+        "email": "bayberryadveadventures@gmail.com",
+        "name": "ग्राम इसोटी",
+        "name:en": "Village Isoti",
+        "opening_hours": "24/7",
+        "operator": "Asheesh",
+        "phone": "+919868144540",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520184160,
+      "lat": 30.2024109,
+      "lon": 79.9978576,
+      "tags": {
+        "name": "Guest house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520213931,
+      "lat": 30.204462,
+      "lon": 79.652239,
+      "tags": {
+        "name": "Gairuli Patal",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520222124,
+      "lat": 30.7627456,
+      "lon": 78.6334494,
+      "tags": {
+        "name": "Guesthouse",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520232704,
+      "lat": 30.143012,
+      "lon": 79.9655429,
+      "tags": {
+        "name": "Rest house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520256949,
+      "lat": 30.1998652,
+      "lon": 80.2620905,
+      "tags": {
+        "name": "Dhaba shelter",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6558338784,
+      "lat": 30.331214,
+      "lon": 78.4050552,
+      "tags": {
+        "email": "gopalbhatt25@gmail.com",
+        "name": "Shree Krishna Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6564481490,
+      "lat": 30.0643962,
+      "lon": 80.2381575,
+      "tags": {
+        "name": "Sahara Homestay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6564485485,
+      "lat": 30.0672428,
+      "lon": 80.2377405,
+      "tags": {
+        "air_conditioning": "no",
+        "internet_access": "wlan",
+        "name": "Hotel Bala Paradise & Restaurant",
+        "tourism": "hotel",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6564858785,
+      "lat": 30.1227481,
+      "lon": 78.3290664,
+      "tags": {
+        "name": "Travel Dreams Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6570126185,
+      "lat": 29.8325838,
+      "lon": 79.7720813,
+      "tags": {
+        "name": "KMVN Tourist Rest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6570126285,
+      "lat": 30.4015642,
+      "lon": 79.3310158,
+      "tags": {
+        "name": "Sayana Lodge",
+        "phone": "01372262201",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6594267515,
+      "lat": 30.0590457,
+      "lon": 78.9946908,
+      "tags": {
+        "name": "University Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6618239986,
+      "lat": 29.9481352,
+      "lon": 78.1590051,
+      "tags": {
+        "name": "Hotel Pardesi",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6657700385,
+      "lat": 30.129897,
+      "lon": 78.3197994,
+      "tags": {
+        "name": "Gungun homestay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6734772385,
+      "lat": 28.9710623,
+      "lon": 79.3977748,
+      "tags": {
+        "name": "KK Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6738244422,
+      "lat": 30.3001095,
+      "lon": 78.0502948,
+      "tags": {
+        "cuisine": "indian",
+        "name": "Himpalace",
+        "name:en": "Him Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6780758686,
+      "lat": 29.3859648,
+      "lon": 79.4624278,
+      "tags": {
+        "air_conditioning": "yes",
+        "internet_access": "wlan",
+        "name": "Alka hotel",
+        "tourism": "hotel",
+        "website": "https://alka.in/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6851508386,
+      "lat": 30.1245119,
+      "lon": 78.3308861,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Hotel Madhusudan",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6854042185,
+      "lat": 29.2224264,
+      "lon": 78.9698863,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Singh Hotel & Restaurant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6964126489,
+      "lat": 29.9460487,
+      "lon": 78.1544026,
+      "tags": {
+        "name": "Sachin",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6976386319,
+      "lat": 29.4012234,
+      "lon": 79.3013636,
+      "tags": {
+        "name": "Riverview aroma",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6976391223,
+      "lat": 29.3604186,
+      "lon": 79.5314734,
+      "tags": {
+        "name": "Sattal christian ashram",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7014000587,
+      "lat": 29.3407197,
+      "lon": 79.5577428,
+      "tags": {
+        "addr:street": "TRC Road , Joon State , Tallital Road, Bhimtal, Nainital, Uttarakhand 263136, India",
+        "name": "TAG Resorts Lavanya Bhimtal",
+        "name:en": "TAG Resorts Lavanya, Bhimtal",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7028503913,
+      "lat": 30.1336486,
+      "lon": 78.3201796,
+      "tags": {
+        "name": "Hipostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7068626087,
+      "lat": 30.1132887,
+      "lon": 78.3068,
+      "tags": {
+        "name": "Ganesh Lok",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7076763185,
+      "lat": 30.1305353,
+      "lon": 78.322697,
+      "tags": {
+        "name": "Ima Ganga",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7131673086,
+      "lat": 30.3729562,
+      "lon": 78.4312417,
+      "tags": {
+        "name": "Hotel Anamika",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7183914385,
+      "lat": 30.5555782,
+      "lon": 79.5613445,
+      "tags": {
+        "name": "Vijay Laxmi Guesthouse",
+        "name:en": "Vijay Laxmi Guesthouse 600rup",
+        "phone": "9557174977",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7213262481,
+      "lat": 29.379435,
+      "lon": 79.464405,
+      "tags": {
+        "description": "Basic hotel, just near the Nianital bus stop",
+        "name": "Ashok Hotel",
+        "tourism": "hotel",
+        "website": "www.ashoknainital.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7213272607,
+      "lat": 30.1278535,
+      "lon": 78.325336,
+      "tags": {
+        "addr:street": "Laxman Jhula Road, Near Anand dham, Tapovan",
+        "email": "reservation@livefreehostels.com",
+        "name": "Live Free Hostel",
+        "phone": "+91 9639339600",
+        "tourism": "hostel",
+        "website": "https://www.livefreehostels.com/hostel/rishikesh"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7213286204,
+      "lat": 29.329002,
+      "lon": 79.4819767,
+      "tags": {
+        "charge": "From 320 Rs. (dorm)",
+        "check_date": "2023-09-05",
+        "contact:email": "vistastays@gmail.com",
+        "contact:facebook": "https://www.facebook.com/Vistastays/",
+        "contact:mobile": "+91 7078560516",
+        "description": "From 320 Rs. (dorm)",
+        "name": "Vista Hostel",
+        "phone": "+91 7060666193",
+        "tourism": "hostel",
+        "website": "https://m.facebook.com/pages/category/Hotel-Resort/Vista-Hostel-2130695173626786/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7217630585,
+      "lat": 30.1317583,
+      "lon": 78.3246942,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Flying Penguin",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7217966786,
+      "lat": 30.1275098,
+      "lon": 78.3312976,
+      "tags": {
+        "name": "Kamal Guesthouse",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7227491286,
+      "lat": 30.1302336,
+      "lon": 78.3233114,
+      "tags": {
+        "name": "Hiker's house",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7236095171,
+      "lat": 29.9455946,
+      "lon": 78.1568424,
+      "tags": {
+        "addr:street": "Shivmurti lane, near Gurjat Samaj",
+        "name": "Hotel Grey Castle",
+        "phone": "072528 30230",
+        "tourism": "hotel",
+        "website": "http://www.hotelgreycastle.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7276074385,
+      "lat": 30.1313121,
+      "lon": 78.3238732,
+      "tags": {
+        "check_date": "2025-09-18",
+        "name": "Orchid",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7276444385,
+      "lat": 30.1293966,
+      "lon": 78.3232932,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Devi music ashram",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7284131085,
+      "lat": 30.1309482,
+      "lon": 78.3256969,
+      "tags": {
+        "brand": "Treebo Trend",
+        "brand:wikidata": "Q122214091",
+        "name": "Treebo Trend Yogasthali Inn and Spa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7321492786,
+      "lat": 29.3562025,
+      "lon": 79.5206498,
+      "tags": {
+        "name": "HEAL Farm",
+        "tourism": "chalet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7623611070,
+      "lat": 29.3841798,
+      "lon": 79.4665525,
+      "tags": {
+        "addr:city": "Nainital",
+        "addr:housenumber": "Stoneleigh Main Building",
+        "addr:postcode": "263003",
+        "addr:street": "Stoneleigh Road, Tallital",
+        "description": "Super comfortable and cosy rooms part of a big, beautiful house. Nested at prime location of Nainital with stunning a panoramic view of the Naini Lake and entire town, away from the hustle of the town.\ninstagram.com/a.home.in.the.hills\n+917302887591",
+        "email": "thatprashant@gmail.com",
+        "guest_house": "homestay",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Prashant's Homestay Nainital",
+        "name:hi": "प्रशांत होमस्टे नैनीताल",
+        "operator": "Prashant Tiwari",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:electronic_purses": "yes",
+        "phone": "+919105120922",
+        "reservation": "required",
+        "rooms": "4",
+        "smoking": "separated",
+        "source": "gps;survey;local knowledge;aerial imagery;streetlevel imagery",
+        "start_date": "2015-11-15",
+        "tourism": "guest_house",
+        "website": "bit.ly/prashanthomestay",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7852357764,
+      "lat": 30.343079,
+      "lon": 78.0132041,
+      "tags": {
+        "addr:city": "Dehradun",
+        "addr:postcode": "248195",
+        "addr:street": "Kaulagarh Road",
+        "air_conditioning": "yes",
+        "description": "Created by Tanay Das",
+        "guest_house": "guest_house",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Vanabaran Vaban",
+        "operator": "Forest Survey of India",
+        "rooms": "15",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7887543651,
+      "lat": 30.1087885,
+      "lon": 78.4394324,
+      "tags": {
+        "addr:city": "Rishikesh",
+        "addr:housenumber": "23rd Milestone",
+        "addr:postcode": "249303",
+        "addr:street": "Rishikesh-Badrinath Road tehri Garhwal District Gular Dogi, Uttarakhand",
+        "brand": "IHCL SeleQtions",
+        "email": "book.anandkashi@seleqtionshotels.com",
+        "name": "Anand Kashi by the Ganges",
+        "phone": "+91 99976 48992",
+        "tourism": "hotel",
+        "website": "https://www.seleqtionshotels.com/en-in/anand-kashi-rishikesh/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7894473463,
+      "lat": 29.6955948,
+      "lon": 79.7473254,
+      "tags": {
+        "addr:city": "Binsar",
+        "addr:district": "Almora",
+        "addr:postcode": "263628",
+        "addr:street": "Binsar Road",
+        "name": "Tree Of Life Grand Oak Manor",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7965630746,
+      "lat": 29.3503988,
+      "lon": 79.2284851,
+      "tags": {
+        "name": "Eco Harrymans",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8137037204,
+      "lat": 29.1570564,
+      "lon": 79.147316,
+      "tags": {
+        "name": "Hotel Rahi",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8156864878,
+      "lat": 30.1301097,
+      "lon": 78.3237514,
+      "tags": {
+        "name": "Dev Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8187606550,
+      "lat": 29.2121513,
+      "lon": 79.5279522,
+      "tags": {
+        "name": "Hotel Silver Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8189626122,
+      "lat": 29.2152051,
+      "lon": 79.5324871,
+      "tags": {
+        "name": "Hotel Suryas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8189626123,
+      "lat": 29.215377,
+      "lon": 79.5323492,
+      "tags": {
+        "name": "Hotel Parkland",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8189626124,
+      "lat": 29.2154295,
+      "lon": 79.5322683,
+      "tags": {
+        "name": "Jagdish Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8190137583,
+      "lat": 29.6433806,
+      "lon": 79.4348612,
+      "tags": {
+        "name": "Hotel Mayur",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8273030269,
+      "lat": 30.1059457,
+      "lon": 78.3426563,
+      "tags": {
+        "mobile": "8006312329",
+        "name": "Khergal Home Stay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8304836204,
+      "lat": 30.2004015,
+      "lon": 79.6307957,
+      "tags": {
+        "name": "Home stay wan",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8318659490,
+      "lat": 30.3300737,
+      "lon": 78.4014779,
+      "tags": {
+        "addr:city": "Chamba",
+        "addr:postcode": "249199",
+        "addr:street": "Rani Chori Motor Road",
+        "brand": "Darbar",
+        "email": "darbarorganichotel@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Darbar Organic Hotel",
+        "phone": "9910364826",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8324620302,
+      "lat": 30.1428841,
+      "lon": 79.7135961,
+      "tags": {
+        "name": "Himni guest house",
+        "phone": "76183 04908",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8324636115,
+      "lat": 30.0941894,
+      "lon": 80.2426107,
+      "tags": {
+        "name": "Guest house",
+        "phone": "7302160635",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8357528315,
+      "lat": 30.1177516,
+      "lon": 79.7046087,
+      "tags": {
+        "name": "Medicinal herbs",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8625068640,
+      "lat": 29.5757881,
+      "lon": 79.4788586,
+      "tags": {
+        "addr:city": "Ranikhet",
+        "addr:housenumber": "198",
+        "addr:postcode": "263645",
+        "addr:street": "Bajena",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "A Hillock Resort Durgesh Guest  House",
+        "rooms": "14",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8837616129,
+      "lat": 30.456271,
+      "lon": 78.0779751,
+      "tags": {
+        "name": "Vikas Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8880884477,
+      "lat": 30.8276009,
+      "lon": 77.9502886,
+      "tags": {
+        "name": "Mandali forest rest house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9120557129,
+      "lat": 30.1299222,
+      "lon": 78.3193486,
+      "tags": {
+        "addr:city": "Rishikesh",
+        "addr:housenumber": "Tapovan,Shivanand Intercollege",
+        "addr:postcode": "249192",
+        "addr:street": "Gulab Nagar",
+        "brand": "Anjali Home Stay",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Anjali Home Stay",
+        "reservation": "yes",
+        "rooms": "3",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9156767418,
+      "lat": 29.3652451,
+      "lon": 79.5343708,
+      "tags": {
+        "addr:postcode": "263136",
+        "addr:street": "Sattal-Bhimtal Road",
+        "email": "oakleavessattal@gmail.com",
+        "name": "Oak Leaves Guest House",
+        "phone": "7500733388, 05942247710",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9229264140,
+      "lat": 29.2125711,
+      "lon": 79.5279469,
+      "tags": {
+        "name": "Hotel Moti Tower",
+        "name:ur": "ہوٹل موتی ٹاور",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9399384797,
+      "lat": 29.6467519,
+      "lon": 79.6643962,
+      "tags": {
+        "addr:city": "Mat",
+        "addr:postcode": "263601",
+        "name": "Manu Home Stay",
+        "name:gu": "મનુ હોમ સ્ટે",
+        "name:hi": "मनु होम स्टे",
+        "phone": "+919410920696",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9399425261,
+      "lat": 29.6469913,
+      "lon": 79.6643511,
+      "tags": {
+        "addr:city": "Mat",
+        "addr:postcode": "263601",
+        "name": "Manoj Home Stay",
+        "name:gu": "મનોજ હોમ સ્ટે",
+        "name:hi": "मनोज होम स्टे",
+        "phone": "+919719119592",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9399434539,
+      "lat": 29.6474609,
+      "lon": 79.6634175,
+      "tags": {
+        "addr:city": "Mat",
+        "addr:postcode": "263601",
+        "addr:street": "Binsar Road",
+        "name": "MangalMurti Himalayan Homestay",
+        "name:gu": "મંગલમૂર્તિ હિમાલયન હોમસ્ટે",
+        "name:hi": "मंगलमूर्ति हिमालयन होमस्टे",
+        "phone": "+919594995620",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9399437053,
+      "lat": 29.6472016,
+      "lon": 79.663321,
+      "tags": {
+        "addr:city": "Mat",
+        "addr:postcode": "263601",
+        "name": "Kasar Mountain Light Homestay",
+        "name:gu": "કસાર મોઉન્ટેન લાઈટ હોમસ્ટે",
+        "name:hi": "कसार माउंटेन लाइट होमस्टे",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9689236798,
+      "lat": 29.4275455,
+      "lon": 79.6334839,
+      "tags": {
+        "addr:street": "Kasiyalekh",
+        "name": "The Himalayan Cherry",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9772045217,
+      "lat": 30.7388895,
+      "lon": 78.4541824,
+      "tags": {
+        "name": "Shivalinga",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9774462017,
+      "lat": 30.4040962,
+      "lon": 78.8390203,
+      "tags": {
+        "name": "Wayside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9779110817,
+      "lat": 30.5487026,
+      "lon": 79.5737933,
+      "tags": {
+        "name": "Tathatshu Ski Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9781263397,
+      "lat": 29.345296,
+      "lon": 79.5620479,
+      "tags": {
+        "addr:city": "Bhimtal",
+        "addr:postcode": "263136",
+        "addr:street": "Behind Dak Bungalow",
+        "cuisine": "chinese",
+        "diet:non-vegetarian": "yes",
+        "name": "DaaJU's Think MOUNTAIN",
+        "phone": "+918287920971",
+        "tourism": "hotel",
+        "website": "https://www.daajus.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9787109917,
+      "lat": 30.1266376,
+      "lon": 78.3249893,
+      "tags": {
+        "name": "Divine Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9794350617,
+      "lat": 30.1243917,
+      "lon": 78.3139863,
+      "tags": {
+        "addr:street": "Ram Jhula",
+        "internet_access": "wlan",
+        "name": "Sanidhya Inn",
+        "phone": "+919897508408",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/in/sanidhya-inn.en-gb.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9811881936,
+      "lat": 29.380656,
+      "lon": 79.464073,
+      "tags": {
+        "name": "Army Rest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9835432514,
+      "lat": 29.9722363,
+      "lon": 78.2113066,
+      "tags": {
+        "air_conditioning": "yes",
+        "description": "Created by Tanay das",
+        "guest_house": "guest_house",
+        "internet_access": "no",
+        "name": "Chilla Forest Rest House",
+        "operator": "Rajaji National Park",
+        "rooms": "2",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9841476026,
+      "lat": 30.730879,
+      "lon": 79.0678374,
+      "tags": {
+        "name": "Gmvn swarg rohini cottages",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9841505332,
+      "lat": 30.723872,
+      "lon": 79.0701291,
+      "tags": {
+        "name": "Gmvn nadi complex, kedarnath base camp",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9841506329,
+      "lat": 30.7072754,
+      "lon": 79.0662595,
+      "tags": {
+        "name": "Gmvn",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9841511128,
+      "lat": 30.7304459,
+      "lon": 79.0678659,
+      "tags": {
+        "name": "Gmvn kedar dome cottages",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9857174261,
+      "lat": 30.6540356,
+      "lon": 79.0271367,
+      "tags": {
+        "name": "Gmvn tourist lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9862200017,
+      "lat": 30.1555874,
+      "lon": 78.3398384,
+      "tags": {
+        "name": "Boho",
+        "phone": "+918806372593",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9994904156,
+      "lat": 29.1874108,
+      "lon": 79.5023633,
+      "tags": {
+        "mapillary": "437881541694530",
+        "name": "Hotel canta",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9998788717,
+      "lat": 30.4254929,
+      "lon": 78.4032654,
+      "tags": {
+        "name": "Mrig Valley",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9998788718,
+      "lat": 30.8009744,
+      "lon": 78.2260243,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Hotel Aashiyana",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9998788719,
+      "lat": 30.4019192,
+      "lon": 79.3310679,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Hotel Heaven",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10001188317,
+      "lat": 30.7381933,
+      "lon": 79.4954179,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Charan Padhuka",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10003360317,
+      "lat": 29.8524168,
+      "lon": 79.5967077,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Rainbow Homestay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10017673817,
+      "lat": 29.204973,
+      "lon": 78.9598455,
+      "tags": {
+        "name": "Hotel Kanha",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10017873217,
+      "lat": 30.127877,
+      "lon": 78.3184794,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Staywell Cottage",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10026443518,
+      "lat": 30.1291513,
+      "lon": 78.3269281,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Dostel",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10114018617,
+      "lat": 30.0189569,
+      "lon": 78.3366893,
+      "tags": {
+        "addr:postcode": "246181",
+        "name": "Shoolin Jungle Lodge",
+        "opening_hours": "24/7",
+        "phone": "8920834004",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10114159495,
+      "lat": 30.1301189,
+      "lon": 78.3250948,
+      "tags": {
+        "name": "Blue Jay Hostel Rishikesh",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10578342692,
+      "lat": 30.4053408,
+      "lon": 78.0803636,
+      "tags": {
+        "guest_house": "guest_house",
+        "name": "Doon Boulevard",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10594573945,
+      "lat": 29.4243495,
+      "lon": 79.4273321,
+      "tags": {
+        "name": "Janardan",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10602916733,
+      "lat": 30.3067635,
+      "lon": 78.0060517,
+      "tags": {
+        "name": "Hotel Grand Legacy Prime",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10602960198,
+      "lat": 30.4556252,
+      "lon": 78.0870998,
+      "tags": {
+        "name": "FabHotel Clock View",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10647947211,
+      "lat": 30.1253029,
+      "lon": 78.3310048,
+      "tags": {
+        "name": "Urban Nomads",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10696928856,
+      "lat": 29.9563701,
+      "lon": 78.170935,
+      "tags": {
+        "addr:city": "Haridwar",
+        "addr:housenumber": "38/1,",
+        "addr:postcode": "249401",
+        "addr:street": "Niranjani Akhara Marg, Sharvan Nath Nagar,",
+        "brand": "IHCL SeleQtions",
+        "email": "reservations.pilibhithouse@seleqtionshotels.com",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Pilibhit House, Haridwar - IHCL SeleQtions",
+        "phone": "+91-7217024116 , +91- 7217024117",
+        "rooms": "35",
+        "tourism": "hotel",
+        "website": "https://www.seleqtionshotels.com/en-in/pilibhit-house-haridwar/?utm_source=google&utm_medium=local&utm_campaign=pilibhit_house_seleqtions_cla&utm_content=pilibhit_house_seleqtions_gmb"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10708680206,
+      "lat": 29.8408143,
+      "lon": 78.6803697,
+      "tags": {
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "TRH GMVN",
+        "operator": "GMVN",
+        "rooms": "11",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10708680208,
+      "lat": 29.8489479,
+      "lon": 78.6787856,
+      "tags": {
+        "beds": "40",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Tip N Top GMVN",
+        "operator": "GMVN",
+        "rooms": "20",
+        "tourism": "hotel",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10711801692,
+      "lat": 30.3321024,
+      "lon": 78.0551756,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "OLD SURVEY ROAD",
+        "name": "Clarks Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10718972174,
+      "lat": 29.9443136,
+      "lon": 78.1525264,
+      "tags": {
+        "brand": "GMVN",
+        "name": "Hotel Rahi",
+        "phone": "01334228686",
+        "tourism": "hotel",
+        "website": "https://gmvnonline.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10736822900,
+      "lat": 30.4596113,
+      "lon": 78.062347,
+      "tags": {
+        "name": "Monarch hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10830489210,
+      "lat": 30.286662,
+      "lon": 78.9787875,
+      "tags": {
+        "description": "Guest house",
+        "name": "GVMN Guest house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10844974122,
+      "lat": 30.3189768,
+      "lon": 78.0372082,
+      "tags": {
+        "check_date": "2023-04-22",
+        "name": "Hotel Embassy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10844974123,
+      "lat": 30.3190072,
+      "lon": 78.0371564,
+      "tags": {
+        "check_date": "2023-04-22",
+        "name": "The Trekkers Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10844974124,
+      "lat": 30.3184636,
+      "lon": 78.0350195,
+      "tags": {
+        "check_date": "2023-04-22",
+        "name": "FabExpress Central Plaza",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10844974125,
+      "lat": 30.3173061,
+      "lon": 78.0353492,
+      "tags": {
+        "check_date": "2023-04-22",
+        "description": "not for foreigners",
+        "name": "Super OYO Green Comfort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10873513021,
+      "lat": 30.7013741,
+      "lon": 77.8727116,
+      "tags": {
+        "internet_access:fee": "no",
+        "name": "Snow View",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10959071551,
+      "lat": 29.8338738,
+      "lon": 79.7719389,
+      "tags": {
+        "addr:city": "bageshwar,uttarakhand",
+        "addr:housenumber": "Tehsil Road, Bageshwar SH-37, Bageshwar Rd",
+        "addr:postcode": "263642",
+        "name": "vivek hotel",
+        "phone": "09627682777",
+        "tourism": "hotel",
+        "website": "https://hotel-vivek-and-banquet-hall.business.site/?m=true"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10968237757,
+      "lat": 29.6987881,
+      "lon": 79.7593029,
+      "tags": {
+        "addr:city": "Binsar",
+        "addr:district": "Almora",
+        "addr:postcode": "263628",
+        "addr:street": "Bonsar Road",
+        "air_conditioning": "no",
+        "brand": "KMVN",
+        "guest_house": "guest_house",
+        "internet_access": "wlan",
+        "name": "Binsar KMVN Guest House",
+        "operator": "KMVN",
+        "payment:cash": "yes",
+        "phone": "08650002537",
+        "rooms": "Yes",
+        "smoking": "isolated",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10971314045,
+      "lat": 30.7314084,
+      "lon": 77.8939246,
+      "tags": {
+        "addr:city": "Dava Pul",
+        "addr:postcode": "248123",
+        "addr:street": "Chakrata - Lakhamandal Road",
+        "email": "panwarsuresh289@gmail.com",
+        "internet_access": "no",
+        "name": "Aastha Resort",
+        "payment:cash": "yes",
+        "phone": "+917505018299",
+        "rooms": "2",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10973948049,
+      "lat": 31.1066132,
+      "lon": 78.3125483,
+      "tags": {
+        "name": "Yes Boss Homestay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10992188951,
+      "lat": 30.8029558,
+      "lon": 78.1861512,
+      "tags": {
+        "name": "DJSR Camp",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11053349378,
+      "lat": 29.2673475,
+      "lon": 79.5444436,
+      "tags": {
+        "guest_house": "bed_and_breakfast",
+        "name": "Tourist Rest House and Resturant (KMVN)",
+        "operator": "Kumaun Mandal Vikas Nigam Limited",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11065405456,
+      "lat": 28.9530286,
+      "lon": 79.4333678,
+      "tags": {
+        "name": "Hotel Uday Residency",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11148478772,
+      "lat": 30.1325543,
+      "lon": 78.320365,
+      "tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Skyard Premium Hostel",
+        "phone": "+91 76681 76856",
+        "tourism": "hostel",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11148478779,
+      "lat": 30.135506,
+      "lon": 78.3170156,
+      "tags": {
+        "beds": "18",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hobbit House Hostel",
+        "phone": "+91 93195 75756",
+        "tourism": "hostel",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11148478790,
+      "lat": 30.1349455,
+      "lon": 78.3185394,
+      "tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "mobile": "+91 9891304088",
+        "name": "Sound House Hostel",
+        "phone": "+91 8860979123",
+        "tourism": "hostel",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11148498651,
+      "lat": 30.1305127,
+      "lon": 78.3223508,
+      "tags": {
+        "check_date": "2025-09-16",
+        "name": "Tebaar",
+        "phone": "+91 89549 15552",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11163213527,
+      "lat": 30.5553074,
+      "lon": 79.5622911,
+      "tags": {
+        "charge": "Dorm/room 400/1,700 Rs.",
+        "check_date": "2023-09-02",
+        "description": "Dorm/room 400/1,700 Rs.",
+        "name": "GMVN Jyotir Tourist Complex",
+        "phone": "9568006667",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11163221655,
+      "lat": 30.5558519,
+      "lon": 79.5614829,
+      "tags": {
+        "charge": "Dorm/room 500/2,000 Rs.",
+        "check_date": "2023-09-02",
+        "description": "Dorm/room 500/2,000 Rs.",
+        "name": "GMVN Tourist Rest House (Nargingh)",
+        "phone": "9568006668",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11163224220,
+      "lat": 30.7011833,
+      "lon": 79.5928678,
+      "tags": {
+        "charge": "Dorm/room 400/1,200 Rs.",
+        "check_date": "2023-09-02",
+        "description": "Dorm/room 400/1,200 Rs.",
+        "name": "GMVN Tourist Rest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11169787825,
+      "lat": 29.3209445,
+      "lon": 79.522998,
+      "tags": {
+        "name": "HOTs - Hostel & Home Stay",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11169794151,
+      "lat": 29.3162393,
+      "lon": 79.5195725,
+      "tags": {
+        "charge": "From 250 Rs",
+        "check_date": "2023-08-05",
+        "description": "From 250 Rs",
+        "name": "The Hosteller Jeolikote",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11171900446,
+      "lat": 29.3954205,
+      "lon": 79.4611593,
+      "tags": {
+        "charge": "3,000 Rs",
+        "check_date": "2023-09-06",
+        "contact:mobile": "+91 9411108017",
+        "description": "Double: 3,000 Rs",
+        "name": "Hotel Snow View Heritage (The Old British Governour House)",
+        "operator": "K.M.V.N.",
+        "phone": "+91 5942-238570",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11181087451,
+      "lat": 29.2260743,
+      "lon": 79.5219417,
+      "tags": {
+        "name": "En Route Hostel - Haldwani",
+        "phone": "+91 8700121427",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11233042237,
+      "lat": 30.1245232,
+      "lon": 78.3311445,
+      "tags": {
+        "name": "Hotal Gangotri plaza",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11254961119,
+      "lat": 30.226186,
+      "lon": 78.7295155,
+      "tags": {
+        "name": "Chahat",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11283091269,
+      "lat": 30.4649024,
+      "lon": 78.1687639,
+      "tags": {
+        "name": "हिमालयन स्प्लेंडर रिजॉर्ट",
+        "name:en": "Himalayan Splendor Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11349070111,
+      "lat": 30.3582909,
+      "lon": 77.848825,
+      "tags": {
+        "name": "The Competent Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11350495610,
+      "lat": 29.9510739,
+      "lon": 78.0758211,
+      "tags": {
+        "name": "Gardenia Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11351305997,
+      "lat": 29.2199202,
+      "lon": 79.5127931,
+      "tags": {
+        "name": "Hotel Rudraksh",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11355888924,
+      "lat": 29.2112795,
+      "lon": 79.4687038,
+      "tags": {
+        "name": "Huller Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11416633749,
+      "lat": 29.4903237,
+      "lon": 78.7630279,
+      "tags": {
+        "name": "National Nature Guide Training Institute",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11416664300,
+      "lat": 29.4008874,
+      "lon": 79.0760879,
+      "tags": {
+        "name": "Clarissa Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11416664301,
+      "lat": 29.4075391,
+      "lon": 79.0521352,
+      "tags": {
+        "name": "Aahana Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11563405969,
+      "lat": 30.0840751,
+      "lon": 78.3636026,
+      "tags": {
+        "addr:street": "Maral village 249304 Uttarakh",
+        "name": "Junegiri Home and Farmstay",
+        "name:en": "Junegiri Home and Farmstay +91 98738 97652",
+        "tourism": "guest_house",
+        "website": "http://junegirifarms.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11691516323,
+      "lat": 29.1888988,
+      "lon": 79.5033899,
+      "tags": {
+        "name": "Virus Bistro",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11691749245,
+      "lat": 29.2314545,
+      "lon": 79.5312382,
+      "tags": {
+        "name": "Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11718286032,
+      "lat": 30.3282144,
+      "lon": 78.0657366,
+      "tags": {
+        "name": "AVIRAL GUEST HOUSE",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11718351661,
+      "lat": 30.3283685,
+      "lon": 78.0644248,
+      "tags": {
+        "name": "SHARMA GUEST HOUSE",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11740798982,
+      "lat": 30.3486066,
+      "lon": 78.0617838,
+      "tags": {
+        "addr:city": "DEHRADUN",
+        "addr:district": "DEHRADUN",
+        "addr:housenumber": "113/1-2",
+        "addr:postcode": "248001",
+        "addr:street": "Rajpur-Mussoorie Road",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Hotel Aketa",
+        "phone": "+91 7618220066",
+        "tourism": "hotel",
+        "website": "https://hotelaketadehradun.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11843025769,
+      "lat": 30.1302973,
+      "lon": 78.3204704,
+      "tags": {
+        "name": "12 Monks Hostel",
+        "name:en": "12 Monks Hostel",
+        "name:hi": "12 Monks Hostel",
+        "phone": "073511 23314",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11851001708,
+      "lat": 29.9469416,
+      "lon": 78.1582554,
+      "tags": {
+        "name": "Shri Balaji hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11851021484,
+      "lat": 29.9474385,
+      "lon": 78.1578879,
+      "tags": {
+        "name": "Chitra Heritage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11851022667,
+      "lat": 29.9466759,
+      "lon": 78.1589194,
+      "tags": {
+        "name": "Krishna Ji",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11851025025,
+      "lat": 29.9472382,
+      "lon": 78.1551588,
+      "tags": {
+        "name": "Hôtel Le Roi",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11851032630,
+      "lat": 29.9470721,
+      "lon": 78.1565442,
+      "tags": {
+        "name": "Shivmurti",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11860330659,
+      "lat": 29.9467507,
+      "lon": 78.1587682,
+      "tags": {
+        "name": "Parakh",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11860349585,
+      "lat": 30.1281651,
+      "lon": 78.3216046,
+      "tags": {
+        "name": "Peepal Tree",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11860352787,
+      "lat": 30.0603387,
+      "lon": 78.2316908,
+      "tags": {
+        "name": "Mokshda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11860355200,
+      "lat": 30.0791011,
+      "lon": 78.2596748,
+      "tags": {
+        "name": "Gautam Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11860370639,
+      "lat": 29.9985574,
+      "lon": 78.1898299,
+      "tags": {
+        "name": "The Fern residency",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11860371282,
+      "lat": 30.0066767,
+      "lon": 78.1896332,
+      "tags": {
+        "name": "Hotel Regenta",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11860372029,
+      "lat": 30.128467,
+      "lon": 78.3203455,
+      "tags": {
+        "name": "Roxxy Royal",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11860372030,
+      "lat": 30.1280918,
+      "lon": 78.3215954,
+      "tags": {
+        "name": "Sara hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11862213770,
+      "lat": 30.1262931,
+      "lon": 78.328862,
+      "tags": {
+        "name": "Hotel Ishan",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11909374517,
+      "lat": 30.4125616,
+      "lon": 78.0859993,
+      "tags": {
+        "addr:city": "Dehradun",
+        "addr:district": "Dehradun",
+        "addr:housenumber": "Khala Goan",
+        "addr:postcode": "248001",
+        "addr:street": "Dehradun-Mussoorie Road",
+        "brand": "Luxury Homestay",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Stairway To Heaven",
+        "phone": "6395392001",
+        "tourism": "hotel",
+        "website": "https://www.stairwaytoheavenhomestay.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12014498388,
+      "lat": 29.2470493,
+      "lon": 79.5396788,
+      "tags": {
+        "addr:street": "Nainital Road",
+        "name": "Vatika Banquet Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12026544562,
+      "lat": 30.1317474,
+      "lon": 78.3241232,
+      "tags": {
+        "addr:city": "Rishikesh",
+        "addr:neighbourhood": "Tapovan",
+        "addr:state": "Uttarakhand",
+        "name": "Devoy Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12029430704,
+      "lat": 30.1229413,
+      "lon": 78.3279113,
+      "tags": {
+        "addr:city": "Rishikesh",
+        "addr:country": "IN",
+        "addr:full": "Plot No.1, near post office, Laxman Jhula, Rishikesh, Uttarakhand, 249302",
+        "addr:housenumber": "1",
+        "addr:postcode": "249302",
+        "addr:state": "Uttarakhand",
+        "addr:street": "Laxman Jhula",
+        "branch": "Laxman Jhula",
+        "name": "Zostel",
+        "tourism": "hostel",
+        "website": "https://www.zostel.com/zostel/rishikesh/zostel-rishikesh-laxman-jhula-rshh304/",
+        "wikidata": "Q39054466"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12029430709,
+      "lat": 30.1281747,
+      "lon": 78.3231481,
+      "tags": {
+        "name": "Sivanta",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12029976701,
+      "lat": 30.1309566,
+      "lon": 78.3238293,
+      "tags": {
+        "name": "Green Hills",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12029976707,
+      "lat": 30.1306876,
+      "lon": 78.3237658,
+      "tags": {
+        "name": "Amit Homestay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12029976711,
+      "lat": 30.1308009,
+      "lon": 78.3238055,
+      "tags": {
+        "level": "1;2;3",
+        "name": "Sai Stay Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12030751388,
+      "lat": 30.11202,
+      "lon": 78.2960409,
+      "tags": {
+        "name": "Hotel Aradhya",
+        "tourism": "hotel",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12030751391,
+      "lat": 30.1316826,
+      "lon": 78.3241979,
+      "tags": {
+        "addr:city": "Rishikesh",
+        "addr:neighbourhood": "Tapovan",
+        "addr:state": "Uttarakhand",
+        "name": "Hotel Bhagarati Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12049285941,
+      "lat": 30.7012475,
+      "lon": 79.5937006,
+      "tags": {
+        "name": "Kuber Annex",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12049302344,
+      "lat": 30.7007443,
+      "lon": 79.5928436,
+      "tags": {
+        "name": "Hotel Himalayan Holidays",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12049326860,
+      "lat": 30.0965915,
+      "lon": 78.2866975,
+      "tags": {
+        "name": "The Neeraj Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12049329870,
+      "lat": 30.112696,
+      "lon": 78.2945027,
+      "tags": {
+        "name": "Hotel Digvijay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12155963741,
+      "lat": 30.1114822,
+      "lon": 78.3009812,
+      "tags": {
+        "check_date": "2024-01-20",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Anandmay Homestay",
+        "phone": "+91 78959 39250; +91 81266 02325",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12253499677,
+      "lat": 28.9962014,
+      "lon": 80.0724318,
+      "tags": {
+        "name": "The Hornbill Retreat",
+        "name:en": "The Hornbill Retreat",
+        "name:hi": "द होर्न्बिल्ल रिट्रीट",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12253543385,
+      "lat": 28.9893876,
+      "lon": 80.0676858,
+      "tags": {
+        "name": "HOTEL MANSAROVAR",
+        "name:en": "HOTEL MANSAROVAR",
+        "name:hi": "होटल मानसरोवर",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12254163320,
+      "lat": 28.9946056,
+      "lon": 80.0713011,
+      "tags": {
+        "name": "Hotel Vansh होटल वंश",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334330110,
+      "lat": 29.9475146,
+      "lon": 78.1577913,
+      "tags": {
+        "name": "Chitra Grand",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334330111,
+      "lat": 29.9468453,
+      "lon": 78.1589842,
+      "tags": {
+        "name": "Babua Hyness",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334330119,
+      "lat": 29.9499776,
+      "lon": 78.1637629,
+      "tags": {
+        "name": "Ganga Vibes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334330120,
+      "lat": 29.949876,
+      "lon": 78.163634,
+      "tags": {
+        "name": "Signature Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334330304,
+      "lat": 29.9473274,
+      "lon": 78.1577613,
+      "tags": {
+        "name": "Chitra Residency",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334330317,
+      "lat": 29.9465553,
+      "lon": 78.1598831,
+      "tags": {
+        "name": "Ganga Avtaran",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334332001,
+      "lat": 29.949776,
+      "lon": 78.1635145,
+      "tags": {
+        "name": "City Deluxe",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12337457001,
+      "lat": 30.130358,
+      "lon": 78.3242043,
+      "tags": {
+        "name": "Om Shivaay Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12337457013,
+      "lat": 30.1284485,
+      "lon": 78.323124,
+      "tags": {
+        "name": "Sangam Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12337457014,
+      "lat": 30.1285944,
+      "lon": 78.3234593,
+      "tags": {
+        "name": "Sarai",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12337457020,
+      "lat": 30.1304674,
+      "lon": 78.3235213,
+      "tags": {
+        "name": "Hotstel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12337457105,
+      "lat": 30.1288501,
+      "lon": 78.3241269,
+      "tags": {
+        "name": "Holy Shivana",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12337457106,
+      "lat": 30.1290285,
+      "lon": 78.3240559,
+      "tags": {
+        "name": "Ganga Ambience",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12337457108,
+      "lat": 30.1304538,
+      "lon": 78.3233992,
+      "tags": {
+        "name": "Tip Top",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12337457307,
+      "lat": 30.1305749,
+      "lon": 78.3233625,
+      "tags": {
+        "name": "Hari Raj HR Stays",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12343504404,
+      "lat": 30.1412296,
+      "lon": 78.3157103,
+      "tags": {
+        "name": "Moon Light Camp and Resort",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12343504410,
+      "lat": 30.1408006,
+      "lon": 78.3157048,
+      "tags": {
+        "name": "Bhumi Forest Camp",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12343507205,
+      "lat": 30.1424483,
+      "lon": 78.3153196,
+      "tags": {
+        "name": "The Rudram Aura",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12343507503,
+      "lat": 30.147245,
+      "lon": 78.3148349,
+      "tags": {
+        "name": "Tapovan Cascades",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12343507603,
+      "lat": 30.1340135,
+      "lon": 78.3200457,
+      "tags": {
+        "name": "UbEx Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12343766102,
+      "lat": 30.1278994,
+      "lon": 78.3219721,
+      "tags": {
+        "name": "m. s. Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12347037701,
+      "lat": 29.9597991,
+      "lon": 78.1719472,
+      "tags": {
+        "name": "Suryodaya",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12538557174,
+      "lat": 30.4495069,
+      "lon": 78.0859103,
+      "tags": {
+        "addr:city": "Picture Palace Road",
+        "addr:district": "Mussoorie",
+        "addr:postcode": "248179",
+        "addr:street": "Big Bend",
+        "brand": "Lemon Tree",
+        "email": "hi.ltrms@lemontreehotels.com",
+        "internet_access": "yes",
+        "name": "Lemon Tree Resort Mussoorie",
+        "phone": "0135 263 1241",
+        "tourism": "hotel",
+        "website": "https://www.lemontreehotels.com/lemon-tree-hotel/mussoorie/resorts-in-mussoorie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12592557455,
+      "lat": 30.227806,
+      "lon": 78.8062802,
+      "tags": {
+        "name": "SARSWATI GIRLS HOSTEL",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12592557456,
+      "lat": 30.2274352,
+      "lon": 78.8061858,
+      "tags": {
+        "name": "MANDAKNI GIRLS HOSTEL",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12592557457,
+      "lat": 30.2277912,
+      "lon": 78.8059112,
+      "tags": {
+        "name": "GANGA GIRLS HOSTEL",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12592557458,
+      "lat": 30.2276503,
+      "lon": 78.8055507,
+      "tags": {
+        "name": "NANDA DEVI GILS HOSTEL",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12592557459,
+      "lat": 30.2279172,
+      "lon": 78.8050185,
+      "tags": {
+        "name": "BAGHIRATHI GIRLS HOSTEL",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12592557460,
+      "lat": 30.228073,
+      "lon": 78.8043319,
+      "tags": {
+        "name": "YAMUNA GIRLS HOSTEL",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12595974648,
+      "lat": 30.4115785,
+      "lon": 79.3173785,
+      "tags": {
+        "name": "HILL VIEW HOTEL",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596010149,
+      "lat": 28.978107,
+      "lon": 79.3978627,
+      "tags": {
+        "name": "spot on hotel elite plaza",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596012110,
+      "lat": 28.9752664,
+      "lon": 79.4262677,
+      "tags": {
+        "name": "A one guest house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596089614,
+      "lat": 28.9789088,
+      "lon": 79.3986441,
+      "tags": {
+        "name": "hotel aroma classic",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596192165,
+      "lat": 30.4045584,
+      "lon": 79.3301155,
+      "tags": {
+        "name": "HOTEL RIVER VIEW",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596195682,
+      "lat": 29.0003678,
+      "lon": 79.399268,
+      "tags": {
+        "brand": "Radisson Blu",
+        "brand:wikidata": "Q7281341",
+        "name": "Radisson Blu",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596293536,
+      "lat": 30.4015063,
+      "lon": 79.3307389,
+      "tags": {
+        "name": "HOTEL SURYA",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596328044,
+      "lat": 30.402455,
+      "lon": 79.3309406,
+      "tags": {
+        "name": "RAGHAV LODGE",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596331063,
+      "lat": 30.3479058,
+      "lon": 79.3212587,
+      "tags": {
+        "name": "SATI LODGE AND RESTAURANT",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596331222,
+      "lat": 30.4027654,
+      "lon": 79.3308167,
+      "tags": {
+        "name": "VASUDEV LODGE",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596341691,
+      "lat": 30.3530954,
+      "lon": 79.3196413,
+      "tags": {
+        "name": "HOTEL DRONKUNJ",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12610422964,
+      "lat": 29.5635539,
+      "lon": 79.4521628,
+      "tags": {
+        "name": "Resort Blue Lotus",
+        "operator": "Dhruv",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12656816548,
+      "lat": 30.4560516,
+      "lon": 78.0578461,
+      "tags": {
+        "addr:city": "Mussoorie",
+        "addr:district": "Uttarakhand",
+        "addr:housenumber": "Hotel Nature's Lap",
+        "addr:postcode": "248179",
+        "addr:street": "Spring Road, library",
+        "email": "Wearenatureslap@gmail.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Hotel Nature's Lap",
+        "phone": "+91-8979489207",
+        "reservation": "yes",
+        "rooms": "20",
+        "tourism": "hotel",
+        "website": "https://www.hotelnatureslap.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12706503701,
+      "lat": 30.3122144,
+      "lon": 78.076946,
+      "tags": {
+        "addr:postcode": "24801",
+        "addr:street": "Ring Road",
+        "internet_access": "wlan",
+        "name": "Treebo Premium Hotel Pearl Avenue",
+        "opening_hours": "24/7",
+        "phone": "+919322800100",
+        "self_service": "no",
+        "tourism": "hotel",
+        "website": "https://www.treebo.com/hotels-in-dehradun/treebo-premium-pearl-avenue-ring-road-3471/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12750035502,
+      "lat": 29.7967967,
+      "lon": 78.6633462,
+      "tags": {
+        "addr:street": "Tehsil, Jungle View Homestay, Sendhikhal Village and Post Office Sendhikhal, Lansdowne, Uttarakhand",
+        "name": "Jungle View Homestay, Sendhikhal, Uttarakhand",
+        "name:hi": "जंगल व्यू होमस्टे, सेंधिखाल, उत्तराखंड",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12901888526,
+      "lat": 30.467388,
+      "lon": 78.0619536,
+      "tags": {
+        "addr:city": "Mussoorie",
+        "addr:district": "Dehradun",
+        "addr:housenumber": "Ananta Prana",
+        "addr:postcode": "248179",
+        "addr:street": "Kempty Road, Ananta Prana Bend , Charleville, Srinagar Estate , ( Landmark: Ahead of Sanjha Darbar)",
+        "brand": "Ananta",
+        "contact:facebook": "https://www.facebook.com/anantaprana7",
+        "description": "Welcome to Ananta Prana Glamping Resort Hotel in Mussoorie , enjoy the natural setting and the panoramic views with oragnic homely food . The only Couple & dog friendly hotels in Mussoorie .\nGoogle Link : https://g.co/kgs/HiBcpFQ",
+        "email": "anantaprana1@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Ananta Prana Glamping Resort Hotel in Mussoorie",
+        "opening_hours": "24/7",
+        "phone": "+91 8007000085",
+        "rooms": "5",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://anantaoutdoors.com/hotels-in-mussoorie-glamping-camping/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13026788046,
+      "lat": 29.4213944,
+      "lon": 79.4048409,
+      "tags": {
+        "addr:city": "Pangot",
+        "addr:district": "Nainital",
+        "addr:postcode": "236001",
+        "addr:street": "Bagar Road",
+        "air_conditioning": "yes",
+        "brand": "The Slow House",
+        "email": "contact@slowhouselife.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "The Slow House Pangot",
+        "phone": "+918595700621",
+        "rooms": "5",
+        "tourism": "hotel",
+        "website": "https://www.slowhouselife.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13142640774,
+      "lat": 29.9451319,
+      "lon": 78.1583166,
+      "tags": {
+        "name": "Dwarkesh",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13147003761,
+      "lat": 30.1301436,
+      "lon": 78.3235479,
+      "tags": {
+        "name": "Manik",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13147005123,
+      "lat": 30.1300585,
+      "lon": 78.3234214,
+      "tags": {
+        "name": "Zostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13147021700,
+      "lat": 30.1301669,
+      "lon": 78.3234945,
+      "tags": {
+        "name": "Chandra",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13148918353,
+      "lat": 30.1302256,
+      "lon": 78.3221761,
+      "tags": {
+        "name": "Bunk hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13148920014,
+      "lat": 30.1316459,
+      "lon": 78.3207068,
+      "tags": {
+        "name": "The little house",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13148920015,
+      "lat": 30.1333875,
+      "lon": 78.3193975,
+      "tags": {
+        "name": "Akshat homestay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13153010167,
+      "lat": 30.1307455,
+      "lon": 78.3237522,
+      "tags": {
+        "name": "Marc Blue",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13158972644,
+      "lat": 30.1297853,
+      "lon": 78.3250746,
+      "tags": {
+        "name": "W.inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13158994411,
+      "lat": 30.1299547,
+      "lon": 78.3256156,
+      "tags": {
+        "name": "chakrah",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13164788626,
+      "lat": 31.1193481,
+      "lon": 78.343251,
+      "tags": {
+        "name": "Homestay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13265043302,
+      "lat": 30.3324453,
+      "lon": 78.0794463,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Stayable Homestay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13266859793,
+      "lat": 30.2371063,
+      "lon": 81.0232041,
+      "tags": {
+        "name": "Kailash Mansarovar Yatri Niwas Lipulekh",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13270691760,
+      "lat": 30.3147238,
+      "lon": 78.0342193,
+      "tags": {
+        "name": "Le Roi",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13272391928,
+      "lat": 31.0779832,
+      "lon": 78.1840787,
+      "tags": {
+        "name": "Hotel Swargarohini Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13272392939,
+      "lat": 30.8371933,
+      "lon": 78.0931138,
+      "tags": {
+        "name": "MDRS",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13272402354,
+      "lat": 31.0782201,
+      "lon": 78.1844951,
+      "tags": {
+        "name": "Rana Homestay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13277390807,
+      "lat": 29.9452591,
+      "lon": 78.1585645,
+      "tags": {
+        "name": "Shiv Inn",
+        "phone": "+919758818400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13283334111,
+      "lat": 31.1179106,
+      "lon": 78.3416337,
+      "tags": {
+        "name": "Yash Homestay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13283353067,
+      "lat": 31.0739,
+      "lon": 78.1884343,
+      "tags": {
+        "name": "Snow Valley",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13283365005,
+      "lat": 31.0744309,
+      "lon": 78.1867686,
+      "tags": {
+        "name": "Sankri Base Camp",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13283367124,
+      "lat": 31.0734401,
+      "lon": 78.1892723,
+      "tags": {
+        "name": "The garage food",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13285112801,
+      "lat": 30.1779017,
+      "lon": 78.2300662,
+      "tags": {
+        "name": "The grand heritage inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13285491981,
+      "lat": 30.1294819,
+      "lon": 78.3240141,
+      "tags": {
+        "name": "Hotel Shiv Villas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13287190157,
+      "lat": 29.947044,
+      "lon": 78.1589125,
+      "tags": {
+        "name": "Suvidha",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13324014401,
+      "lat": 29.2268629,
+      "lon": 78.9727046,
+      "tags": {
+        "addr:postcode": "244713",
+        "addr:street": "Ramnagar Road, Near Railway Crossing, Kashipur",
+        "name": "Hotel Ananya Regency - Gateway to Corbett",
+        "opening_hours": "24/7",
+        "phone": "09568800044",
+        "tourism": "hotel",
+        "website": "https://hotelananyaregency.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13359132902,
+      "lat": 30.1307877,
+      "lon": 78.3205786,
+      "tags": {
+        "name": "Leela Hatha",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13377489912,
+      "lat": 29.9520249,
+      "lon": 78.1659891,
+      "tags": {
+        "addr:city": "Haridwar",
+        "addr:district": "Uttarakhand",
+        "addr:housenumber": "21",
+        "addr:postcode": "249401",
+        "addr:street": "Ram Ghat",
+        "brand": "IHCL",
+        "name": "Hari Ganga Niwas, Haridwar - IHCL SeleQtions",
+        "phone": "+91 13343 62800",
+        "tourism": "hotel",
+        "website": "https://www.seleqtionshotels.com/en-in/hotels/hari-ganga-niwas-haridwar?utm_source=google&utm_medium=local&utm_campaign=hari-ganga-niwas-haridwar-seleqtions-cla&utm_content=hari-ganga-niwas-haridwar-seleqtions-cla-gmb"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13412884801,
+      "lat": 30.242349,
+      "lon": 78.2140013,
+      "tags": {
+        "addr:housenumber": "66R7+WJ6",
+        "addr:postcode": "248143",
+        "addr:street": "Chauki, Uttarakhand",
+        "name": "Lekhak Gaon",
+        "name:hi": "लेख गांव",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13414174632,
+      "lat": 29.3405681,
+      "lon": 79.5782969,
+      "tags": {
+        "addr:city": "Bhimtal",
+        "addr:district": "Nainital",
+        "addr:housenumber": "gaon road",
+        "addr:postcode": "263136",
+        "addr:street": "Bhimtal - Naukuchhiatal Road",
+        "email": "noblenook01@gmail.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Noble Nook Stay Bhimtal",
+        "phone": "+91-9259820611",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13479086201,
+      "lat": 30.1204114,
+      "lon": 78.3201981,
+      "tags": {
+        "addr:housenumber": "120",
+        "addr:postcode": "249304",
+        "addr:street": "Shanti Makaan Jonk Rd, near Ram Jhula, Swarg Ashram, Rishikesh, Uttarakhand",
+        "contact:instagram": "bhawansavitri",
+        "email": "savitribhavan7906@gmail.com",
+        "internet_access": "wlan",
+        "name": "Guest House Savitri Bhawan",
+        "opening_hours": "24/7",
+        "phone": "+917906755155",
+        "tourism": "guest_house",
+        "website": "https://savitribhawancom.localo.site/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13479091901,
+      "lat": 30.1204222,
+      "lon": 78.3201998,
+      "tags": {
+        "addr:postcode": "249304",
+        "addr:street": "Shanti Makaan Jonk Rd, near Ram Jhula, Swarg Ashram, Rishikesh, Uttarakhand",
+        "contact:instagram": "bhawansavitri",
+        "email": "savitribhavan7906@gmail.com",
+        "internet_access": "wlan",
+        "name": "Guest House Savitri Bhawan",
+        "opening_hours": "24/7",
+        "phone": "+917906755155",
+        "tourism": "guest_house",
+        "website": "https://savitribhawancom.localo.site/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13520091277,
+      "lat": 30.3735754,
+      "lon": 78.0764832,
+      "tags": {
+        "brand": "Six Senses",
+        "brand:wikidata": "Q108049683",
+        "name": "Six Senses Vana",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13637059305,
+      "lat": 30.1234921,
+      "lon": 78.328654,
+      "tags": {
+        "name": "Joey's by the Ganges",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13669867001,
+      "lat": 30.1290576,
+      "lon": 78.3231014,
+      "tags": {
+        "name": "Blue Stayz Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13673511901,
+      "lat": 30.1329536,
+      "lon": 78.3234953,
+      "tags": {
+        "name": "Urban Loft Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13744382201,
+      "lat": 29.5022173,
+      "lon": 79.6215985,
+      "tags": {
+        "addr:postcode": "263138",
+        "addr:street": "Satkhol, Peura (Mukteshwar), Nainital, Uttarakhand",
+        "check_date": "2026-04-20",
+        "name": "The Pearl Satkhol",
+        "phone": "+919258499481",
+        "tourism": "hotel",
+        "website": "https://pearlsatkhol.heartfulness.org"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13778768101,
+      "lat": 30.271354,
+      "lon": 77.997428,
+      "tags": {
+        "addr:postcode": "248002",
+        "addr:street": "Lane No 4",
+        "internet_access": "wlan",
+        "name": "S.C Bose Hostel",
+        "name:hi": "सुभाष चंद्र बोस हॉस्टल",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13789691762,
+      "lat": 30.7362652,
+      "lon": 78.3999995,
+      "tags": {
+        "addr:city": "UTTARKASHI",
+        "addr:district": "UTTARKASHI",
+        "addr:housenumber": "HOTEL DAIWARCH",
+        "addr:postcode": "249193",
+        "addr:street": "GANGOTRI ROAD CHUNGI BARETHI",
+        "brand": "HOTEL DAIWARCH",
+        "email": "hoteldaiwarch@gmail.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "HOTEL DAIWARCH",
+        "phone": "8982728424",
+        "rooms": "20",
+        "tourism": "hotel",
+        "website": "www.hoteldaiwarch.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13813389911,
+      "lat": 29.403548,
+      "lon": 79.6311882,
+      "tags": {
+        "name": "Fursat - Exclusive Solitude",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13830352701,
+      "lat": 29.4150931,
+      "lon": 79.1491184,
+      "tags": {
+        "contact:instagram": "tigersincorbett",
+        "internet_access": "wlan",
+        "name": "Sparrow Nest Corbett homestay",
+        "phone": "+91 97586 13308",
+        "tourism": "guest_house",
+        "website": "https://www.sparrownestcorbett.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13939625501,
+      "lat": 30.5564626,
+      "lon": 79.564813,
+      "tags": {
+        "addr:street": "Joshimath - Auli road",
+        "check_date": "2026-06-14",
+        "name": "Uday Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13953477402,
+      "lat": 29.458807,
+      "lon": 79.1453142,
+      "tags": {
+        "check_date": "2026-06-20",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "La Savanna Resort & SPA by DL Hotels & Resorts",
+        "self_service": "yes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13953477403,
+      "lat": 30.4479211,
+      "lon": 78.0887636,
+      "tags": {
+        "addr:street": "Wynberg Slope",
+        "check_date": "2026-06-20",
+        "name": "Shivalik Hills",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13953477901,
+      "lat": 30.4409381,
+      "lon": 79.4296054,
+      "tags": {
+        "addr:street": "National Highway 7",
+        "check_date": "2026-06-16",
+        "name": "Hotel Uday Palace",
+        "self_service": "yes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13953478101,
+      "lat": 29.3710966,
+      "lon": 79.4299498,
+      "tags": {
+        "addr:street": "Kaldhungi-Nainital Road",
+        "check_date": "2026-06-18",
+        "level": "0",
+        "name": "Golden Oak by The Lake Hill",
+        "self_service": "yes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13971526251,
+      "lat": 30.3481381,
+      "lon": 78.0620822,
+      "tags": {
+        "name": "Hotel Sunrise",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 210723359,
+      "center": {
+        "lat": 30.1303534,
+        "lon": 79.6189965
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Patwal Tourist Lodge",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226734199,
+      "center": {
+        "lat": 30.7327072,
+        "lon": 79.0670563
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Bhopal Bhavan",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226734224,
+      "center": {
+        "lat": 30.7338346,
+        "lon": 79.0665897
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Indore House",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226734231,
+      "center": {
+        "lat": 30.7343423,
+        "lon": 79.0670856
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Patiyala Punjab Guest House",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226734242,
+      "center": {
+        "lat": 30.734251,
+        "lon": 79.0673464
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Punjab & Sindh Niwas",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226737466,
+      "center": {
+        "lat": 30.735215,
+        "lon": 79.0674275
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Bikaner",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226737482,
+      "center": {
+        "lat": 30.734862,
+        "lon": 79.0675561
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Marwar House",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226737483,
+      "center": {
+        "lat": 30.7366677,
+        "lon": 79.0669403
+      },
+      "tags": {
+        "building": "yes",
+        "destroyed:building": "yes",
+        "name": "Bharat Sevashram Sangh Kedarnath",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226737485,
+      "center": {
+        "lat": 30.7346966,
+        "lon": 79.0671253
+      },
+      "tags": {
+        "building": "yes",
+        "name": "SSS Residency",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226737495,
+      "center": {
+        "lat": 30.7349698,
+        "lon": 79.0671751
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Agrabhavan",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226737525,
+      "center": {
+        "lat": 30.7344301,
+        "lon": 79.0663512
+      },
+      "tags": {
+        "building": "yes",
+        "name": "New Himachal House",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226738241,
+      "center": {
+        "lat": 30.734889,
+        "lon": 79.0661017
+      },
+      "tags": {
+        "building": "yes",
+        "name": "New Agrabhavan",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226738277,
+      "center": {
+        "lat": 30.7348023,
+        "lon": 79.0659215
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Rajasthan Sewa Sadan",
+        "source": "Bing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 227070398,
+      "center": {
+        "lat": 30.7456879,
+        "lon": 79.4945983
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Paramarth Ashram",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 227301693,
+      "center": {
+        "lat": 29.9243365,
+        "lon": 78.1297977
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Lakshya",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 232451924,
+      "center": {
+        "lat": 30.0769152,
+        "lon": 79.9186418
+      },
+      "tags": {
+        "name": "PWD Dhakuri",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 245313645,
+      "center": {
+        "lat": 30.2853267,
+        "lon": 77.9745138
+      },
+      "tags": {
+        "addr:city": "Dehradun",
+        "addr:postcode": "248001",
+        "addr:street": "Chandrabani",
+        "building": "yes",
+        "name": "New GuestHouse",
+        "operator": "Wildlife Institute of India",
+        "smoking": "no",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 250913663,
+      "center": {
+        "lat": 30.1078043,
+        "lon": 78.2923893
+      },
+      "tags": {
+        "name": "Neeraj Bhavan Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 277424378,
+      "center": {
+        "lat": 30.1260422,
+        "lon": 78.3320077
+      },
+      "tags": {
+        "building": "hotel",
+        "name": "Bunk Stay Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299562126,
+      "center": {
+        "lat": 31.0787438,
+        "lon": 78.2456098
+      },
+      "tags": {
+        "name": "Forest Rest House",
+        "operator": "Forest Department",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299564859,
+      "center": {
+        "lat": 31.0774743,
+        "lon": 78.1843976
+      },
+      "tags": {
+        "name": "GMVN Guest House, Sankri",
+        "operator": "Garwhal Mandal Vikas Nigam",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 324282420,
+      "center": {
+        "lat": 29.8378892,
+        "lon": 80.0319673
+      },
+      "tags": {
+        "building": "yes",
+        "name": "KMVN",
+        "operator": "KMVN",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 331779423,
+      "center": {
+        "lat": 30.3402224,
+        "lon": 78.0596626
+      },
+      "tags": {
+        "addr:city": "Dehradun",
+        "addr:housenumber": "97",
+        "addr:postcode": "248001",
+        "addr:street": "Rajpur Road",
+        "building": "yes",
+        "name": "Hotel Madhuban",
+        "smoking": "outside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 340414932,
+      "center": {
+        "lat": 29.6626901,
+        "lon": 79.4124334
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Tourist Rest House, Chilliyanaula",
+        "operator": "KMVN",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 342740709,
+      "center": {
+        "lat": 30.3405896,
+        "lon": 78.0456772
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "name": "E-Block, Godavari Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 378683095,
+      "center": {
+        "lat": 30.1199956,
+        "lon": 78.3221516
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Natraj Yog Peeth",
+        "phone": "7895168929",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399111993,
+      "center": {
+        "lat": 30.1258187,
+        "lon": 78.3319764
+      },
+      "tags": {
+        "building": "hotel",
+        "internet_access": "wlan",
+        "name": "Hare Rama",
+        "name:en": "Hare Rama",
+        "name:ru": "Харе Рама",
+        "opening_hours": "24/7",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399114854,
+      "center": {
+        "lat": 30.1278891,
+        "lon": 78.3317274
+      },
+      "tags": {
+        "building": "house",
+        "name": "Adi Badri Guesthouse",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 408030669,
+      "center": {
+        "lat": 30.1245937,
+        "lon": 78.331259
+      },
+      "tags": {
+        "building": "hotel",
+        "name": "Hotel Divya",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 408030671,
+      "center": {
+        "lat": 30.1246546,
+        "lon": 78.3307483
+      },
+      "tags": {
+        "building": "hotel",
+        "name": "Dharm Yatri Nivas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 408251231,
+      "center": {
+        "lat": 29.87101,
+        "lon": 77.8940761
+      },
+      "tags": {
+        "addr:city": "Roorkee",
+        "addr:postcode": "247667",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Rajendra Bhawan",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 429807249,
+      "center": {
+        "lat": 30.1424288,
+        "lon": 79.9224267
+      },
+      "tags": {
+        "building": "yes",
+        "name": "KMVN Jatuli",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 484334531,
+      "center": {
+        "lat": 30.2531949,
+        "lon": 79.2192291
+      },
+      "tags": {
+        "building": "hotel",
+        "name": "Lodge",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 484352054,
+      "center": {
+        "lat": 30.7295733,
+        "lon": 78.4375481
+      },
+      "tags": {
+        "name": "Birla Dhramshala",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 508579960,
+      "center": {
+        "lat": 30.7307428,
+        "lon": 78.445651
+      },
+      "tags": {
+        "building": "yes",
+        "name": "GMVN Tourist Rest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 508901446,
+      "center": {
+        "lat": 30.9508842,
+        "lon": 79.051843
+      },
+      "tags": {
+        "building": "yes",
+        "name": "GMVN",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 509727930,
+      "center": {
+        "lat": 30.3837207,
+        "lon": 78.4421909
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Bhagirathi Darshan",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531081107,
+      "center": {
+        "lat": 29.947878,
+        "lon": 78.0755386
+      },
+      "tags": {
+        "addr:city": "Haridwar",
+        "addr:postcode": "249403",
+        "addr:subdistrict": "Sector 12",
+        "building": "hotel",
+        "name": "Hyphen Grand",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531081108,
+      "center": {
+        "lat": 29.9468988,
+        "lon": 78.075642
+      },
+      "tags": {
+        "addr:city": "Haridwar",
+        "addr:district": "Sidcul",
+        "addr:postcode": "249403",
+        "addr:subdistrict": "Sector 12",
+        "brand": "Radisson Blu",
+        "brand:wikidata": "Q7281341",
+        "brand:wikipedia": "en:Radisson Blu",
+        "building": "hotel",
+        "name": "Radisson Blu Haridwar",
+        "tourism": "hotel",
+        "website": "https://www.radissonblu.com/en/hotel-haridwar"
+      }
+    },
+    {
+      "type": "way",
+      "id": 532545788,
+      "center": {
+        "lat": 29.4110776,
+        "lon": 79.0064771
+      },
+      "tags": {
+        "name": "Gajraj Trails Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 532551414,
+      "center": {
+        "lat": 29.3410452,
+        "lon": 79.5320439
+      },
+      "tags": {
+        "name": "V Resorts",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 623043861,
+      "center": {
+        "lat": 30.1578495,
+        "lon": 78.2904391
+      },
+      "tags": {
+        "name": "Ananda in the Himalayas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 654639892,
+      "center": {
+        "lat": 30.6351269,
+        "lon": 79.2217411
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Madmaheshwar Dharamshala",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685046932,
+      "center": {
+        "lat": 29.5979832,
+        "lon": 79.6290994
+      },
+      "tags": {
+        "addr:city": "Almora, Uttarakhand",
+        "addr:housenumber": "The Himalayan Bungalow",
+        "addr:postcode": "263601",
+        "addr:street": "Podhar Road Khatyari",
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "The Himalayan Bungalow",
+        "tourism": "chalet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 781622421,
+      "center": {
+        "lat": 30.2841941,
+        "lon": 77.9753793
+      },
+      "tags": {
+        "building": "yes",
+        "guest_house": "Institutional_guest_house",
+        "name": "Guest House",
+        "operator": "Wildlife Institute of India",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 873879846,
+      "center": {
+        "lat": 29.1501983,
+        "lon": 79.1539576
+      },
+      "tags": {
+        "building": "yes",
+        "name": "girls hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 880252368,
+      "center": {
+        "lat": 29.9886914,
+        "lon": 78.1888762
+      },
+      "tags": {
+        "building": "yes",
+        "name": "The Urmi",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 891271442,
+      "center": {
+        "lat": 29.1987017,
+        "lon": 79.5128159
+      },
+      "tags": {
+        "addr:street": "Rampur Road",
+        "name": "Hotel Blue Saphire Countryside",
+        "phone": "+915946235201",
+        "tourism": "hotel",
+        "website": "https://hotelbluesaphire.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 900794366,
+      "center": {
+        "lat": 29.4686033,
+        "lon": 79.648868
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Alankar Home Stay & Resturant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 944828471,
+      "center": {
+        "lat": 30.5089872,
+        "lon": 79.0942379
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "contact:facebook": "https://www.facebook.com/pages/category/Hotel/Hotel-Madhu-Ganga-103290871752889/",
+        "name": "Hotel Madhuganga",
+        "phone": "9068688875",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1033157934,
+      "center": {
+        "lat": 30.2662213,
+        "lon": 78.0442245
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Alaknanda Girls Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1033157935,
+      "center": {
+        "lat": 30.2656516,
+        "lon": 78.0444067
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Girls Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1033157936,
+      "center": {
+        "lat": 30.2650914,
+        "lon": 78.0444236
+      },
+      "tags": {
+        "building": "yes",
+        "name": "New Girls Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1055274096,
+      "center": {
+        "lat": 29.1979629,
+        "lon": 79.5051077
+      },
+      "tags": {
+        "building": "yes",
+        "mapillary": "413144566822907",
+        "name": "Hotel Anand Lok Bar And Resturant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056565281,
+      "center": {
+        "lat": 29.2063434,
+        "lon": 79.5149882
+      },
+      "tags": {
+        "addr:street": "Dhan Mill Road",
+        "building": "yes",
+        "name": "Hotel Chitrarth and Party Lawn",
+        "phone": "08006715505",
+        "tourism": "hotel",
+        "website": "https://www.facebook.com/pages/Hotel-Chitrarth-and-Party-Lawn/496733467106112?ref=hl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056565445,
+      "center": {
+        "lat": 29.1990422,
+        "lon": 79.5122663
+      },
+      "tags": {
+        "name": "The Ranch House Homestay And Trails",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1060188344,
+      "center": {
+        "lat": 30.457192,
+        "lon": 78.0853781
+      },
+      "tags": {
+        "guest_house": "guest_house",
+        "name": "Central Government Touring Officers Guest House",
+        "operator": "Central Public Works Department",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1060188356,
+      "center": {
+        "lat": 30.457432,
+        "lon": 78.0866763
+      },
+      "tags": {
+        "guest_house": "guest_house",
+        "name": "Survey of India Guest House",
+        "operator": "Survey of India",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1065793532,
+      "center": {
+        "lat": 30.323211,
+        "lon": 78.0430521
+      },
+      "tags": {
+        "guest_house": "guest_house",
+        "name": "Central Government Touring Officers Guest House",
+        "operator": "Central Public Works Department",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1066649876,
+      "center": {
+        "lat": 30.0049456,
+        "lon": 79.5699107
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Nature\"s treat hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1066877488,
+      "center": {
+        "lat": 30.0042118,
+        "lon": 79.5693827
+      },
+      "tags": {
+        "building": "yes",
+        "name": "hotel trishuli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1070560420,
+      "center": {
+        "lat": 30.4576033,
+        "lon": 78.0674676
+      },
+      "tags": {
+        "building": "yes",
+        "guest_house": "guest_house",
+        "name": "Central Government Touring Officers Guest House",
+        "operator": "Central Public Works Department",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1091240075,
+      "center": {
+        "lat": 29.1886501,
+        "lon": 79.5029391
+      },
+      "tags": {
+        "building": "yes",
+        "mapillary": "586035316508275",
+        "name": "Hotel Sai Leela",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1120991324,
+      "center": {
+        "lat": 30.2710265,
+        "lon": 78.0017045
+      },
+      "tags": {
+        "building": "yes",
+        "name": "A Block",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1120991325,
+      "center": {
+        "lat": 30.2708003,
+        "lon": 78.0019298
+      },
+      "tags": {
+        "building": "yes",
+        "name": "C Block",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1120991326,
+      "center": {
+        "lat": 30.2711631,
+        "lon": 78.002117
+      },
+      "tags": {
+        "building": "yes",
+        "name": "B Block",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1120991327,
+      "center": {
+        "lat": 30.2708587,
+        "lon": 78.0025694
+      },
+      "tags": {
+        "building": "yes",
+        "name": "D Block",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1120991328,
+      "center": {
+        "lat": 30.270522,
+        "lon": 78.0022994
+      },
+      "tags": {
+        "building": "yes",
+        "name": "G Block",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1148159649,
+      "center": {
+        "lat": 30.5964197,
+        "lon": 79.868308
+      },
+      "tags": {
+        "building": "yes",
+        "internet_access": "no",
+        "name": "DRONAGIRI GUEST HOUSE",
+        "operator": "LOCAL PEOPLE",
+        "rooms": "8-12",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1150072690,
+      "center": {
+        "lat": 30.1108187,
+        "lon": 78.2847436
+      },
+      "tags": {
+        "name": "Triveni Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1154701679,
+      "center": {
+        "lat": 30.4814673,
+        "lon": 78.0467331
+      },
+      "tags": {
+        "brand": "JW Marriott",
+        "brand:wikidata": "Q1067636",
+        "building": "yes",
+        "name": "JW Marriott Mussoorie Walnut Grove Resort & Spa",
+        "phone": "01352635700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1163048662,
+      "center": {
+        "lat": 28.9754273,
+        "lon": 79.3891699
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Rudra Continental Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1179903556,
+      "center": {
+        "lat": 29.8303827,
+        "lon": 79.7694618
+      },
+      "tags": {
+        "addr:city": "Bageshwar, Uttarakhand",
+        "addr:housenumber": "Almora-Bageshwar Rd",
+        "addr:postcode": "263642",
+        "building": "yes",
+        "internet_access": "yes",
+        "name": "Hotell deep palace",
+        "phone": "07830154529",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1179903790,
+      "center": {
+        "lat": 29.8303155,
+        "lon": 79.7696371
+      },
+      "tags": {
+        "addr:city": "Bageshwar, Uttarakhand",
+        "addr:housenumber": "RQJ9+4RC,",
+        "addr:postcode": "263642",
+        "addr:street": "Almora Bageshwar Highway",
+        "building": "hotel",
+        "name": "Hotel Ashish",
+        "phone": "05963220103",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1179903965,
+      "center": {
+        "lat": 29.830506,
+        "lon": 79.7702043
+      },
+      "tags": {
+        "addr:city": "Bageshwar, Uttarakhand",
+        "addr:housenumber": "1, Bhauli, Bilona",
+        "addr:postcode": "263642",
+        "addr:street": "Almora Bageshwar Highway",
+        "building": "yes",
+        "name": "Hotel Ambika Palace",
+        "phone": "01246201531",
+        "tourism": "hotel",
+        "website": "https://www.oyorooms.com/hotels-in-Bageshwar/?utm_source=GMB_IN_SO&utm_medium=Organic"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1188876812,
+      "center": {
+        "lat": 29.2008372,
+        "lon": 79.5154744
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Raj Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1188894169,
+      "center": {
+        "lat": 29.184863,
+        "lon": 79.5216044
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Jasmine Grand",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1188922840,
+      "center": {
+        "lat": 29.2369632,
+        "lon": 79.5323674
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Devashish Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1188922842,
+      "center": {
+        "lat": 29.2351165,
+        "lon": 79.5327788
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Candy Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190521215,
+      "center": {
+        "lat": 29.1746668,
+        "lon": 79.4938638
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Sheetal Hotel",
+        "phone": "09568013130",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190992671,
+      "center": {
+        "lat": 29.0710715,
+        "lon": 79.5165037
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Kunal",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1191384690,
+      "center": {
+        "lat": 28.9675791,
+        "lon": 79.4056413
+      },
+      "tags": {
+        "building": "yes",
+        "guest_house": "hostel",
+        "name": "Shri Dudhiya Baba Girls Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192358231,
+      "center": {
+        "lat": 28.9852363,
+        "lon": 79.4058502
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Vanvasi Kanya Chhatravas",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1223255442,
+      "center": {
+        "lat": 29.1307482,
+        "lon": 79.5201156
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel SHiva Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1223742925,
+      "center": {
+        "lat": 29.2154637,
+        "lon": 79.5288638
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel OK",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1223808602,
+      "center": {
+        "lat": 29.2176502,
+        "lon": 79.5186114
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Crystal Grand",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242229728,
+      "center": {
+        "lat": 29.3815612,
+        "lon": 79.4594553
+      },
+      "tags": {
+        "building": "college",
+        "name": "RLB Girl's Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242229731,
+      "center": {
+        "lat": 29.3840383,
+        "lon": 79.4593505
+      },
+      "tags": {
+        "building": "college",
+        "name": "KP-A",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242229732,
+      "center": {
+        "lat": 29.3837622,
+        "lon": 79.4595667
+      },
+      "tags": {
+        "building": "college",
+        "name": "KP-B",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242229733,
+      "center": {
+        "lat": 29.3836449,
+        "lon": 79.4596428
+      },
+      "tags": {
+        "building": "college",
+        "name": "WR",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242229734,
+      "center": {
+        "lat": 29.3834505,
+        "lon": 79.4597697
+      },
+      "tags": {
+        "building": "college",
+        "name": "GD",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242229735,
+      "center": {
+        "lat": 29.3834179,
+        "lon": 79.4600629
+      },
+      "tags": {
+        "building": "college",
+        "name": "GH",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242231568,
+      "center": {
+        "lat": 29.3825922,
+        "lon": 79.4566928
+      },
+      "tags": {
+        "building": "university",
+        "name": "SBS",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242231570,
+      "center": {
+        "lat": 29.3830574,
+        "lon": 79.4568145
+      },
+      "tags": {
+        "building": "yes",
+        "name": "CSA",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242231571,
+      "center": {
+        "lat": 29.3832092,
+        "lon": 79.4565711
+      },
+      "tags": {
+        "building": "yes",
+        "name": "WR",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242231572,
+      "center": {
+        "lat": 29.3838008,
+        "lon": 79.4567968
+      },
+      "tags": {
+        "building": "yes",
+        "name": "KCP",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1298167351,
+      "center": {
+        "lat": 30.1286038,
+        "lon": 78.32306
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Divine Lakshmi Ganga",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1298513281,
+      "center": {
+        "lat": 29.4764389,
+        "lon": 79.6224438
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Arth Hotels",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1339812789,
+      "center": {
+        "lat": 30.7356245,
+        "lon": 79.0677921
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Purohit Camps",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340253028,
+      "center": {
+        "lat": 30.7350747,
+        "lon": 79.0684283
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Alwar Bhandara",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340253029,
+      "center": {
+        "lat": 30.7334822,
+        "lon": 79.0665113
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Meerut Mandal And Mewar Sadan",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360648970,
+      "center": {
+        "lat": 30.409823,
+        "lon": 79.3172047
+      },
+      "tags": {
+        "building": "yes",
+        "name": "GARHWAL RESTAURANT",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360649599,
+      "center": {
+        "lat": 30.4095351,
+        "lon": 79.3171971
+      },
+      "tags": {
+        "building": "yes",
+        "name": "ALKA LODGE",
+        "tourism": "chalet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360701966,
+      "center": {
+        "lat": 30.3804893,
+        "lon": 79.3209408
+      },
+      "tags": {
+        "building": "yes",
+        "name": "SHREE CHINTAMANI HOMESTAY",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360702702,
+      "center": {
+        "lat": 30.3679806,
+        "lon": 79.3119751
+      },
+      "tags": {
+        "building": "yes",
+        "name": "HOTEL BASANT",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360702761,
+      "center": {
+        "lat": 30.3652137,
+        "lon": 79.3132006
+      },
+      "tags": {
+        "building": "yes",
+        "name": "HOTEL VASUDHARA",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1414702603,
+      "center": {
+        "lat": 30.4194104,
+        "lon": 78.1016901
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Kipling Trail Cottage",
+        "tourism": "chalet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1437088815,
+      "center": {
+        "lat": 30.3185326,
+        "lon": 78.0830636
+      },
+      "tags": {
+        "building": "yes",
+        "guest_house": "guest_house",
+        "name": "IRDE Guest House",
+        "operator": "IRDE",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1455386663,
+      "center": {
+        "lat": 30.0571968,
+        "lon": 78.4814975
+      },
+      "tags": {
+        "name": "Taj Rishikesh",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1457118592,
+      "center": {
+        "lat": 30.5374503,
+        "lon": 79.5782623
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Faraway Cottages, Auli",
+        "tourism": "hotel",
+        "website": "https://www.farawaycottages.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1497402655,
+      "center": {
+        "lat": 29.4104197,
+        "lon": 79.0036616
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Eminence The Corbett",
+        "tourism": "hotel",
+        "website": "https://www.eminencehotelsandresorts.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1530514540,
+      "center": {
+        "lat": 30.4386499,
+        "lon": 77.6688133
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Cottage 4 - Red cresented pochard",
+        "tourism": "chalet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1531708214,
+      "center": {
+        "lat": 30.4386941,
+        "lon": 77.6688164
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Cottage 3 - Shoveller",
+        "tourism": "chalet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1531708215,
+      "center": {
+        "lat": 30.4387543,
+        "lon": 77.6688225
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Cottage 2 -  mallard",
+        "tourism": "chalet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1531708216,
+      "center": {
+        "lat": 30.4388006,
+        "lon": 77.6688262
+      },
+      "tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Cottage 1- Ruddy Shellduck",
+        "tourism": "chalet"
+      }
+    }
+  ]
+}

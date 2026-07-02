@@ -1,0 +1,5518 @@
+{
+  "generated": "2026-06-28T12:42:33.342197",
+  "note": "Aggregated from Uttarakhand_HomeStay_Reviews.csv + project_data_500.xlsx",
+  "homestays": [
+    {
+      "_id": "h1000",
+      "name": "Abbotsford Heritage Homestay",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 2200,
+      "averageRating": 3.5,
+      "totalReviews": 20,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 3,
+      "description": "Abbotsford Heritage Homestay is a eco-homestay in Nainital, Nainital, Uttarakhand. Guests frequently mention experience uniqueness, host behaviour, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/chopta-forest.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1001",
+      "name": "Amraai Homestay",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2300,
+      "averageRating": 3.6,
+      "totalReviews": 13,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Amraai Homestay is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention food, host behaviour, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/kausani-peaks.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1002",
+      "name": "Andaman Homestay",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2400,
+      "averageRating": 3.8,
+      "totalReviews": 12,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Andaman Homestay is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention host behaviour, food, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/nainital-lake.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1003",
+      "name": "Bhandari Homestay",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2400,
+      "averageRating": 3.7,
+      "totalReviews": 15,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "Bhandari Homestay is a eco-homestay in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention food, host behaviour, cleanliness. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/munsiyari.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1004",
+      "name": "Casa Arhan Luxury Homestay",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2100,
+      "averageRating": 3.9,
+      "totalReviews": 14,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "Casa Arhan Luxury Homestay is a eco-homestay in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention experience uniqueness, host behaviour, food. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/mountain-village.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1005",
+      "name": "Cloud View Homestay",
+      "village": "Kausani",
+      "district": "Bageshwar",
+      "state": "Uttarakhand",
+      "pricePerNight": 2100,
+      "averageRating": 3.7,
+      "totalReviews": 246,
+      "propertyType": "Eco-Homestay",
+      "category": "Trekking",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "Cloud View Homestay is a eco-homestay in Kausani, Bageshwar, Uttarakhand. Guests frequently mention value for money, amenities, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/auli-snow.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.84,
+        "lng": 79.6
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1006",
+      "name": "Cloud9 Stay",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2400,
+      "averageRating": 4.0,
+      "totalReviews": 19,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 3,
+      "description": "Cloud9 Stay is a eco-homestay in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention accessibility, experience uniqueness, food. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/pangot-birds.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1007",
+      "name": "Cosy Cosy Homestay",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2200,
+      "averageRating": 3.4,
+      "totalReviews": 15,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 6,
+      "description": "Cosy Cosy Homestay is a eco-homestay in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention cleanliness, accessibility, food. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/valley-flowers.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1008",
+      "name": "Darshan Homestay",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2000,
+      "averageRating": 4.1,
+      "totalReviews": 12,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 2,
+      "description": "Darshan Homestay is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention experience uniqueness, host behaviour, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/temple-kedarnath.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1009",
+      "name": "Eco Village Stay",
+      "village": "Mukteshwar",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 3600,
+      "averageRating": 3.8,
+      "totalReviews": 235,
+      "propertyType": "Mountain Villa",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Eco Village Stay is a mountain villa in Mukteshwar, Nainital, Uttarakhand. Guests frequently mention eco tourism, value for money, scenic beauty. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/chopta-forest.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.4731,
+        "lng": 79.6492
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1010",
+      "name": "Ecobeds Homestay",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 1900,
+      "averageRating": 3.8,
+      "totalReviews": 15,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 6,
+      "description": "Ecobeds Homestay is a eco-homestay in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention experience uniqueness, cleanliness, food. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/kausani-peaks.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1011",
+      "name": "Forest Edge Homestay",
+      "village": "Uttarkashi",
+      "district": "Uttarkashi",
+      "state": "Uttarakhand",
+      "pricePerNight": 2300,
+      "averageRating": 3.6,
+      "totalReviews": 234,
+      "propertyType": "Eco-Homestay",
+      "category": "Wildlife",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Forest Edge Homestay is a eco-homestay in Uttarkashi, Uttarkashi, Uttarakhand. Guests frequently mention amenities, food, trekking. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/nainital-lake.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.73,
+        "lng": 78.45
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1012",
+      "name": "Ganga River Homestay",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2400,
+      "averageRating": 3.2,
+      "totalReviews": 13,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 2,
+      "description": "Ganga River Homestay is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention host behaviour, cleanliness, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/munsiyari.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1013",
+      "name": "Green Hills Homestay",
+      "village": "Pithoragarh",
+      "district": "Pithoragarh",
+      "state": "Uttarakhand",
+      "pricePerNight": 1900,
+      "averageRating": 3.6,
+      "totalReviews": 237,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 6,
+      "description": "Green Hills Homestay is a eco-homestay in Pithoragarh, Pithoragarh, Uttarakhand. Guests frequently mention value for money, scenic beauty, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/mountain-village.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.5833,
+        "lng": 80.2181
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1014",
+      "name": "Gungun Homestay",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2500,
+      "averageRating": 2.7,
+      "totalReviews": 10,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 2,
+      "description": "Gungun Homestay is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention host behaviour, accessibility, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/auli-snow.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1015",
+      "name": "Hillside Retreat",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2900,
+      "averageRating": 3.6,
+      "totalReviews": 8,
+      "propertyType": "Eco Retreat",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Hillside Retreat is a eco retreat in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention accessibility, food, experience uniqueness. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/pangot-birds.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1016",
+      "name": "Himalayan Nest",
+      "village": "Kausani",
+      "district": "Bageshwar",
+      "state": "Uttarakhand",
+      "pricePerNight": 2000,
+      "averageRating": 3.5,
+      "totalReviews": 260,
+      "propertyType": "Eco-Homestay",
+      "category": "Bird Watching",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Himalayan Nest is a eco-homestay in Kausani, Bageshwar, Uttarakhand. Guests frequently mention cleanliness, food, hospitality. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/valley-flowers.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.84,
+        "lng": 79.6
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1017",
+      "name": "K Farms Homestay",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2400,
+      "averageRating": 3.9,
+      "totalReviews": 14,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "K Farms Homestay is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention host behaviour, value for money, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/temple-kedarnath.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1018",
+      "name": "Kalakriti Homestay",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2300,
+      "averageRating": 3.6,
+      "totalReviews": 15,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 3,
+      "description": "Kalakriti Homestay is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention experience uniqueness, cleanliness, host behaviour. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/chopta-forest.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1019",
+      "name": "Kumaon Heritage Stay",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 2500,
+      "averageRating": 3.4,
+      "totalReviews": 18,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Kumaon Heritage Stay is a eco-homestay in Nainital, Nainital, Uttarakhand. Guests frequently mention food, experience uniqueness, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/kausani-peaks.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1020",
+      "name": "Lake View Cottage",
+      "village": "Rudraprayag",
+      "district": "Rudraprayag",
+      "state": "Uttarakhand",
+      "pricePerNight": 2700,
+      "averageRating": 3.7,
+      "totalReviews": 244,
+      "propertyType": "Forest Cottage",
+      "category": "Char Dham",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Lake View Cottage is a forest cottage in Rudraprayag, Rudraprayag, Uttarakhand. Guests frequently mention hospitality, trekking, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/nainital-lake.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.2844,
+        "lng": 78.981
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1021",
+      "name": "Lake View Homestay",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 2300,
+      "averageRating": 3.7,
+      "totalReviews": 13,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "Lake View Homestay is a eco-homestay in Nainital, Nainital, Uttarakhand. Guests frequently mention accessibility, experience uniqueness, cleanliness. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/munsiyari.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1022",
+      "name": "Lakshmi Kutteer Homestay",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 2400,
+      "averageRating": 4.0,
+      "totalReviews": 15,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "Lakshmi Kutteer Homestay is a eco-homestay in Nainital, Nainital, Uttarakhand. Guests frequently mention host behaviour, experience uniqueness, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/mountain-village.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1023",
+      "name": "Mall Road Homestay",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2400,
+      "averageRating": 3.9,
+      "totalReviews": 13,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "Mall Road Homestay is a eco-homestay in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention accessibility, host behaviour, cleanliness. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/auli-snow.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1024",
+      "name": "Mallital Homestay",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 2100,
+      "averageRating": 4.0,
+      "totalReviews": 13,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 6,
+      "description": "Mallital Homestay is a eco-homestay in Nainital, Nainital, Uttarakhand. Guests frequently mention food, experience uniqueness, host behaviour. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/pangot-birds.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1025",
+      "name": "Mana Homestay",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2200,
+      "averageRating": 3.5,
+      "totalReviews": 6,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "Mana Homestay is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention host behaviour, food, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/valley-flowers.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1026",
+      "name": "Mountain View Homestay",
+      "village": "Tehri Garhwal",
+      "district": "Tehri Garhwal",
+      "state": "Uttarakhand",
+      "pricePerNight": 2500,
+      "averageRating": 3.6,
+      "totalReviews": 229,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Mountain View Homestay is a eco-homestay in Tehri Garhwal, Tehri Garhwal, Uttarakhand. Guests frequently mention hospitality, amenities, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/temple-kedarnath.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.39,
+        "lng": 78.48
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1027",
+      "name": "Mussoorie Homestay",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2500,
+      "averageRating": 3.6,
+      "totalReviews": 7,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 6,
+      "description": "Mussoorie Homestay is a eco-homestay in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention value for money, host behaviour, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/chopta-forest.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1028",
+      "name": "Nainital Eco Stay",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 2200,
+      "averageRating": 3.7,
+      "totalReviews": 12,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Nainital Eco Stay is a eco-homestay in Nainital, Nainital, Uttarakhand. Guests frequently mention cleanliness, experience uniqueness, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/kausani-peaks.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1029",
+      "name": "Nature Trails Stay",
+      "village": "Pithoragarh",
+      "district": "Pithoragarh",
+      "state": "Uttarakhand",
+      "pricePerNight": 2500,
+      "averageRating": 3.6,
+      "totalReviews": 251,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 3,
+      "description": "Nature Trails Stay is a eco-homestay in Pithoragarh, Pithoragarh, Uttarakhand. Guests frequently mention cleanliness, amenities, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/nainital-lake.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.5833,
+        "lng": 80.2181
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1030",
+      "name": "Oakwood Cottage",
+      "village": "Uttarkashi",
+      "district": "Uttarkashi",
+      "state": "Uttarakhand",
+      "pricePerNight": 2700,
+      "averageRating": 3.7,
+      "totalReviews": 221,
+      "propertyType": "Forest Cottage",
+      "category": "Char Dham",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Oakwood Cottage is a forest cottage in Uttarkashi, Uttarkashi, Uttarakhand. Guests frequently mention food, trekking, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/munsiyari.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.73,
+        "lng": 78.45
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1031",
+      "name": "Old Grove Homestay",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 2300,
+      "averageRating": 3.4,
+      "totalReviews": 25,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "Old Grove Homestay is a eco-homestay in Nainital, Nainital, Uttarakhand. Guests frequently mention host behaviour, experience uniqueness, cleanliness. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/mountain-village.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1032",
+      "name": "Om Homestay",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 1900,
+      "averageRating": 3.7,
+      "totalReviews": 15,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 3,
+      "description": "Om Homestay is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention host behaviour, value for money, experience uniqueness. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/auli-snow.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1033",
+      "name": "Paradise Homestay",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 2300,
+      "averageRating": 3.5,
+      "totalReviews": 16,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 2,
+      "description": "Paradise Homestay is a eco-homestay in Nainital, Nainital, Uttarakhand. Guests frequently mention host behaviour, cleanliness, experience uniqueness. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/pangot-birds.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1034",
+      "name": "Parvatiya Homestay",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2400,
+      "averageRating": 4.1,
+      "totalReviews": 18,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 2,
+      "description": "Parvatiya Homestay is a eco-homestay in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention experience uniqueness, cleanliness, host behaviour. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/valley-flowers.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1035",
+      "name": "Pine Valley Retreat",
+      "village": "Ranikhet",
+      "district": "Almora",
+      "state": "Uttarakhand",
+      "pricePerNight": 2600,
+      "averageRating": 3.7,
+      "totalReviews": 247,
+      "propertyType": "Eco Retreat",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 2,
+      "description": "Pine Valley Retreat is a eco retreat in Ranikhet, Almora, Uttarakhand. Guests frequently mention accessibility, location, scenic beauty. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/temple-kedarnath.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.6434,
+        "lng": 79.4322
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1036",
+      "name": "Prashant Homestay",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 2500,
+      "averageRating": 3.6,
+      "totalReviews": 15,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 3,
+      "description": "Prashant Homestay is a eco-homestay in Nainital, Nainital, Uttarakhand. Guests frequently mention value for money, cleanliness, food. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/chopta-forest.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1037",
+      "name": "Riverstone Cottage",
+      "village": "Kausani",
+      "district": "Bageshwar",
+      "state": "Uttarakhand",
+      "pricePerNight": 2800,
+      "averageRating": 3.6,
+      "totalReviews": 219,
+      "propertyType": "Forest Cottage",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "Riverstone Cottage is a forest cottage in Kausani, Bageshwar, Uttarakhand. Guests frequently mention location, amenities, hospitality. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/kausani-peaks.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.84,
+        "lng": 79.6
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1038",
+      "name": "Snow Peak Homestay",
+      "village": "Uttarkashi",
+      "district": "Uttarkashi",
+      "state": "Uttarakhand",
+      "pricePerNight": 2500,
+      "averageRating": 3.7,
+      "totalReviews": 231,
+      "propertyType": "Eco-Homestay",
+      "category": "Char Dham",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 2,
+      "description": "Snow Peak Homestay is a eco-homestay in Uttarkashi, Uttarkashi, Uttarakhand. Guests frequently mention amenities, eco tourism, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/nainital-lake.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.73,
+        "lng": 78.45
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1039",
+      "name": "Sparrow Woods Homestay",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 2000,
+      "averageRating": 4.1,
+      "totalReviews": 10,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "Sparrow Woods Homestay is a eco-homestay in Nainital, Nainital, Uttarakhand. Guests frequently mention experience uniqueness, food, host behaviour. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/munsiyari.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1040",
+      "name": "StayVista Cottage in Clouds",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2200,
+      "averageRating": 3.9,
+      "totalReviews": 18,
+      "propertyType": "Forest Cottage",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 3,
+      "description": "StayVista Cottage in Clouds is a forest cottage in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention experience uniqueness, host behaviour, food. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/mountain-village.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1041",
+      "name": "StayVista Westwood Villa",
+      "village": "Nainital",
+      "district": "Nainital",
+      "state": "Uttarakhand",
+      "pricePerNight": 3800,
+      "averageRating": 3.5,
+      "totalReviews": 8,
+      "propertyType": "Mountain Villa",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 6,
+      "description": "StayVista Westwood Villa is a mountain villa in Nainital, Nainital, Uttarakhand. Guests frequently mention experience uniqueness, value for money, food. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/auli-snow.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.3919,
+        "lng": 79.4542
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1042",
+      "name": "Sunrise Eco Stay",
+      "village": "Almora",
+      "district": "Almora",
+      "state": "Uttarakhand",
+      "pricePerNight": 1900,
+      "averageRating": 3.7,
+      "totalReviews": 236,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 6,
+      "description": "Sunrise Eco Stay is a eco-homestay in Almora, Almora, Uttarakhand. Guests frequently mention trekking, value for money, food. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/pangot-birds.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 29.5892,
+        "lng": 79.6467
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1043",
+      "name": "The Modern Homestay",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 1900,
+      "averageRating": 3.6,
+      "totalReviews": 22,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 3,
+      "description": "The Modern Homestay is a eco-homestay in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention value for money, cleanliness, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/valley-flowers.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1044",
+      "name": "The Neeraj Marine Ganga Stays",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2400,
+      "averageRating": 4.0,
+      "totalReviews": 2,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 4,
+      "description": "The Neeraj Marine Ganga Stays is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention host behaviour, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/temple-kedarnath.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1045",
+      "name": "The Nook Homestay",
+      "village": "Mussoorie",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 1900,
+      "averageRating": 3.6,
+      "totalReviews": 11,
+      "propertyType": "Eco-Homestay",
+      "category": "Nature Eco",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 6,
+      "description": "The Nook Homestay is a eco-homestay in Mussoorie, Dehradun, Uttarakhand. Guests frequently mention cleanliness, value for money, host behaviour. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/chopta-forest.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.4599,
+        "lng": 78.0664
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1046",
+      "name": "The Social Stays",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 2200,
+      "averageRating": 3.6,
+      "totalReviews": 14,
+      "propertyType": "Eco-Homestay",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "The Social Stays is a eco-homestay in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention cleanliness, experience uniqueness, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/kausani-peaks.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1047",
+      "name": "Valley Breeze Retreat",
+      "village": "Rudraprayag",
+      "district": "Rudraprayag",
+      "state": "Uttarakhand",
+      "pricePerNight": 2600,
+      "averageRating": 3.8,
+      "totalReviews": 219,
+      "propertyType": "Eco Retreat",
+      "category": "Char Dham",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 5,
+      "description": "Valley Breeze Retreat is a eco retreat in Rudraprayag, Rudraprayag, Uttarakhand. Guests frequently mention trekking, cleanliness, hospitality. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/nainital-lake.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.2844,
+        "lng": 78.981
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1048",
+      "name": "Wildflower Retreat",
+      "village": "Uttarkashi",
+      "district": "Uttarkashi",
+      "state": "Uttarakhand",
+      "pricePerNight": 3000,
+      "averageRating": 3.7,
+      "totalReviews": 213,
+      "propertyType": "Eco Retreat",
+      "category": "Wildlife",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 6,
+      "description": "Wildflower Retreat is a eco retreat in Uttarkashi, Uttarkashi, Uttarakhand. Guests frequently mention scenic beauty, hospitality, accessibility. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/munsiyari.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.73,
+        "lng": 78.45
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    },
+    {
+      "_id": "h1049",
+      "name": "Zostel Rishikesh",
+      "village": "Rishikesh",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "pricePerNight": 1150,
+      "averageRating": 2.8,
+      "totalReviews": 12,
+      "propertyType": "Backpacker Hostel",
+      "category": "Adventure",
+      "amenities": [
+        "Home-cooked Meals",
+        "Hot Water",
+        "Bonfire",
+        "Wi-Fi"
+      ],
+      "maxGuests": 2,
+      "description": "Zostel Rishikesh is a backpacker hostel in Rishikesh, Dehradun, Uttarakhand. Guests frequently mention host behaviour, cleanliness, value for money. A commission-free Pahadi stay with home-cooked meals and mountain views.",
+      "imageUrls": [
+        "/images/mountain-village.jpg"
+      ],
+      "ownerName": "PahadiStay Host",
+      "ownerContact": "",
+      "available": true,
+      "geo": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "category_source": "review-derived",
+      "source": "Aggregated guest-review dataset (Uttarakhand)"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "gr1",
+      "homestayId": "h1000",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "One of the cleanest homestays I have stayed in. Everything was neat, well organised, and smelled fresh upon arrival.",
+      "date": "2024-11-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr2",
+      "homestayId": "h1000",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "The pricing was fair but the experience did not feel premium. Decent stay for a short trip on a moderate budget.",
+      "date": "2024-10-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr3",
+      "homestayId": "h1000",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Meals were edible but lacked flavour. The host tried but cooking quality was average. Breakfast was the better meal.",
+      "date": "2024-09-01",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr4",
+      "homestayId": "h1000",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Well connected to the main market and tourist spots. Walking distance from most sightseeing points which was very convenient.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr5",
+      "homestayId": "h1000",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Meals were fresh, home cooked, and full of flavour. The host used local produce which made everything taste authentic.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr6",
+      "homestayId": "h1000",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Host was proactive in solving every small issue without us having to ask twice. Rare to find such attentive service at this price point.",
+      "date": "2024-07-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr7",
+      "homestayId": "h1000",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "While the property itself is gorgeous, the ridiculously odd behavior towards us makes us want to rate this stay no more than a 1.",
+      "date": "2024-06-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr8",
+      "homestayId": "h1000",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "This property is a cute little one nestled among hills and tall trees. The service and the food are of five star quality. Truly a memorable stay.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr9",
+      "homestayId": "h1001",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Price was acceptable but slightly on the higher side for what was offered. Expected a bit more at this rate.",
+      "date": "2024-08-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr10",
+      "homestayId": "h1001",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "If you are looking for a homely comfortable stay then Amraai is the best option in Rishikesh. The house is beautiful and the food tastes well.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr11",
+      "homestayId": "h1001",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "The staff members are incredibly helpful and generous with their time and advice. The morning view of sun rising from hills from the balcony is heart touching.",
+      "date": "2024-02-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr12",
+      "homestayId": "h1001",
+      "guestName": "Solo Guest",
+      "rating": 2,
+      "comment": "Noisy surroundings ruined the peaceful experience we expected. Could hear traffic and construction throughout the night.",
+      "date": "2024-01-01",
+      "sentiment": "Negative",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr13",
+      "homestayId": "h1001",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Best money I have spent on accommodation in Uttarakhand. The experience was priceless relative to what we paid.",
+      "date": "2023-12-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr14",
+      "homestayId": "h1001",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "One of the cleanest homestays I have stayed in. Everything was neat, well organised, and smelled fresh upon arrival.",
+      "date": "2023-11-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr15",
+      "homestayId": "h1001",
+      "guestName": "Group Guest",
+      "rating": 2,
+      "comment": "Charged premium rates but provided budget quality service. Felt cheated after seeing what others paid for better stays.",
+      "date": "2023-09-01",
+      "sentiment": "Negative",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr16",
+      "homestayId": "h1001",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Excellent food with a good mix of local and North Indian options. Breakfast included local parathas and fresh chai.",
+      "date": "2023-08-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr17",
+      "homestayId": "h1002",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "A hidden gem. The property is surrounded by forests and the night sky is incredibly clear. Worth every rupee.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr18",
+      "homestayId": "h1002",
+      "guestName": "Family Guest",
+      "rating": 2,
+      "comment": "Owner was rude and dismissive when we raised concerns about the room. Completely unacceptable attitude towards guests.",
+      "date": "2024-11-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr19",
+      "homestayId": "h1002",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Food was repetitive over three days. Taste was acceptable but we ended up eating out for dinner on most evenings.",
+      "date": "2024-09-01",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr20",
+      "homestayId": "h1002",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Well connected to the main market and tourist spots. Walking distance from most sightseeing points which was very convenient.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr21",
+      "homestayId": "h1002",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Breakfast was generous and tasty with local specialties included. Food quality was consistent and well prepared throughout.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr22",
+      "homestayId": "h1002",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Best money I have spent on accommodation in Uttarakhand. The experience was priceless relative to what we paid.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr23",
+      "homestayId": "h1002",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "A hidden gem. The property is surrounded by forests and the night sky is incredibly clear. Worth every rupee.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr24",
+      "homestayId": "h1002",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "After traveling for so long, finally found a place that can actually be called a home stay. Loved the place, very warm and cozy, neat and clean.",
+      "date": "2023-12-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr25",
+      "homestayId": "h1003",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "The view from the balcony at sunrise was breathtaking. We spent hours just sitting there taking it all in.",
+      "date": "2024-10-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr26",
+      "homestayId": "h1003",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "Food was okay — basic and filling but nothing special. Limited variety after the second day of staying.",
+      "date": "2024-09-01",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr27",
+      "homestayId": "h1003",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "The owner was helpful during check-in but less responsive afterwards. Decent experience overall nothing exceptional.",
+      "date": "2024-07-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr28",
+      "homestayId": "h1003",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Easy to locate with good road access. Host sent clear directions in advance which made arrival smooth and stress free.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr29",
+      "homestayId": "h1003",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Great location for the walk up to Landour Cantt. Very nice hosts. Clean rooms and good facilities.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr30",
+      "homestayId": "h1003",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "The breakfast and tea was very comforting and tasty. The staff were friendly and polite. Surrounded by magic of valleys and mountains.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr31",
+      "homestayId": "h1003",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Perfect group stay. Spacious property with free Wi-Fi and parking. Easy access to Mall Road, Gun Hill, and Kempty Fall. Highly recommended.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr32",
+      "homestayId": "h1003",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Cleanliness was average. Common areas were tidy but rooms showed some signs of wear and lack of deep cleaning.",
+      "date": "2024-03-01",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr33",
+      "homestayId": "h1004",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "The view from the balcony at sunrise was breathtaking. We spent hours just sitting there taking it all in.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr34",
+      "homestayId": "h1004",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Price was acceptable but slightly on the higher side for what was offered. Expected a bit more at this rate.",
+      "date": "2024-11-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr35",
+      "homestayId": "h1004",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Views were good but we expected more from the eco-tourism angle. Felt like a regular guesthouse in a hill station.",
+      "date": "2024-08-01",
+      "sentiment": "Neutral",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr36",
+      "homestayId": "h1004",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Views were good but we expected more from the eco-tourism angle. Felt like a regular guesthouse in a hill station.",
+      "date": "2024-07-01",
+      "sentiment": "Neutral",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr37",
+      "homestayId": "h1004",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Great price to quality ratio. The homestay offered everything a traveller needs without overcharging for the location.",
+      "date": "2024-06-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr38",
+      "homestayId": "h1004",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "Okay value for money. Not a great deal but not overpriced either. Average experience for an average price.",
+      "date": "2024-04-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr39",
+      "homestayId": "h1004",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Cleanliness was average. Common areas were tidy but rooms showed some signs of wear and lack of deep cleaning.",
+      "date": "2024-02-01",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr40",
+      "homestayId": "h1004",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Lovely romantic getaway. Rooms were beautifully decorated and very comfortable. Host was warm and welcoming. Highly recommend for couples.",
+      "date": "2023-12-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr41",
+      "homestayId": "h1005",
+      "guestName": "Solo Traveler Guest",
+      "rating": 5,
+      "comment": "Amazing hospitality and very friendly hosts.",
+      "date": "2026-06-13",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr42",
+      "homestayId": "h1005",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Amazing hospitality and very friendly hosts.",
+      "date": "2026-06-08",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr43",
+      "homestayId": "h1005",
+      "guestName": "Solo Traveler Guest",
+      "rating": 5,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-06-06",
+      "sentiment": "Positive",
+      "topic": "Eco Tourism"
+    },
+    {
+      "_id": "gr44",
+      "homestayId": "h1005",
+      "guestName": "Friends Group Guest",
+      "rating": 4,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-06-04",
+      "sentiment": "Positive",
+      "topic": "Scenic Beauty"
+    },
+    {
+      "_id": "gr45",
+      "homestayId": "h1005",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Overall a decent stay with basic facilities.",
+      "date": "2026-06-02",
+      "sentiment": "Neutral",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr46",
+      "homestayId": "h1005",
+      "guestName": "Friends Group Guest",
+      "rating": 1,
+      "comment": "The room was smaller than shown in photos.",
+      "date": "2026-06-01",
+      "sentiment": "Negative",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr47",
+      "homestayId": "h1005",
+      "guestName": "Friends Group Guest",
+      "rating": 4,
+      "comment": "Outstanding experience with great trekking options.",
+      "date": "2026-05-31",
+      "sentiment": "Positive",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr48",
+      "homestayId": "h1005",
+      "guestName": "Solo Traveler Guest",
+      "rating": 1,
+      "comment": "WiFi connectivity was poor during the stay.",
+      "date": "2026-05-30",
+      "sentiment": "Negative",
+      "topic": "Amenities"
+    },
+    {
+      "_id": "gr49",
+      "homestayId": "h1006",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "One of the most unique and memorable stays of my life. The natural surroundings, the silence, and the local culture were magical.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr50",
+      "homestayId": "h1006",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "The food was simple but incredibly tasty. Generous portions and great variety. Felt nourishing after long treks.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr51",
+      "homestayId": "h1006",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "The home cooked Pahadi food was the highlight of our stay. Fresh, local, and absolutely delicious every single meal.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr52",
+      "homestayId": "h1006",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "The owner was knowledgeable, helpful, and available whenever needed. Never felt like a paying guest — felt like a guest of a family.",
+      "date": "2024-07-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr53",
+      "homestayId": "h1006",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "Breakfast was generous and tasty with local specialties included. Food quality was consistent and well prepared throughout.",
+      "date": "2024-06-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr54",
+      "homestayId": "h1006",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Well connected to the main market and tourist spots. Walking distance from most sightseeing points which was very convenient.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr55",
+      "homestayId": "h1006",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "A hidden gem. The property is surrounded by forests and the night sky is incredibly clear. Worth every rupee.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr56",
+      "homestayId": "h1006",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Great price to quality ratio. The homestay offered everything a traveller needs without overcharging for the location.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr57",
+      "homestayId": "h1007",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "The food was simple but incredibly tasty. Generous portions and great variety. Felt nourishing after long treks.",
+      "date": "2024-11-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr58",
+      "homestayId": "h1007",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Host was polite and available when needed but not particularly proactive. Average hospitality for the price point.",
+      "date": "2024-08-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr59",
+      "homestayId": "h1007",
+      "guestName": "Group Guest",
+      "rating": 1,
+      "comment": "Room was dirty with stained sheets and a bathroom that clearly had not been cleaned properly before our arrival.",
+      "date": "2024-08-01",
+      "sentiment": "Negative",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr60",
+      "homestayId": "h1007",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Food was repetitive over three days. Taste was acceptable but we ended up eating out for dinner on most evenings.",
+      "date": "2024-08-01",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr61",
+      "homestayId": "h1007",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Surprisingly affordable for the quality of service provided. One of the best budget stays I have experienced.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr62",
+      "homestayId": "h1007",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "The home cooked Pahadi food was the highlight of our stay. Fresh, local, and absolutely delicious every single meal.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr63",
+      "homestayId": "h1007",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "This stay gave us a genuine village experience far from the tourist crowds. Exactly what we were looking for.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr64",
+      "homestayId": "h1007",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Well connected to the main market and tourist spots. Walking distance from most sightseeing points which was very convenient.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr65",
+      "homestayId": "h1008",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "No parking available despite being promised in the listing. Had to park a kilometre away and walk with all luggage.",
+      "date": "2024-08-01",
+      "sentiment": "Negative",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr66",
+      "homestayId": "h1008",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "Road access was okay during dry weather but could be tricky during monsoon. Location is a bit far from key spots.",
+      "date": "2024-08-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr67",
+      "homestayId": "h1008",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Pickup from the bus stand was arranged by the host at no extra charge. Made arrival with heavy luggage very easy.",
+      "date": "2024-06-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr68",
+      "homestayId": "h1008",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Rooms were spotlessly clean and well maintained. Bed sheets were fresh and the bathroom was hygienic throughout our stay.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr69",
+      "homestayId": "h1008",
+      "guestName": "Solo Guest",
+      "rating": 1,
+      "comment": "Breakfast was served late every morning and was of very poor quality. Nothing like what was shown on the listing.",
+      "date": "2024-04-01",
+      "sentiment": "Negative",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr70",
+      "homestayId": "h1008",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "The home cooked Pahadi food was the highlight of our stay. Fresh, local, and absolutely delicious every single meal.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr71",
+      "homestayId": "h1008",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Darshan Homestay was truly fantastic! The service was outstanding, and the location couldn't have been better. The owners were incredibly kind and welcoming.",
+      "date": "2024-02-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr72",
+      "homestayId": "h1008",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Easy to locate with good road access. Host sent clear directions in advance which made arrival smooth and stress free.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr73",
+      "homestayId": "h1009",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 3,
+      "comment": "Good experience but room maintenance can improve.",
+      "date": "2026-06-09",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr74",
+      "homestayId": "h1009",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "Service response was slower than expected.",
+      "date": "2026-06-04",
+      "sentiment": "Negative",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr75",
+      "homestayId": "h1009",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 5,
+      "comment": "The hosts made us feel like family.",
+      "date": "2026-06-03",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr76",
+      "homestayId": "h1009",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 5,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-06-01",
+      "sentiment": "Positive",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr77",
+      "homestayId": "h1009",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "The hosts made us feel like family.",
+      "date": "2026-06-01",
+      "sentiment": "Positive",
+      "topic": "Eco Tourism"
+    },
+    {
+      "_id": "gr78",
+      "homestayId": "h1009",
+      "guestName": "Friends Group Guest",
+      "rating": 5,
+      "comment": "Outstanding experience with great trekking options.",
+      "date": "2026-05-31",
+      "sentiment": "Positive",
+      "topic": "Trekking"
+    },
+    {
+      "_id": "gr79",
+      "homestayId": "h1009",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-05-31",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr80",
+      "homestayId": "h1009",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "One of the best homestays we have visited.",
+      "date": "2026-05-22",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr81",
+      "homestayId": "h1010",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Good parking facility available. Roads leading to the property were well maintained and easy to navigate.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr82",
+      "homestayId": "h1010",
+      "guestName": "Group Guest",
+      "rating": 2,
+      "comment": "Road to the property is broken and extremely difficult to navigate. Damaged our car and host showed no concern.",
+      "date": "2024-12-01",
+      "sentiment": "Negative",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr83",
+      "homestayId": "h1010",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Bathroom was clean with hot water always available. Rooms were dusted and mopped daily without us having to ask.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr84",
+      "homestayId": "h1010",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Waking up to mountain views and the sound of the river was priceless. This is what travel is supposed to feel like.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr85",
+      "homestayId": "h1010",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Good eco-friendly stay. Staff was helpful and the surroundings are beautiful. Rooms were clean. Food options were limited but tasty.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr86",
+      "homestayId": "h1010",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Nice eco-friendly stay surrounded by nature. Host was warm and helpful. Rooms were clean and comfortable. Good value for money.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr87",
+      "homestayId": "h1010",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "This stay gave us a genuine village experience far from the tourist crowds. Exactly what we were looking for.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr88",
+      "homestayId": "h1010",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Mussoorie always offers a lot of peace and good climate. The homestay was decent. Rooms were okay but nothing exceptional.",
+      "date": "2024-07-01",
+      "sentiment": "Neutral",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr89",
+      "homestayId": "h1011",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Amazing hospitality and very friendly hosts.",
+      "date": "2026-06-05",
+      "sentiment": "Positive",
+      "topic": "Amenities"
+    },
+    {
+      "_id": "gr90",
+      "homestayId": "h1011",
+      "guestName": "Solo Traveler Guest",
+      "rating": 4,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-06-04",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr91",
+      "homestayId": "h1011",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "One of the best homestays we have visited.",
+      "date": "2026-06-01",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr92",
+      "homestayId": "h1011",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 2,
+      "comment": "WiFi connectivity was poor during the stay.",
+      "date": "2026-05-31",
+      "sentiment": "Negative",
+      "topic": "Scenic Beauty"
+    },
+    {
+      "_id": "gr93",
+      "homestayId": "h1011",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Amazing hospitality and very friendly hosts.",
+      "date": "2026-05-28",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr94",
+      "homestayId": "h1011",
+      "guestName": "Friends Group Guest",
+      "rating": 1,
+      "comment": "Property maintenance needs attention.",
+      "date": "2026-05-25",
+      "sentiment": "Negative",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr95",
+      "homestayId": "h1011",
+      "guestName": "Friends Group Guest",
+      "rating": 3,
+      "comment": "The location was nice but amenities were average.",
+      "date": "2026-05-22",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr96",
+      "homestayId": "h1011",
+      "guestName": "Solo Traveler Guest",
+      "rating": 5,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-05-15",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr97",
+      "homestayId": "h1012",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "The property was immaculate. You could tell the host takes real pride in keeping the place clean and well presented.",
+      "date": "2024-11-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr98",
+      "homestayId": "h1012",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Well connected to the main market and tourist spots. Walking distance from most sightseeing points which was very convenient.",
+      "date": "2024-10-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr99",
+      "homestayId": "h1012",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "The pricing was fair but the experience did not feel premium. Decent stay for a short trip on a moderate budget.",
+      "date": "2024-09-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr100",
+      "homestayId": "h1012",
+      "guestName": "Solo Guest",
+      "rating": 2,
+      "comment": "The view shown in photos was blocked by a new construction right next to the property. Felt completely misled.",
+      "date": "2024-09-01",
+      "sentiment": "Negative",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr101",
+      "homestayId": "h1012",
+      "guestName": "Couple Guest",
+      "rating": 2,
+      "comment": "Bed sheets had visible stains. Common areas were unkempt. For the price charged this was completely unacceptable.",
+      "date": "2024-09-01",
+      "sentiment": "Negative",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr102",
+      "homestayId": "h1012",
+      "guestName": "Couple Guest",
+      "rating": 2,
+      "comment": "Rude owner and staff, only making money by view of Ganga. No good rooms, no parking, no restaurant, even then prices are very high.",
+      "date": "2024-06-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr103",
+      "homestayId": "h1012",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "Owner is rude and arrogant, the manager does not know how to talk with customers. Rooms are extremely small and non airy.",
+      "date": "2024-04-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr104",
+      "homestayId": "h1012",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "The cook prepared amazing Garhwali thali every evening. We looked forward to meals more than the sightseeing honestly.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr105",
+      "homestayId": "h1013",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 5,
+      "comment": "Beautiful mountain views and peaceful atmosphere.",
+      "date": "2026-06-05",
+      "sentiment": "Positive",
+      "topic": "Scenic Beauty"
+    },
+    {
+      "_id": "gr106",
+      "homestayId": "h1013",
+      "guestName": "Friends Group Guest",
+      "rating": 5,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-05-30",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr107",
+      "homestayId": "h1013",
+      "guestName": "Solo Traveler Guest",
+      "rating": 4,
+      "comment": "Clean rooms and wonderful service.",
+      "date": "2026-05-28",
+      "sentiment": "Positive",
+      "topic": "Scenic Beauty"
+    },
+    {
+      "_id": "gr108",
+      "homestayId": "h1013",
+      "guestName": "Solo Traveler Guest",
+      "rating": 5,
+      "comment": "Great value for money and comfortable stay.",
+      "date": "2026-05-28",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr109",
+      "homestayId": "h1013",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-05-25",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr110",
+      "homestayId": "h1013",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Amazing hospitality and very friendly hosts.",
+      "date": "2026-05-21",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr111",
+      "homestayId": "h1013",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Comfortable stay though food options were limited.",
+      "date": "2026-05-04",
+      "sentiment": "Neutral",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr112",
+      "homestayId": "h1013",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Outstanding experience with great trekking options.",
+      "date": "2026-05-03",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr113",
+      "homestayId": "h1014",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Impressed by the level of cleanliness maintained consistently across all common areas and rooms. Great attention to detail.",
+      "date": "2024-06-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr114",
+      "homestayId": "h1014",
+      "guestName": "Group Guest",
+      "rating": 1,
+      "comment": "Very difficult to find even with GPS. No proper signage and host directions were confusing. Wasted over an hour.",
+      "date": "2024-04-01",
+      "sentiment": "Negative",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr115",
+      "homestayId": "h1014",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "I honestly recommend this place 200%. Amazing hospitality, comfort, cleanliness, and a very peaceful atmosphere. Would definitely stay here again.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr116",
+      "homestayId": "h1014",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Host was proactive in solving every small issue without us having to ask twice. Rare to find such attentive service at this price point.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr117",
+      "homestayId": "h1014",
+      "guestName": "Group Guest",
+      "rating": 2,
+      "comment": "No parking available despite being promised in the listing. Had to park a kilometre away and walk with all luggage.",
+      "date": "2024-01-01",
+      "sentiment": "Negative",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr118",
+      "homestayId": "h1014",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Waking up to mountain views and the sound of the river was priceless. This is what travel is supposed to feel like.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr119",
+      "homestayId": "h1014",
+      "guestName": "Solo Guest",
+      "rating": 1,
+      "comment": "Food quality was very poor. Meals were undercooked, bland, and served cold. Had to order from outside every day.",
+      "date": "2024-01-01",
+      "sentiment": "Negative",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr120",
+      "homestayId": "h1014",
+      "guestName": "Group Guest",
+      "rating": 1,
+      "comment": "No parking available despite being promised in the listing. Had to park a kilometre away and walk with all luggage.",
+      "date": "2023-05-01",
+      "sentiment": "Negative",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr121",
+      "homestayId": "h1015",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Absolutely loved the warmth of the host family. They arranged a bonfire evening and shared Pahadi folk songs with us.",
+      "date": "2024-07-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr122",
+      "homestayId": "h1015",
+      "guestName": "Group Guest",
+      "rating": 2,
+      "comment": "The food made two of our group members unwell. No variety, poor hygiene in the kitchen, and no alternatives offered.",
+      "date": "2024-02-01",
+      "sentiment": "Negative",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr123",
+      "homestayId": "h1015",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "The home cooked Pahadi food was the highlight of our stay. Fresh, local, and absolutely delicious every single meal.",
+      "date": "2023-09-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr124",
+      "homestayId": "h1015",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Okay value for money. Not a great deal but not overpriced either. Average experience for an average price.",
+      "date": "2023-06-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr125",
+      "homestayId": "h1015",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Road access was okay during dry weather but could be tricky during monsoon. Location is a bit far from key spots.",
+      "date": "2023-03-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr126",
+      "homestayId": "h1015",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "The view from the balcony at sunrise was breathtaking. We spent hours just sitting there taking it all in.",
+      "date": "2023-03-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr127",
+      "homestayId": "h1015",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Surprisingly affordable for the quality of service provided. One of the best budget stays I have experienced.",
+      "date": "2023-02-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr128",
+      "homestayId": "h1015",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Surprisingly affordable for the quality of service provided. One of the best budget stays I have experienced.",
+      "date": "2023-01-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr129",
+      "homestayId": "h1016",
+      "guestName": "Family Guest",
+      "rating": 2,
+      "comment": "The room was smaller than shown in photos.",
+      "date": "2026-06-13",
+      "sentiment": "Negative",
+      "topic": "Eco Tourism"
+    },
+    {
+      "_id": "gr130",
+      "homestayId": "h1016",
+      "guestName": "Solo Traveler Guest",
+      "rating": 1,
+      "comment": "Property maintenance needs attention.",
+      "date": "2026-06-12",
+      "sentiment": "Negative",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr131",
+      "homestayId": "h1016",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Perfect place for eco tourism and nature lovers.",
+      "date": "2026-06-09",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr132",
+      "homestayId": "h1016",
+      "guestName": "Family Guest",
+      "rating": 2,
+      "comment": "Road access to the homestay was difficult.",
+      "date": "2026-06-06",
+      "sentiment": "Negative",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr133",
+      "homestayId": "h1016",
+      "guestName": "Solo Traveler Guest",
+      "rating": 2,
+      "comment": "Limited facilities for the price charged.",
+      "date": "2026-05-30",
+      "sentiment": "Negative",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr134",
+      "homestayId": "h1016",
+      "guestName": "Friends Group Guest",
+      "rating": 5,
+      "comment": "One of the best homestays we have visited.",
+      "date": "2026-05-24",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr135",
+      "homestayId": "h1016",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 4,
+      "comment": "Great value for money and comfortable stay.",
+      "date": "2026-05-23",
+      "sentiment": "Positive",
+      "topic": "Trekking"
+    },
+    {
+      "_id": "gr136",
+      "homestayId": "h1016",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Beautiful mountain views and peaceful atmosphere.",
+      "date": "2026-05-18",
+      "sentiment": "Positive",
+      "topic": "Trekking"
+    },
+    {
+      "_id": "gr137",
+      "homestayId": "h1017",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Surprisingly affordable for the quality of service provided. One of the best budget stays I have experienced.",
+      "date": "2024-11-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr138",
+      "homestayId": "h1017",
+      "guestName": "Solo Guest",
+      "rating": 1,
+      "comment": "Noisy surroundings ruined the peaceful experience we expected. Could hear traffic and construction throughout the night.",
+      "date": "2024-10-01",
+      "sentiment": "Negative",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr139",
+      "homestayId": "h1017",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "Good parking facility available. Roads leading to the property were well maintained and easy to navigate.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr140",
+      "homestayId": "h1017",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "The pricing was fair but the experience did not feel premium. Decent stay for a short trip on a moderate budget.",
+      "date": "2024-08-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr141",
+      "homestayId": "h1017",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Views were good but we expected more from the eco-tourism angle. Felt like a regular guesthouse in a hill station.",
+      "date": "2024-06-01",
+      "sentiment": "Neutral",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr142",
+      "homestayId": "h1017",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Breakfast was generous and tasty with local specialties included. Food quality was consistent and well prepared throughout.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr143",
+      "homestayId": "h1017",
+      "guestName": "Couple Guest",
+      "rating": 2,
+      "comment": "Bed sheets had visible stains. Common areas were unkempt. For the price charged this was completely unacceptable.",
+      "date": "2024-05-01",
+      "sentiment": "Negative",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr144",
+      "homestayId": "h1017",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Surprisingly affordable for the quality of service provided. One of the best budget stays I have experienced.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr145",
+      "homestayId": "h1018",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Location was decent but slightly off the main road. Required a 10 minute walk with luggage which was inconvenient.",
+      "date": "2024-09-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr146",
+      "homestayId": "h1018",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Host was polite and available when needed but not particularly proactive. Average hospitality for the price point.",
+      "date": "2024-07-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr147",
+      "homestayId": "h1018",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "Waking up to mountain views and the sound of the river was priceless. This is what travel is supposed to feel like.",
+      "date": "2024-07-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr148",
+      "homestayId": "h1018",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Very good location and parking facility is also available for cars. Rooms are very clean and good assistance given by hotel owners.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr149",
+      "homestayId": "h1018",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "The view from the balcony at sunrise was breathtaking. We spent hours just sitting there taking it all in.",
+      "date": "2024-02-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr150",
+      "homestayId": "h1018",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "Well connected to the main market and tourist spots. Walking distance from most sightseeing points which was very convenient.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr151",
+      "homestayId": "h1018",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "The hosts were welcoming, and the rooms were clean and comfortable. The highlight was the picturesque view of the Ganges from the homestay.",
+      "date": "2023-12-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr152",
+      "homestayId": "h1018",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Price was acceptable but slightly on the higher side for what was offered. Expected a bit more at this rate.",
+      "date": "2023-10-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr153",
+      "homestayId": "h1019",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Rooms were reasonably clean. Nothing spectacular but acceptable for a budget homestay. Bathroom could be improved.",
+      "date": "2024-11-01",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr154",
+      "homestayId": "h1019",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Decent hygiene standards maintained. Not the cleanest stay but not dirty either. Acceptable for the price.",
+      "date": "2024-10-01",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr155",
+      "homestayId": "h1019",
+      "guestName": "Group Guest",
+      "rating": 2,
+      "comment": "Noisy surroundings ruined the peaceful experience we expected. Could hear traffic and construction throughout the night.",
+      "date": "2024-10-01",
+      "sentiment": "Negative",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr156",
+      "homestayId": "h1019",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "Excellent food with a good mix of local and North Indian options. Breakfast included local parathas and fresh chai.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr157",
+      "homestayId": "h1019",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Okay value for money. Not a great deal but not overpriced either. Average experience for an average price.",
+      "date": "2024-07-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr158",
+      "homestayId": "h1019",
+      "guestName": "Family Guest",
+      "rating": 2,
+      "comment": "Extremely overpriced for what was delivered. Facilities were basic, food was poor, and the host was unhelpful.",
+      "date": "2024-06-01",
+      "sentiment": "Negative",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr159",
+      "homestayId": "h1019",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "This stay gave us a genuine village experience far from the tourist crowds. Exactly what we were looking for.",
+      "date": "2024-02-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr160",
+      "homestayId": "h1019",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Location was decent but slightly off the main road. Required a 10 minute walk with luggage which was inconvenient.",
+      "date": "2024-02-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr161",
+      "homestayId": "h1020",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 3,
+      "comment": "Comfortable stay though food options were limited.",
+      "date": "2026-06-11",
+      "sentiment": "Neutral",
+      "topic": "Scenic Beauty"
+    },
+    {
+      "_id": "gr162",
+      "homestayId": "h1020",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "Food quality did not meet expectations.",
+      "date": "2026-06-08",
+      "sentiment": "Negative",
+      "topic": "Eco Tourism"
+    },
+    {
+      "_id": "gr163",
+      "homestayId": "h1020",
+      "guestName": "Friends Group Guest",
+      "rating": 5,
+      "comment": "Beautiful mountain views and peaceful atmosphere.",
+      "date": "2026-06-05",
+      "sentiment": "Positive",
+      "topic": "Amenities"
+    },
+    {
+      "_id": "gr164",
+      "homestayId": "h1020",
+      "guestName": "Friends Group Guest",
+      "rating": 4,
+      "comment": "Outstanding experience with great trekking options.",
+      "date": "2026-06-03",
+      "sentiment": "Positive",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr165",
+      "homestayId": "h1020",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 3,
+      "comment": "Good experience but room maintenance can improve.",
+      "date": "2026-06-02",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr166",
+      "homestayId": "h1020",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 5,
+      "comment": "The hosts made us feel like family.",
+      "date": "2026-06-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr167",
+      "homestayId": "h1020",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 2,
+      "comment": "The room was smaller than shown in photos.",
+      "date": "2026-05-31",
+      "sentiment": "Negative",
+      "topic": "Eco Tourism"
+    },
+    {
+      "_id": "gr168",
+      "homestayId": "h1020",
+      "guestName": "Solo Traveler Guest",
+      "rating": 3,
+      "comment": "The location was nice but amenities were average.",
+      "date": "2026-05-28",
+      "sentiment": "Neutral",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr169",
+      "homestayId": "h1021",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "A hidden gem. The property is surrounded by forests and the night sky is incredibly clear. Worth every rupee.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr170",
+      "homestayId": "h1021",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Compared to hotel prices in the area this homestay offers significantly better value with a much more personal experience.",
+      "date": "2024-07-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr171",
+      "homestayId": "h1021",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "Staff were okay — not unfriendly but not exceptionally warm either. Service was functional but not memorable.",
+      "date": "2024-05-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr172",
+      "homestayId": "h1021",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "One of the most unique and memorable stays of my life. The natural surroundings, the silence, and the local culture were magical.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr173",
+      "homestayId": "h1021",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Waking up to mountain views and the sound of the river was priceless. This is what travel is supposed to feel like.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr174",
+      "homestayId": "h1021",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Meals were fresh, home cooked, and full of flavour. The host used local produce which made everything taste authentic.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr175",
+      "homestayId": "h1021",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "The host was incredibly warm and welcoming. Made us feel at home from the first minute. Arranged our trek and gave brilliant local tips.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr176",
+      "homestayId": "h1021",
+      "guestName": "Couple Guest",
+      "rating": 1,
+      "comment": "The manager was arrogant and did not help resolve issues despite repeated requests. Very disappointing experience.",
+      "date": "2023-11-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr177",
+      "homestayId": "h1022",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Compared to hotel prices in the area this homestay offers significantly better value with a much more personal experience.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr178",
+      "homestayId": "h1022",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Staff were okay — not unfriendly but not exceptionally warm either. Service was functional but not memorable.",
+      "date": "2024-12-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr179",
+      "homestayId": "h1022",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Felt completely disconnected from city life in the best possible way. Nature, peace, and authenticity all in one place.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr180",
+      "homestayId": "h1022",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Lovely homestay featuring a terrace with mountain and lake views. Host was kind and helpful. Rooms were clean and well maintained.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr181",
+      "homestayId": "h1022",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "From the moment I arrived, I was warmly welcomed. They made me feel right at home with their genuine hospitality and kindness.",
+      "date": "2024-07-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr182",
+      "homestayId": "h1022",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Excellent homestay with exceptional hosts. Kids were welcomed warmly. Rooms were spotlessly clean. Food was home cooked and absolutely delicious.",
+      "date": "2024-07-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr183",
+      "homestayId": "h1022",
+      "guestName": "Solo Guest",
+      "rating": 2,
+      "comment": "Very difficult to find even with GPS. No proper signage and host directions were confusing. Wasted over an hour.",
+      "date": "2024-01-01",
+      "sentiment": "Negative",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr184",
+      "homestayId": "h1022",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "Well connected to the main market and tourist spots. Walking distance from most sightseeing points which was very convenient.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr185",
+      "homestayId": "h1023",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Pickup from the bus stand was arranged by the host at no extra charge. Made arrival with heavy luggage very easy.",
+      "date": "2024-11-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr186",
+      "homestayId": "h1023",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "Best money I have spent on accommodation in Uttarakhand. The experience was priceless relative to what we paid.",
+      "date": "2024-11-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr187",
+      "homestayId": "h1023",
+      "guestName": "Couple Guest",
+      "rating": 2,
+      "comment": "The manager was arrogant and did not help resolve issues despite repeated requests. Very disappointing experience.",
+      "date": "2024-07-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr188",
+      "homestayId": "h1023",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Best money I have spent on accommodation in Uttarakhand. The experience was priceless relative to what we paid.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr189",
+      "homestayId": "h1023",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Decent stay with good surroundings. Not as unique as described but a reasonable experience for a weekend trip.",
+      "date": "2024-03-01",
+      "sentiment": "Neutral",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr190",
+      "homestayId": "h1023",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "The owner was helpful during check-in but less responsive afterwards. Decent experience overall nothing exceptional.",
+      "date": "2024-01-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr191",
+      "homestayId": "h1023",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Wonderful host who cooked local food personally and shared stories about the region. A truly human and heartwarming experience.",
+      "date": "2023-12-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr192",
+      "homestayId": "h1023",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "The property was immaculate. You could tell the host takes real pride in keeping the place clean and well presented.",
+      "date": "2023-12-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr193",
+      "homestayId": "h1024",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "The bonfire evening arranged by the host with folk music was something we will never forget. Truly special experience.",
+      "date": "2024-11-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr194",
+      "homestayId": "h1024",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "No parking available despite being promised in the listing. Had to park a kilometre away and walk with all luggage.",
+      "date": "2024-10-01",
+      "sentiment": "Negative",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr195",
+      "homestayId": "h1024",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Host treated us like family. Kids were welcomed warmly and given extra attention throughout. We felt absolutely at home.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr196",
+      "homestayId": "h1024",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "Absolutely loved the warmth of the host family. They arranged a bonfire evening and shared Pahadi folk songs with us.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr197",
+      "homestayId": "h1024",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "One of the cleanest homestays I have stayed in. Everything was neat, well organised, and smelled fresh upon arrival.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr198",
+      "homestayId": "h1024",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "The host was incredibly warm and welcoming. Made us feel at home from the first minute. Arranged our trek and gave brilliant local tips.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr199",
+      "homestayId": "h1024",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "Felt completely disconnected from city life in the best possible way. Nature, peace, and authenticity all in one place.",
+      "date": "2023-12-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr200",
+      "homestayId": "h1024",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Great price to quality ratio. The homestay offered everything a traveller needs without overcharging for the location.",
+      "date": "2023-10-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr201",
+      "homestayId": "h1025",
+      "guestName": "Solo Guest",
+      "rating": 2,
+      "comment": "Breakfast was served late every morning and was of very poor quality. Nothing like what was shown on the listing.",
+      "date": "2024-07-01",
+      "sentiment": "Negative",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr202",
+      "homestayId": "h1025",
+      "guestName": "Group Guest",
+      "rating": 1,
+      "comment": "Staff behaviour was poor — unfriendly, unhelpful, and seemed annoyed by basic requests. Would not return.",
+      "date": "2024-06-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr203",
+      "homestayId": "h1025",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Exceptionally great hospitality at Mana Homestay. It was genuinely a feeling of home away from home. Very well maintained, aesthetic and hygienic.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr204",
+      "homestayId": "h1025",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Host treated us like family. Kids were welcomed warmly and given extra attention throughout. We felt absolutely at home.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr205",
+      "homestayId": "h1025",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Road access was okay during dry weather but could be tricky during monsoon. Location is a bit far from key spots.",
+      "date": "2024-02-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr206",
+      "homestayId": "h1025",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Surprisingly affordable for the quality of service provided. One of the best budget stays I have experienced.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr207",
+      "homestayId": "h1026",
+      "guestName": "Friends Group Guest",
+      "rating": 4,
+      "comment": "Perfect place for eco tourism and nature lovers.",
+      "date": "2026-06-07",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr208",
+      "homestayId": "h1026",
+      "guestName": "Friends Group Guest",
+      "rating": 4,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-06-02",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr209",
+      "homestayId": "h1026",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 5,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-06-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr210",
+      "homestayId": "h1026",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Beautiful mountain views and peaceful atmosphere.",
+      "date": "2026-05-30",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr211",
+      "homestayId": "h1026",
+      "guestName": "Friends Group Guest",
+      "rating": 5,
+      "comment": "The hosts made us feel like family.",
+      "date": "2026-05-29",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr212",
+      "homestayId": "h1026",
+      "guestName": "Solo Traveler Guest",
+      "rating": 4,
+      "comment": "The hosts made us feel like family.",
+      "date": "2026-05-28",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr213",
+      "homestayId": "h1026",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 4,
+      "comment": "Great value for money and comfortable stay.",
+      "date": "2026-05-25",
+      "sentiment": "Positive",
+      "topic": "Amenities"
+    },
+    {
+      "_id": "gr214",
+      "homestayId": "h1026",
+      "guestName": "Friends Group Guest",
+      "rating": 4,
+      "comment": "Beautiful mountain views and peaceful atmosphere.",
+      "date": "2026-05-21",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr215",
+      "homestayId": "h1027",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Average stay. Location on Mall Road is convenient but rooms are basic and slightly overpriced for the facilities provided.",
+      "date": "2024-05-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr216",
+      "homestayId": "h1027",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Absolutely loved the warmth of the host family. They arranged a bonfire evening and shared Pahadi folk songs with us.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr217",
+      "homestayId": "h1027",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Staff were okay — not unfriendly but not exceptionally warm either. Service was functional but not memorable.",
+      "date": "2024-03-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr218",
+      "homestayId": "h1027",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Parking was limited and the lane to the homestay was narrow. Manageable but could cause issues with larger vehicles.",
+      "date": "2023-12-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr219",
+      "homestayId": "h1027",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Pickup from the bus stand was arranged by the host at no extra charge. Made arrival with heavy luggage very easy.",
+      "date": "2023-10-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr220",
+      "homestayId": "h1027",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Exceptional hospitality from the owner and staff. They went out of their way to help us with everything we needed during our stay.",
+      "date": "2023-04-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr221",
+      "homestayId": "h1027",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Price was acceptable but slightly on the higher side for what was offered. Expected a bit more at this rate.",
+      "date": "2023-02-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr222",
+      "homestayId": "h1028",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "The property was immaculate. You could tell the host takes real pride in keeping the place clean and well presented.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr223",
+      "homestayId": "h1028",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Excellent value for money. Got much more than expected — clean rooms, great food, and warm hospitality at a very fair price.",
+      "date": "2024-11-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr224",
+      "homestayId": "h1028",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Well connected to the main market and tourist spots. Walking distance from most sightseeing points which was very convenient.",
+      "date": "2024-10-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr225",
+      "homestayId": "h1028",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Surprisingly affordable for the quality of service provided. One of the best budget stays I have experienced.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr226",
+      "homestayId": "h1028",
+      "guestName": "Couple Guest",
+      "rating": 1,
+      "comment": "Extremely overpriced for what was delivered. Facilities were basic, food was poor, and the host was unhelpful.",
+      "date": "2024-08-01",
+      "sentiment": "Negative",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr227",
+      "homestayId": "h1028",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "The property was immaculate. You could tell the host takes real pride in keeping the place clean and well presented.",
+      "date": "2024-06-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr228",
+      "homestayId": "h1028",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "Easy to locate with good road access. Host sent clear directions in advance which made arrival smooth and stress free.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr229",
+      "homestayId": "h1028",
+      "guestName": "Solo Guest",
+      "rating": 2,
+      "comment": "Bed sheets had visible stains. Common areas were unkempt. For the price charged this was completely unacceptable.",
+      "date": "2024-05-01",
+      "sentiment": "Negative",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr230",
+      "homestayId": "h1029",
+      "guestName": "Solo Traveler Guest",
+      "rating": 4,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-06-02",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr231",
+      "homestayId": "h1029",
+      "guestName": "Friends Group Guest",
+      "rating": 4,
+      "comment": "Outstanding experience with great trekking options.",
+      "date": "2026-05-31",
+      "sentiment": "Positive",
+      "topic": "Amenities"
+    },
+    {
+      "_id": "gr232",
+      "homestayId": "h1029",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "The hosts made us feel like family.",
+      "date": "2026-05-27",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr233",
+      "homestayId": "h1029",
+      "guestName": "Solo Traveler Guest",
+      "rating": 4,
+      "comment": "Great value for money and comfortable stay.",
+      "date": "2026-05-26",
+      "sentiment": "Positive",
+      "topic": "Trekking"
+    },
+    {
+      "_id": "gr234",
+      "homestayId": "h1029",
+      "guestName": "Friends Group Guest",
+      "rating": 3,
+      "comment": "Comfortable stay though food options were limited.",
+      "date": "2026-05-25",
+      "sentiment": "Neutral",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr235",
+      "homestayId": "h1029",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Great value for money and comfortable stay.",
+      "date": "2026-05-18",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr236",
+      "homestayId": "h1029",
+      "guestName": "Friends Group Guest",
+      "rating": 4,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-05-17",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr237",
+      "homestayId": "h1029",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-05-14",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr238",
+      "homestayId": "h1030",
+      "guestName": "Friends Group Guest",
+      "rating": 1,
+      "comment": "Service response was slower than expected.",
+      "date": "2026-06-13",
+      "sentiment": "Negative",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr239",
+      "homestayId": "h1030",
+      "guestName": "Solo Traveler Guest",
+      "rating": 4,
+      "comment": "One of the best homestays we have visited.",
+      "date": "2026-06-11",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr240",
+      "homestayId": "h1030",
+      "guestName": "Friends Group Guest",
+      "rating": 5,
+      "comment": "Outstanding experience with great trekking options.",
+      "date": "2026-06-06",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr241",
+      "homestayId": "h1030",
+      "guestName": "Friends Group Guest",
+      "rating": 5,
+      "comment": "Perfect place for eco tourism and nature lovers.",
+      "date": "2026-06-02",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr242",
+      "homestayId": "h1030",
+      "guestName": "Couple Guest",
+      "rating": 1,
+      "comment": "Road access to the homestay was difficult.",
+      "date": "2026-06-01",
+      "sentiment": "Negative",
+      "topic": "Scenic Beauty"
+    },
+    {
+      "_id": "gr243",
+      "homestayId": "h1030",
+      "guestName": "Friends Group Guest",
+      "rating": 3,
+      "comment": "The property was satisfactory for a short visit.",
+      "date": "2026-05-28",
+      "sentiment": "Neutral",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr244",
+      "homestayId": "h1030",
+      "guestName": "Solo Traveler Guest",
+      "rating": 3,
+      "comment": "Good experience but room maintenance can improve.",
+      "date": "2026-05-25",
+      "sentiment": "Neutral",
+      "topic": "Trekking"
+    },
+    {
+      "_id": "gr245",
+      "homestayId": "h1030",
+      "guestName": "Solo Traveler Guest",
+      "rating": 2,
+      "comment": "Limited facilities for the price charged.",
+      "date": "2026-05-24",
+      "sentiment": "Negative",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr246",
+      "homestayId": "h1031",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Best money I have spent on accommodation in Uttarakhand. The experience was priceless relative to what we paid.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr247",
+      "homestayId": "h1031",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "A hidden gem. The property is surrounded by forests and the night sky is incredibly clear. Worth every rupee.",
+      "date": "2024-10-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr248",
+      "homestayId": "h1031",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "The owner was knowledgeable, helpful, and available whenever needed. Never felt like a paying guest — felt like a guest of a family.",
+      "date": "2024-06-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr249",
+      "homestayId": "h1031",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Decent hygiene standards maintained. Not the cleanest stay but not dirty either. Acceptable for the price.",
+      "date": "2024-05-01",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr250",
+      "homestayId": "h1031",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "Old world magic with homes surrounded by trees and a garden overlooking the lake. Very peaceful and serene atmosphere.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr251",
+      "homestayId": "h1031",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Absolutely loved this stay. The garden overlooking the lake is magical. Rooms were beautifully furnished. Food was delicious.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr252",
+      "homestayId": "h1031",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "The view from the balcony at sunrise was breathtaking. We spent hours just sitting there taking it all in.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr253",
+      "homestayId": "h1031",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Comfortable and relaxing stay in Nainital. Best for couples and family. Property staff is very professional and food was delicious.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr254",
+      "homestayId": "h1032",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Staff were okay — not unfriendly but not exceptionally warm either. Service was functional but not memorable.",
+      "date": "2024-12-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr255",
+      "homestayId": "h1032",
+      "guestName": "Group Guest",
+      "rating": 2,
+      "comment": "Breakfast was served late every morning and was of very poor quality. Nothing like what was shown on the listing.",
+      "date": "2024-12-01",
+      "sentiment": "Negative",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr256",
+      "homestayId": "h1032",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Waking up to mountain views and the sound of the river was priceless. This is what travel is supposed to feel like.",
+      "date": "2024-10-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr257",
+      "homestayId": "h1032",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Absolutely loved the warmth of the host family. They arranged a bonfire evening and shared Pahadi folk songs with us.",
+      "date": "2024-10-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr258",
+      "homestayId": "h1032",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Well connected to the main market and tourist spots. Walking distance from most sightseeing points which was very convenient.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr259",
+      "homestayId": "h1032",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "One of the most unique and memorable stays of my life. The natural surroundings, the silence, and the local culture were magical.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr260",
+      "homestayId": "h1032",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "Very good quiet guest house in Tapovan. The rooms are very spacious and comfortable. I highly recommend.",
+      "date": "2024-02-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr261",
+      "homestayId": "h1032",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Very friendly couple, cooked some yummy food, and we learnt a lot. The home stay looked peaceful and beautifully presented. Wonderful experience.",
+      "date": "2023-11-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr262",
+      "homestayId": "h1033",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "A hidden gem. The property is surrounded by forests and the night sky is incredibly clear. Worth every rupee.",
+      "date": "2024-10-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr263",
+      "homestayId": "h1033",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Host was polite and available when needed but not particularly proactive. Average hospitality for the price point.",
+      "date": "2024-10-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr264",
+      "homestayId": "h1033",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "Average group stay. Rooms were okay but slightly cramped. Location near the lake is the biggest plus. Host was polite but not very proactive.",
+      "date": "2024-06-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr265",
+      "homestayId": "h1033",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Linens were changed every day. Rooms were airy, well lit, and felt thoroughly sanitised. Very comfortable overall.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr266",
+      "homestayId": "h1033",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "The food was simple but incredibly tasty. Generous portions and great variety. Felt nourishing after long treks.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr267",
+      "homestayId": "h1033",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "Food was okay — basic and filling but nothing special. Limited variety after the second day of staying.",
+      "date": "2024-04-01",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr268",
+      "homestayId": "h1033",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "The manager was arrogant and did not help resolve issues despite repeated requests. Very disappointing experience.",
+      "date": "2024-02-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr269",
+      "homestayId": "h1033",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Decent stay but nothing exceptional. Location is good and views are nice. However rooms are a bit small and bathroom could be cleaner.",
+      "date": "2023-12-01",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr270",
+      "homestayId": "h1034",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Host treated us like family. Kids were welcomed warmly and given extra attention throughout. We felt absolutely at home.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr271",
+      "homestayId": "h1034",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Host was polite and available when needed but not particularly proactive. Average hospitality for the price point.",
+      "date": "2024-11-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr272",
+      "homestayId": "h1034",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Host was proactive in solving every small issue without us having to ask twice. Rare to find such attentive service at this price point.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr273",
+      "homestayId": "h1034",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "The caretaker was courteous, responsive, and genuinely caring. Best host experience I have had in any homestay across India.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr274",
+      "homestayId": "h1034",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "I recently stayed at this budget friendly homestay and was pleasantly surprised by the cleanliness and generosity of the host. Good value for money.",
+      "date": "2024-06-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr275",
+      "homestayId": "h1034",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Amazing views from the property. Host was very welcoming and helpful. Rooms were clean and well maintained. The mountain views were breathtaking.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr276",
+      "homestayId": "h1034",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Bathroom was clean with hot water always available. Rooms were dusted and mopped daily without us having to ask.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr277",
+      "homestayId": "h1034",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Good family stay. Kids enjoyed the garden area. Host was very accommodating. Clean rooms with mountain views. Breakfast was included and very tasty.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr278",
+      "homestayId": "h1035",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Amazing hospitality and very friendly hosts.",
+      "date": "2026-06-13",
+      "sentiment": "Positive",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr279",
+      "homestayId": "h1035",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Outstanding experience with great trekking options.",
+      "date": "2026-06-12",
+      "sentiment": "Positive",
+      "topic": "Amenities"
+    },
+    {
+      "_id": "gr280",
+      "homestayId": "h1035",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-06-11",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr281",
+      "homestayId": "h1035",
+      "guestName": "Solo Traveler Guest",
+      "rating": 4,
+      "comment": "Great value for money and comfortable stay.",
+      "date": "2026-06-11",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr282",
+      "homestayId": "h1035",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-06-09",
+      "sentiment": "Positive",
+      "topic": "Amenities"
+    },
+    {
+      "_id": "gr283",
+      "homestayId": "h1035",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Perfect place for eco tourism and nature lovers.",
+      "date": "2026-06-02",
+      "sentiment": "Positive",
+      "topic": "Scenic Beauty"
+    },
+    {
+      "_id": "gr284",
+      "homestayId": "h1035",
+      "guestName": "Friends Group Guest",
+      "rating": 5,
+      "comment": "The hosts made us feel like family.",
+      "date": "2026-05-27",
+      "sentiment": "Positive",
+      "topic": "Scenic Beauty"
+    },
+    {
+      "_id": "gr285",
+      "homestayId": "h1035",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 5,
+      "comment": "Clean rooms and wonderful service.",
+      "date": "2026-05-23",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr286",
+      "homestayId": "h1036",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "The food was simple but incredibly tasty. Generous portions and great variety. Felt nourishing after long treks.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr287",
+      "homestayId": "h1036",
+      "guestName": "Family Guest",
+      "rating": 2,
+      "comment": "Disappointed with the stay. Room was smaller than shown in photos. Lake view was partially blocked. Food quality was below expectations.",
+      "date": "2024-03-01",
+      "sentiment": "Negative",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr288",
+      "homestayId": "h1036",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "Cleanliness was average. Common areas were tidy but rooms showed some signs of wear and lack of deep cleaning.",
+      "date": "2024-03-01",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr289",
+      "homestayId": "h1036",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "The hotel is very well located and rooms have a perfect lake view. Rooms are neat, clean and well maintained. Staff is very cordial.",
+      "date": "2024-02-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr290",
+      "homestayId": "h1036",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Highly recommended place to stay in Nainital. Very well located with amazing lake view from the balcony. Staff is very polite and cordial.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr291",
+      "homestayId": "h1036",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "The view from the balcony at sunrise was breathtaking. We spent hours just sitting there taking it all in.",
+      "date": "2023-12-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr292",
+      "homestayId": "h1036",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Meals were edible but lacked flavour. The host tried but cooking quality was average. Breakfast was the better meal.",
+      "date": "2023-11-01",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr293",
+      "homestayId": "h1036",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "Compared to hotel prices in the area this homestay offers significantly better value with a much more personal experience.",
+      "date": "2023-06-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr294",
+      "homestayId": "h1037",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Amazing hospitality and very friendly hosts.",
+      "date": "2026-06-12",
+      "sentiment": "Positive",
+      "topic": "Eco Tourism"
+    },
+    {
+      "_id": "gr295",
+      "homestayId": "h1037",
+      "guestName": "Friends Group Guest",
+      "rating": 5,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-06-11",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr296",
+      "homestayId": "h1037",
+      "guestName": "Solo Traveler Guest",
+      "rating": 5,
+      "comment": "One of the best homestays we have visited.",
+      "date": "2026-06-04",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr297",
+      "homestayId": "h1037",
+      "guestName": "Friends Group Guest",
+      "rating": 1,
+      "comment": "Food quality did not meet expectations.",
+      "date": "2026-06-03",
+      "sentiment": "Negative",
+      "topic": "Trekking"
+    },
+    {
+      "_id": "gr298",
+      "homestayId": "h1037",
+      "guestName": "Friends Group Guest",
+      "rating": 3,
+      "comment": "Overall a decent stay with basic facilities.",
+      "date": "2026-06-02",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr299",
+      "homestayId": "h1037",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Comfortable stay though food options were limited.",
+      "date": "2026-05-28",
+      "sentiment": "Neutral",
+      "topic": "Amenities"
+    },
+    {
+      "_id": "gr300",
+      "homestayId": "h1037",
+      "guestName": "Friends Group Guest",
+      "rating": 1,
+      "comment": "WiFi connectivity was poor during the stay.",
+      "date": "2026-05-27",
+      "sentiment": "Negative",
+      "topic": "Eco Tourism"
+    },
+    {
+      "_id": "gr301",
+      "homestayId": "h1037",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Great value for money and comfortable stay.",
+      "date": "2026-05-25",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr302",
+      "homestayId": "h1038",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-06-11",
+      "sentiment": "Positive",
+      "topic": "Eco Tourism"
+    },
+    {
+      "_id": "gr303",
+      "homestayId": "h1038",
+      "guestName": "Friends Group Guest",
+      "rating": 1,
+      "comment": "The room was smaller than shown in photos.",
+      "date": "2026-06-05",
+      "sentiment": "Negative",
+      "topic": "Trekking"
+    },
+    {
+      "_id": "gr304",
+      "homestayId": "h1038",
+      "guestName": "Family Guest",
+      "rating": 2,
+      "comment": "Food quality did not meet expectations.",
+      "date": "2026-06-05",
+      "sentiment": "Negative",
+      "topic": "Scenic Beauty"
+    },
+    {
+      "_id": "gr305",
+      "homestayId": "h1038",
+      "guestName": "Solo Traveler Guest",
+      "rating": 4,
+      "comment": "Great value for money and comfortable stay.",
+      "date": "2026-06-04",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr306",
+      "homestayId": "h1038",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-06-02",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr307",
+      "homestayId": "h1038",
+      "guestName": "Family Guest",
+      "rating": 2,
+      "comment": "Property maintenance needs attention.",
+      "date": "2026-06-02",
+      "sentiment": "Negative",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr308",
+      "homestayId": "h1038",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 4,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-05-30",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr309",
+      "homestayId": "h1038",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "One of the best homestays we have visited.",
+      "date": "2026-05-30",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr310",
+      "homestayId": "h1039",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Great price to quality ratio. The homestay offered everything a traveller needs without overcharging for the location.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr311",
+      "homestayId": "h1039",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Great eco-friendly homestay away from city crowds. Rooms were clean and comfortable. Food was fresh and home cooked.",
+      "date": "2024-02-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr312",
+      "homestayId": "h1039",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Decent stay with good surroundings. Not as unique as described but a reasonable experience for a weekend trip.",
+      "date": "2024-02-01",
+      "sentiment": "Neutral",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr313",
+      "homestayId": "h1039",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "One of the best places to stay and enjoy nature. Located inside a small forest. Very different from the overcrowded destinations.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr314",
+      "homestayId": "h1039",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Location was decent but slightly off the main road. Required a 10 minute walk with luggage which was inconvenient.",
+      "date": "2023-12-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr315",
+      "homestayId": "h1039",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Breakfast was generous and tasty with local specialties included. Food quality was consistent and well prepared throughout.",
+      "date": "2023-12-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr316",
+      "homestayId": "h1039",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Breakfast was generous and tasty with local specialties included. Food quality was consistent and well prepared throughout.",
+      "date": "2023-07-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr317",
+      "homestayId": "h1039",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "The pricing was fair but the experience did not feel premium. Decent stay for a short trip on a moderate budget.",
+      "date": "2023-07-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr318",
+      "homestayId": "h1040",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "Compared to hotel prices in the area this homestay offers significantly better value with a much more personal experience.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr319",
+      "homestayId": "h1040",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Compared to hotel prices in the area this homestay offers significantly better value with a much more personal experience.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr320",
+      "homestayId": "h1040",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "Road access was okay during dry weather but could be tricky during monsoon. Location is a bit far from key spots.",
+      "date": "2024-12-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr321",
+      "homestayId": "h1040",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Great price to quality ratio. The homestay offered everything a traveller needs without overcharging for the location.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr322",
+      "homestayId": "h1040",
+      "guestName": "Group Guest",
+      "rating": 1,
+      "comment": "Service and amenities were disappointing. Hospitality was pathetic. Staff was rude throughout our stay. Not worth the premium price charged.",
+      "date": "2024-10-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr323",
+      "homestayId": "h1040",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "Pickup from the bus stand was arranged by the host at no extra charge. Made arrival with heavy luggage very easy.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr324",
+      "homestayId": "h1040",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Easy to locate with good road access. Host sent clear directions in advance which made arrival smooth and stress free.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr325",
+      "homestayId": "h1040",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "The stay was really good. The host and the cook were really nice and helpful and cooked very delicious food. Location is excellent.",
+      "date": "2024-06-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr326",
+      "homestayId": "h1041",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "Villa with bonfire and lawn sounded great but the actual experience was terrible. Management was unresponsive. Felt cheated for the premium price paid.",
+      "date": "2024-10-01",
+      "sentiment": "Negative",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr327",
+      "homestayId": "h1041",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Beautiful villa with lake view. Fireplace in the living room was lovely. Food was excellent with good variety. Overall a very memorable stay.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr328",
+      "homestayId": "h1041",
+      "guestName": "Group Guest",
+      "rating": 3,
+      "comment": "Views were good but we expected more from the eco-tourism angle. Felt like a regular guesthouse in a hill station.",
+      "date": "2024-04-01",
+      "sentiment": "Neutral",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr329",
+      "homestayId": "h1041",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Food was repetitive over three days. Taste was acceptable but we ended up eating out for dinner on most evenings.",
+      "date": "2023-12-01",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr330",
+      "homestayId": "h1041",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Best experience ever. The view and location was a complete heaven. Cottage staff was very supporting. Even the food was very nice.",
+      "date": "2023-09-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr331",
+      "homestayId": "h1041",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "The caretaker was courteous, responsive, and genuinely caring. Best host experience I have had in any homestay across India.",
+      "date": "2023-03-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr332",
+      "homestayId": "h1041",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "The home cooked Pahadi food was the highlight of our stay. Fresh, local, and absolutely delicious every single meal.",
+      "date": "2023-02-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr333",
+      "homestayId": "h1041",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Views were good but we expected more from the eco-tourism angle. Felt like a regular guesthouse in a hill station.",
+      "date": "2023-01-01",
+      "sentiment": "Neutral",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr334",
+      "homestayId": "h1042",
+      "guestName": "Solo Traveler Guest",
+      "rating": 3,
+      "comment": "The property was satisfactory for a short visit.",
+      "date": "2026-06-12",
+      "sentiment": "Neutral",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr335",
+      "homestayId": "h1042",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 4,
+      "comment": "The hosts made us feel like family.",
+      "date": "2026-06-12",
+      "sentiment": "Positive",
+      "topic": "Scenic Beauty"
+    },
+    {
+      "_id": "gr336",
+      "homestayId": "h1042",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Perfect place for eco tourism and nature lovers.",
+      "date": "2026-06-12",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr337",
+      "homestayId": "h1042",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Beautiful mountain views and peaceful atmosphere.",
+      "date": "2026-06-12",
+      "sentiment": "Positive",
+      "topic": "Hospitality"
+    },
+    {
+      "_id": "gr338",
+      "homestayId": "h1042",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 2,
+      "comment": "The room was smaller than shown in photos.",
+      "date": "2026-06-09",
+      "sentiment": "Negative",
+      "topic": "Amenities"
+    },
+    {
+      "_id": "gr339",
+      "homestayId": "h1042",
+      "guestName": "Solo Traveler Guest",
+      "rating": 2,
+      "comment": "Road access to the homestay was difficult.",
+      "date": "2026-06-04",
+      "sentiment": "Negative",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr340",
+      "homestayId": "h1042",
+      "guestName": "Couple Guest",
+      "rating": 1,
+      "comment": "WiFi connectivity was poor during the stay.",
+      "date": "2026-05-30",
+      "sentiment": "Negative",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr341",
+      "homestayId": "h1042",
+      "guestName": "Friends Group Guest",
+      "rating": 5,
+      "comment": "The hosts made us feel like family.",
+      "date": "2026-05-26",
+      "sentiment": "Positive",
+      "topic": "Trekking"
+    },
+    {
+      "_id": "gr342",
+      "homestayId": "h1043",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "Excellent food with a good mix of local and North Indian options. Breakfast included local parathas and fresh chai.",
+      "date": "2024-12-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr343",
+      "homestayId": "h1043",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Average experience. Location is okay but the homestay itself is nothing special. Rooms were clean but small. Food options very limited.",
+      "date": "2024-10-01",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr344",
+      "homestayId": "h1043",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Parking was limited and the lane to the homestay was narrow. Manageable but could cause issues with larger vehicles.",
+      "date": "2024-10-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr345",
+      "homestayId": "h1043",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Pickup from the bus stand was arranged by the host at no extra charge. Made arrival with heavy luggage very easy.",
+      "date": "2024-10-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr346",
+      "homestayId": "h1043",
+      "guestName": "Couple Guest",
+      "rating": 2,
+      "comment": "Overpriced for what is offered. The room was damp and cold. Heating was not working properly. Host was slow to respond to complaints.",
+      "date": "2024-09-01",
+      "sentiment": "Negative",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr347",
+      "homestayId": "h1043",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Good parking facility available. Roads leading to the property were well maintained and easy to navigate.",
+      "date": "2024-08-01",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr348",
+      "homestayId": "h1043",
+      "guestName": "Solo Guest",
+      "rating": 2,
+      "comment": "Very noisy location. Could hear construction noise throughout the night. Room was small. Host was unresponsive. Not worth the price.",
+      "date": "2024-07-01",
+      "sentiment": "Negative",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr349",
+      "homestayId": "h1043",
+      "guestName": "Group Guest",
+      "rating": 2,
+      "comment": "Bed sheets had visible stains. Common areas were unkempt. For the price charged this was completely unacceptable.",
+      "date": "2024-07-01",
+      "sentiment": "Negative",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr350",
+      "homestayId": "h1044",
+      "guestName": "Family Guest",
+      "rating": 5,
+      "comment": "Everything is very good. The hotel staff member Monu is very good, giving good services. The behavior of all staff is very kind and welcoming.",
+      "date": "2024-01-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr351",
+      "homestayId": "h1044",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Property photos do not match actual outside view. Food is good and rooms are neat and clean though.",
+      "date": "2024-01-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr352",
+      "homestayId": "h1045",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Food was okay — basic and filling but nothing special. Limited variety after the second day of staying.",
+      "date": "2024-11-01",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr353",
+      "homestayId": "h1045",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Exceptional hospitality from the owner and staff. They went out of their way to help us with everything we needed during our stay.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr354",
+      "homestayId": "h1045",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "The food was simple but incredibly tasty. Generous portions and great variety. Felt nourishing after long treks.",
+      "date": "2024-07-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr355",
+      "homestayId": "h1045",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "The property was immaculate. You could tell the host takes real pride in keeping the place clean and well presented.",
+      "date": "2024-06-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr356",
+      "homestayId": "h1045",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Felt completely disconnected from city life in the best possible way. Nature, peace, and authenticity all in one place.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr357",
+      "homestayId": "h1045",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Okay value for money. Not a great deal but not overpriced either. Average experience for an average price.",
+      "date": "2024-04-01",
+      "sentiment": "Neutral",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr358",
+      "homestayId": "h1045",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "Extremely overpriced for what was delivered. Facilities were basic, food was poor, and the host was unhelpful.",
+      "date": "2024-03-01",
+      "sentiment": "Negative",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr359",
+      "homestayId": "h1045",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "The bonfire evening arranged by the host with folk music was something we will never forget. Truly special experience.",
+      "date": "2023-12-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr360",
+      "homestayId": "h1046",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Food was okay — basic and filling but nothing special. Limited variety after the second day of staying.",
+      "date": "2024-11-01",
+      "sentiment": "Neutral",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr361",
+      "homestayId": "h1046",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "Staff behaviour was poor — unfriendly, unhelpful, and seemed annoyed by basic requests. Would not return.",
+      "date": "2024-09-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr362",
+      "homestayId": "h1046",
+      "guestName": "Family Guest",
+      "rating": 4,
+      "comment": "Meals were fresh, home cooked, and full of flavour. The host used local produce which made everything taste authentic.",
+      "date": "2024-09-01",
+      "sentiment": "Positive",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr363",
+      "homestayId": "h1046",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Linens were changed every day. Rooms were airy, well lit, and felt thoroughly sanitised. Very comfortable overall.",
+      "date": "2024-05-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr364",
+      "homestayId": "h1046",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "Absolutely loved the warmth of the host family. They arranged a bonfire evening and shared Pahadi folk songs with us.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr365",
+      "homestayId": "h1046",
+      "guestName": "Group Guest",
+      "rating": 4,
+      "comment": "The caretaker was courteous, responsive, and genuinely caring. Best host experience I have had in any homestay across India.",
+      "date": "2024-04-01",
+      "sentiment": "Positive",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr366",
+      "homestayId": "h1046",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "The property was immaculate. You could tell the host takes real pride in keeping the place clean and well presented.",
+      "date": "2024-02-01",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr367",
+      "homestayId": "h1046",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Dorm room was clean upon arrival. AC works throughout the day. Wifi on all floors. Food prices are a bit higher but quality is good enough.",
+      "date": "2024-01-01",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr368",
+      "homestayId": "h1047",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-06-13",
+      "sentiment": "Positive",
+      "topic": "Trekking"
+    },
+    {
+      "_id": "gr369",
+      "homestayId": "h1047",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Great value for money and comfortable stay.",
+      "date": "2026-06-04",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr370",
+      "homestayId": "h1047",
+      "guestName": "Solo Traveler Guest",
+      "rating": 4,
+      "comment": "One of the best homestays we have visited.",
+      "date": "2026-06-03",
+      "sentiment": "Positive",
+      "topic": "Eco Tourism"
+    },
+    {
+      "_id": "gr371",
+      "homestayId": "h1047",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 5,
+      "comment": "The hosts made us feel like family.",
+      "date": "2026-06-02",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr372",
+      "homestayId": "h1047",
+      "guestName": "Solo Traveler Guest",
+      "rating": 5,
+      "comment": "Perfect place for eco tourism and nature lovers.",
+      "date": "2026-05-24",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr373",
+      "homestayId": "h1047",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-05-17",
+      "sentiment": "Positive",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr374",
+      "homestayId": "h1047",
+      "guestName": "Couple Guest",
+      "rating": 5,
+      "comment": "Loved the scenic surroundings and fresh air.",
+      "date": "2026-05-17",
+      "sentiment": "Positive",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr375",
+      "homestayId": "h1047",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 5,
+      "comment": "Clean rooms and wonderful service.",
+      "date": "2026-05-12",
+      "sentiment": "Positive",
+      "topic": "Trekking"
+    },
+    {
+      "_id": "gr376",
+      "homestayId": "h1048",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Perfect place for eco tourism and nature lovers.",
+      "date": "2026-06-13",
+      "sentiment": "Positive",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr377",
+      "homestayId": "h1048",
+      "guestName": "Family Guest",
+      "rating": 3,
+      "comment": "Good experience but room maintenance can improve.",
+      "date": "2026-06-08",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr378",
+      "homestayId": "h1048",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 3,
+      "comment": "The property was satisfactory for a short visit.",
+      "date": "2026-06-07",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr379",
+      "homestayId": "h1048",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 1,
+      "comment": "Room cleanliness needs improvement.",
+      "date": "2026-06-05",
+      "sentiment": "Negative",
+      "topic": "Amenities"
+    },
+    {
+      "_id": "gr380",
+      "homestayId": "h1048",
+      "guestName": "Couple Guest",
+      "rating": 2,
+      "comment": "Food quality did not meet expectations.",
+      "date": "2026-05-30",
+      "sentiment": "Negative",
+      "topic": "Location"
+    },
+    {
+      "_id": "gr381",
+      "homestayId": "h1048",
+      "guestName": "Adventure Traveler Guest",
+      "rating": 3,
+      "comment": "Good experience but room maintenance can improve.",
+      "date": "2026-05-24",
+      "sentiment": "Neutral",
+      "topic": "Cleanliness"
+    },
+    {
+      "_id": "gr382",
+      "homestayId": "h1048",
+      "guestName": "Solo Traveler Guest",
+      "rating": 5,
+      "comment": "Outstanding experience with great trekking options.",
+      "date": "2026-05-24",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr383",
+      "homestayId": "h1048",
+      "guestName": "Couple Guest",
+      "rating": 4,
+      "comment": "Excellent local food and authentic village experience.",
+      "date": "2026-05-21",
+      "sentiment": "Positive",
+      "topic": "Eco Tourism"
+    },
+    {
+      "_id": "gr384",
+      "homestayId": "h1049",
+      "guestName": "Solo Guest",
+      "rating": 3,
+      "comment": "Location was decent but slightly off the main road. Required a 10 minute walk with luggage which was inconvenient.",
+      "date": "2024-11-01",
+      "sentiment": "Neutral",
+      "topic": "Accessibility"
+    },
+    {
+      "_id": "gr385",
+      "homestayId": "h1049",
+      "guestName": "Family Guest",
+      "rating": 1,
+      "comment": "Breakfast was served late every morning and was of very poor quality. Nothing like what was shown on the listing.",
+      "date": "2024-06-01",
+      "sentiment": "Negative",
+      "topic": "Food"
+    },
+    {
+      "_id": "gr386",
+      "homestayId": "h1049",
+      "guestName": "Couple Guest",
+      "rating": 1,
+      "comment": "Waited 6 hours for check-in despite confirmed booking. Host showed no urgency or apology. Terrible hospitality.",
+      "date": "2024-03-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr387",
+      "homestayId": "h1049",
+      "guestName": "Group Guest",
+      "rating": 5,
+      "comment": "A hidden gem. The property is surrounded by forests and the night sky is incredibly clear. Worth every rupee.",
+      "date": "2024-03-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr388",
+      "homestayId": "h1049",
+      "guestName": "Solo Guest",
+      "rating": 4,
+      "comment": "Surprisingly affordable for the quality of service provided. One of the best budget stays I have experienced.",
+      "date": "2024-02-01",
+      "sentiment": "Positive",
+      "topic": "Value for Money"
+    },
+    {
+      "_id": "gr389",
+      "homestayId": "h1049",
+      "guestName": "Solo Guest",
+      "rating": 5,
+      "comment": "A hidden gem. The property is surrounded by forests and the night sky is incredibly clear. Worth every rupee.",
+      "date": "2024-02-01",
+      "sentiment": "Positive",
+      "topic": "Experience Uniqueness"
+    },
+    {
+      "_id": "gr390",
+      "homestayId": "h1049",
+      "guestName": "Group Guest",
+      "rating": 1,
+      "comment": "Really bad behaviour and there is no hospitality as such. Waited around 5-6 hours for check in even though rooms were empty.",
+      "date": "2024-01-01",
+      "sentiment": "Negative",
+      "topic": "Host Behaviour"
+    },
+    {
+      "_id": "gr391",
+      "homestayId": "h1049",
+      "guestName": "Couple Guest",
+      "rating": 3,
+      "comment": "Staff were okay — not unfriendly but not exceptionally warm either. Service was functional but not memorable.",
+      "date": "2023-12-01",
+      "sentiment": "Neutral",
+      "topic": "Host Behaviour"
+    }
+  ]
+}

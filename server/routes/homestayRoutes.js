@@ -1,0 +1,15 @@
+const express = require('express')
+const controller = require('../controllers/homestayController')
+const { protect } = require('../middleware/authMiddleware')
+const { requireRole } = require('../middleware/roleMiddleware')
+
+const router = express.Router()
+router.get('/', controller.listHomestays)
+router.get('/search', controller.searchHomestays)
+router.post('/', protect, requireRole('owner', 'admin'), controller.createHomestay)
+router.get('/:id', controller.getHomestay)
+router.put('/:id', protect, requireRole('owner', 'admin'), controller.updateHomestay)
+router.delete('/:id', protect, requireRole('owner', 'admin'), controller.deleteHomestay)
+router.get('/:id/reviews', controller.listReviews)
+router.post('/:id/reviews', controller.addReview)
+module.exports = router

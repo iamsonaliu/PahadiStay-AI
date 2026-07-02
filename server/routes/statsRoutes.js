@@ -1,5 +1,5 @@
 const express = require('express')
-const { chat } = require('../controllers/chatController')
+const { getStats } = require('../controllers/statsController')
 const router = express.Router()
-router.post('/', chat)
+router.get('/', getStats)
 module.exports = router
