@@ -1,87 +1,91 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
-import Navbar from '../components/layout/Navbar'
-import Footer from '../components/layout/Footer'
-import { Button, Input } from '../components/ui'
-import toast, { Toaster } from 'react-hot-toast'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
+import toast from 'react-hot-toast'
+import { useAuth } from '../context/AuthContext'
 
 export default function Login() {
-  const [form, setForm]       = useState({ email: '', password: '' })
-  const [errors, setErrors]   = useState({})
-  const [loading, setLoading] = useState(false)
+  const { login } = useAuth()
+  const navigate = useNavigate()
+  const location = useLocation()
+  const [form, setForm] = useState({ email: '', password: '' })
+  const [submitting, setSubmitting] = useState(false)
+  const from = location.state?.from?.pathname || '/dashboard'
 
-  function validate() {
-    const e = {}
-    if (!form.email.trim())    e.email    = 'Email is required'
-    if (!form.password.trim()) e.password = 'Password is required'
-    setErrors(e)
-    return Object.keys(e).length === 0
-  }
+  const update = (event) => setForm((current) => ({ ...current, [event.target.name]: event.target.value }))
 
-  async function handleLogin() {
-    if (!validate()) return
-    setLoading(true)
-    await new Promise(r => setTimeout(r, 800))
-    toast.success('Auth integration coming in Phase 2!')
-    setLoading(false)
+  const handleSubmit = async (event) => {
+    event.preventDefault()
+    setSubmitting(true)
+    try {
+      await login(form.email, form.password)
+      toast.success('Welcome back to PahadiStay AI')
+      navigate(from, { replace: true })
+    } catch (error) {
+      toast.error(error.message || 'Could not sign in')
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Toaster position="top-right" />
-      <Navbar />
+    <section className="bg-cream-100 dark:bg-forest-900">
+      <div className="container-px section">
+        <div className="card overflow-hidden grid lg:grid-cols-2 min-h-[680px] animate-fade-up">
+          <aside className="relative hidden lg:flex flex-col justify-between overflow-hidden bg-forest-gradient p-10 text-white">
+            <img
+              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&q=80"
+              alt="Snowy Himalayan peaks at sunrise"
+              className="absolute inset-0 h-full w-full object-cover opacity-45"
+            />
+            <div className="absolute inset-0 bg-hero-overlay" />
+            <div className="relative z-10">
+              <p className="text-terra-400 text-xs font-semibold uppercase tracking-[0.18em] mb-4">Owner portal</p>
+              <h1 className="text-4xl xl:text-5xl font-bold text-white max-w-md">Welcome back to the hills.</h1>
+              <p className="mt-5 max-w-md text-cream-100/80 leading-relaxed">
+                Manage direct bookings, read guest signals, and grow your Uttarakhand homestay with AI-powered clarity.
+              </p>
+            </div>
+            <div className="relative z-10 glass rounded-2xl p-5 bg-white/15 border-white/20 text-sm text-cream-50/90">
+              “Hidden homestays deserve their own digital front door — without high OTA commissions.”
+            </div>
+          </aside>
 
-      <main className="flex-1 flex items-center justify-center py-14 px-4">
-        <div className="w-full max-w-sm">
-          <div className="text-center mb-8">
-            <span className="text-3xl">⛰</span>
-            <h1 className="text-2xl font-bold text-forest-900 mt-3 mb-1">Welcome back</h1>
-            <p className="text-gray-500 text-sm">Sign in to your PahadiStay account</p>
-          </div>
-
-          <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
-            <div className="space-y-4">
-              <Input
-                label="Email"
-                type="email"
-                placeholder="you@example.com"
-                value={form.email}
-                onChange={e => setForm(f => ({ ...f, email: e.target.value }))}
-                error={errors.email}
-                required
-              />
-              <div>
-                <div className="flex justify-between items-center mb-1.5">
-                  <label className="text-sm font-medium text-gray-700">Password</label>
-                  <a href="#" className="text-xs text-terra-500 hover:text-terra-600">Forgot?</a>
-                </div>
-                <Input
-                  type="password"
-                  placeholder="••••••••"
-                  value={form.password}
-                  onChange={e => setForm(f => ({ ...f, password: e.target.value }))}
-                  error={errors.password}
-                />
+          <div className="p-6 sm:p-10 lg:p-14 flex items-center">
+            <div className="w-full max-w-md mx-auto">
+              <div className="lg:hidden rounded-3xl bg-forest-gradient p-6 text-white mb-8 overflow-hidden relative">
+                <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-terra-400/20" />
+                <p className="text-terra-300 text-xs font-semibold uppercase tracking-[0.18em] mb-2">PahadiStay AI</p>
+                <h1 className="text-3xl font-bold text-white">Welcome back</h1>
               </div>
 
-              <Button variant="secondary" className="w-full" loading={loading} onClick={handleLogin}>
-                Sign in
-              </Button>
-            </div>
+              <p className="eyebrow mb-3">Sign in</p>
+              <h2 className="text-3xl font-bold mb-3">Owner dashboard login</h2>
+              <p className="text-gray-600 dark:text-cream-100/70 mb-8">Enter your details to continue managing your stays.</p>
 
-            <div className="mt-5 text-center text-sm text-gray-500">
-              Don't have an account?{' '}
-              <Link to="/register" className="text-terra-500 hover:text-terra-600 font-medium">Register</Link>
+              <form onSubmit={handleSubmit} className="space-y-5">
+                <div>
+                  <label className="label" htmlFor="email">Email address</label>
+                  <input id="email" name="email" type="email" autoComplete="email" required className="input" value={form.email} onChange={update} placeholder="you@example.com" />
+                </div>
+                <div>
+                  <label className="label" htmlFor="password">Password</label>
+                  <input id="password" name="password" type="password" autoComplete="current-password" required className="input" value={form.password} onChange={update} placeholder="••••••••" />
+                </div>
+                <button type="submit" disabled={submitting} className="btn-primary w-full disabled:opacity-60 disabled:cursor-not-allowed">
+                  {submitting ? 'Signing in…' : 'Sign in to dashboard'}
+                </button>
+              </form>
+
+              <div className="mt-8 rounded-2xl bg-cream-100 dark:bg-forest-900/60 border border-cream-200 dark:border-white/10 p-4 text-sm text-gray-600 dark:text-cream-100/70">
+                Demo: register any email to try the owner dashboard.
+              </div>
+              <p className="mt-6 text-center text-sm text-gray-600 dark:text-cream-100/70">
+                New here? <Link to="/register" className="font-semibold text-forest-600 dark:text-terra-400 hover:underline">Create an account</Link>
+              </p>
             </div>
           </div>
-
-          <p className="text-xs text-gray-400 text-center mt-4">
-            Auth integration coming in Phase 2 development.
-          </p>
         </div>
-      </main>
-
-      <Footer />
-    </div>
+      </div>
+    </section>
   )
 }

@@ -1,63 +1,140 @@
-import Navbar from '../../components/layout/Navbar'
-import Footer from '../../components/layout/Footer'
+import { useEffect, useMemo, useState } from 'react'
+import toast from 'react-hot-toast'
+import { FaStar } from 'react-icons/fa6'
+import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import { bookingService, dashboardService } from '../../services/api'
 
-const statsCards = [
-  { label: 'Bookings this month', value: '—', icon: '📅' },
-  { label: 'Average rating', value: '—', icon: '⭐' },
-  { label: 'Occupancy rate', value: '—', icon: '🏡' },
-  { label: 'Inquiry conversion', value: '—', icon: '📊' },
-]
+const currency = (value) => `₹${Number(value || 0).toLocaleString('en-IN')}`
+const percent = (value) => `${Number(value || 0).toFixed(0)}%`
+const formatDate = (value) => value ? new Date(value).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) : '—'
 
-export default function DashboardOverview() {
+function StatCard({ label, value, hint }) {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar />
+    <div className="card p-5">
+      <p className="text-sm text-gray-500 dark:text-cream-100/60">{label}</p>
+      <div className="mt-2 text-3xl font-bold text-forest-800 dark:text-cream-50">{value}</div>
+      {hint && <p className="mt-2 text-xs text-terra-600 dark:text-terra-400">{hint}</p>}
+    </div>
+  )
+}
 
-      <main className="flex-1 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
-          <div className="mb-8">
-            <h1 className="text-2xl font-bold text-forest-900">Owner Dashboard</h1>
-            <p className="text-gray-500 text-sm mt-1">
-              Track your bookings, reviews, and AI-generated insights.
-            </p>
-          </div>
+export default function Overview() {
+  const [overview, setOverview] = useState(null)
+  const [bookings, setBookings] = useState([])
+  const [loading, setLoading] = useState(true)
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-            {statsCards.map(({ label, value, icon }) => (
-              <div key={label} className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
-                <div className="text-2xl mb-2">{icon}</div>
-                <div className="text-2xl font-bold text-forest-900 mb-0.5">{value}</div>
-                <div className="text-xs text-gray-500">{label}</div>
-              </div>
-            ))}
-          </div>
+  useEffect(() => {
+    let active = true
+    async function load() {
+      setLoading(true)
+      try {
+        const res = await dashboardService.overview()
+        console.log('dashboard overview response', res)
+        const data = res?.data ?? res ?? {}
+        let recent = data?.recentBookings ?? []
+        if (!recent.length) {
+          const bookingRes = await bookingService.getAll()
+          recent = bookingRes?.data ?? []
+        }
+        if (active) {
+          setOverview(data)
+          setBookings(Array.isArray(recent) ? recent : [])
+        }
+      } catch (error) {
+        try {
+          const bookingRes = await bookingService.getAll()
+          if (active) setBookings(bookingRes?.data ?? [])
+        } catch {
+          if (active) toast.error(error.message || 'Could not load dashboard')
+        }
+      } finally {
+        if (active) setLoading(false)
+      }
+    }
+    load()
+    return () => { active = false }
+  }, [])
 
-          <div className="grid md:grid-cols-2 gap-5">
-            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
-              <h2 className="font-semibold text-gray-800 mb-3">Recent bookings</h2>
-              <div className="text-sm text-gray-400 py-8 text-center">
-                Booking data will appear here once the API is connected.
-              </div>
+  const totals = overview?.totals ?? overview ?? {}
+  const trend = useMemo(() => {
+    const raw = overview?.monthlyTrend ?? overview?.trend ?? []
+    return Array.isArray(raw) ? raw.map((item, index) => ({
+      month: item?.month ?? item?.label ?? `M${index + 1}`,
+      bookings: Number(item?.bookings ?? item?.count ?? item?.totalBookings ?? 0),
+    })) : []
+  }, [overview])
+
+  const stats = [
+    { label: 'Total Bookings', value: totals?.totalBookings ?? totals?.bookings ?? bookings.length ?? 0, hint: 'All-time reservations' },
+    { label: 'Revenue', value: currency(totals?.revenue ?? totals?.totalRevenue ?? bookings.reduce((sum, b) => sum + Number(b?.totalAmount || 0), 0)), hint: 'Gross booking value' },
+    { label: 'Occupancy', value: percent(totals?.occupancy ?? totals?.occupancyRate), hint: 'Estimated occupancy' },
+    {
+      label: 'Avg Rating',
+      value: (
+        <span className="inline-flex items-center gap-1.5">
+          {Number(totals?.avgRating ?? totals?.averageRating ?? 0).toFixed(1)}
+          <FaStar className="h-6 w-6 text-gold-500" />
+        </span>
+      ),
+      hint: 'Guest satisfaction',
+    },
+  ]
+
+  if (loading) return <div className="card p-8 text-center text-gray-500 dark:text-cream-100/70">Loading your dashboard…</div>
+
+  return (
+    <div className="space-y-6">
+      <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
+        {stats.map((stat) => <StatCard key={stat.label} {...stat} />)}
+      </div>
+
+      <div className="grid xl:grid-cols-[1fr_0.9fr] gap-6">
+        <section className="card p-6">
+          <div className="flex items-center justify-between mb-5">
+            <div>
+              <p className="eyebrow mb-1">Latest activity</p>
+              <h2 className="text-2xl font-bold">Recent bookings</h2>
             </div>
-
-            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
-              <h2 className="font-semibold text-gray-800 mb-3">Review summary</h2>
-              <div className="text-sm text-gray-400 py-8 text-center">
-                AI-analysed review insights will appear here in Phase 3.
-              </div>
+          </div>
+          {bookings.length ? (
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead className="text-left text-gray-400">
+                  <tr><th className="py-3 pr-4">Guest</th><th className="py-3 pr-4">Stay</th><th className="py-3 pr-4">Dates</th><th className="py-3 text-right">Total</th></tr>
+                </thead>
+                <tbody className="divide-y divide-cream-200 dark:divide-white/10">
+                  {bookings.slice(0, 5).map((booking) => (
+                    <tr key={booking?._id ?? `${booking?.guestEmail}-${booking?.createdAt}`}>
+                      <td className="py-4 pr-4 font-medium text-forest-800 dark:text-cream-50">{booking?.guestName ?? 'Guest'}</td>
+                      <td className="py-4 pr-4 text-gray-600 dark:text-cream-100/70">{booking?.homestayName ?? 'Homestay'}</td>
+                      <td className="py-4 pr-4 text-gray-500">{formatDate(booking?.checkIn)} → {formatDate(booking?.checkOut)}</td>
+                      <td className="py-4 text-right font-semibold">{currency(booking?.totalAmount)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
-          </div>
+          ) : <p className="rounded-2xl bg-cream-100 dark:bg-forest-900/60 p-6 text-gray-500 dark:text-cream-100/70">No recent bookings yet. Your first guest will appear here.</p>}
+        </section>
 
-          <div className="mt-5 bg-terra-500/5 border border-terra-500/20 rounded-xl p-5">
-            <p className="text-sm text-terra-600 font-medium">🚧 This dashboard is under active development.</p>
-            <p className="text-xs text-gray-500 mt-1">
-              Charts, booking tables, and AI performance summaries will be added in Phases 2 and 3.
-            </p>
-          </div>
-        </div>
-      </main>
-
-      <Footer />
+        <section className="card p-6">
+          <p className="eyebrow mb-1">Monthly trend</p>
+          <h2 className="text-2xl font-bold mb-5">Bookings over time</h2>
+          {trend.length ? (
+            <div className="h-72">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart data={trend} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#efece1" />
+                  <XAxis dataKey="month" tick={{ fontSize: 12 }} />
+                  <YAxis allowDecimals={false} tick={{ fontSize: 12 }} />
+                  <Tooltip />
+                  <Line type="monotone" dataKey="bookings" stroke="#00684a" strokeWidth={3} dot={{ fill: '#e0891e', strokeWidth: 2 }} />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+          ) : <div className="h-72 grid place-items-center rounded-2xl bg-cream-100 dark:bg-forest-900/60 text-gray-500 dark:text-cream-100/70 text-center px-6">Monthly trend will appear after bookings are recorded.</div>}
+        </section>
+      </div>
     </div>
   )
 }

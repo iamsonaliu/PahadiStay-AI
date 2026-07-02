@@ -1,110 +1,162 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import Navbar from '../components/layout/Navbar'
-import Footer from '../components/layout/Footer'
+import { FaMountain } from 'react-icons/fa6'
 import HomestayCard from '../components/homestay/HomestayCard'
+import { CATEGORIES } from '../components/homestay/CategoryStrip'
 import { Skeleton } from '../components/ui'
-import toast, { Toaster } from 'react-hot-toast'
 import { homestayService } from '../services/api'
+import toast from 'react-hot-toast'
 
-const districts = ['All', 'Rudraprayag', 'Pithoragarh', 'Tehri Garhwal', 'Pauri Garhwal', 'Bageshwar', 'Nainital', 'Chamoli', 'Dehradun']
+const SORTS = {
+  recommended: { label: 'Recommended', fn: (a, b) => b.averageRating - a.averageRating },
+  priceLow:    { label: 'Price: Low to High', fn: (a, b) => a.pricePerNight - b.pricePerNight },
+  priceHigh:   { label: 'Price: High to Low', fn: (a, b) => b.pricePerNight - a.pricePerNight },
+  rating:      { label: 'Top Rated', fn: (a, b) => b.averageRating - a.averageRating },
+}
 
 export default function Homestays() {
-  const [searchParams, setSearchParams] = useSearchParams()
-  const searchQuery       = searchParams.get('q') || ''
-  const selectedDistrict  = searchParams.get('district') || 'All'
+  const [params, setParams] = useSearchParams()
+  const [all, setAll] = useState([])
+  const [loading, setLoading] = useState(true)
+  const [sort, setSort] = useState('recommended')
+  const [maxPrice, setMaxPrice] = useState(5000)
+  const [showFilters, setShowFilters] = useState(false)
 
-  const [homestays, setHomestays] = useState([])
-  const [loading, setLoading]     = useState(true)
+  const q = params.get('q') || ''
+  const district = params.get('district') || ''
+  const category = params.get('category') || ''
 
-  const fetchHomestays = useCallback(async () => {
-    setLoading(true)
-    try {
-      let res
-      if (searchQuery) {
-        res = await homestayService.search(searchQuery)
-      } else {
-        const params = {}
-        if (selectedDistrict !== 'All') params.district = selectedDistrict
-        res = await homestayService.getAll(params)
+  useEffect(() => {
+    (async () => {
+      setLoading(true)
+      try {
+        const res = q ? await homestayService.search(q) : await homestayService.getAll()
+        setAll(res.data)
+      } catch {
+        toast.error('Could not load homestays. Is the backend running?')
+      } finally {
+        setLoading(false)
       }
-      setHomestays(res.data)
-    } catch {
-      toast.error('Failed to load homestays. Make sure the server is running.')
-      setHomestays([])
-    } finally {
-      setLoading(false)
-    }
-  }, [searchQuery, selectedDistrict])
+    })()
+  }, [q])
 
-  useEffect(() => { fetchHomestays() }, [fetchHomestays])
+  const districts = useMemo(() => [...new Set(all.map((h) => h.district))].sort(), [all])
 
-  function setDistrict(d) {
-    const next = new URLSearchParams(searchParams)
-    next.delete('q')
-    if (d === 'All') next.delete('district')
-    else next.set('district', d)
-    setSearchParams(next)
+  const results = useMemo(() => {
+    let r = [...all]
+    if (district)  r = r.filter((h) => h.district === district)
+    if (category)  r = r.filter((h) => h.category === category)
+    r = r.filter((h) => h.pricePerNight <= maxPrice)
+    return r.sort(SORTS[sort].fn)
+  }, [all, district, category, maxPrice, sort])
+
+  const setParam = (key, val) => {
+    const next = new URLSearchParams(params)
+    if (val) next.set(key, val); else next.delete(key)
+    setParams(next)
   }
+  const clearAll = () => { setParams({}); setMaxPrice(5000) }
+
+  const activeFilterCount = [district, category].filter(Boolean).length + (maxPrice < 5000 ? 1 : 0)
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Toaster position="top-right" />
-      <Navbar />
-
-      <main className="flex-1">
-        <div className="bg-forest-900 text-white py-10">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <h1 className="text-2xl md:text-3xl font-bold mb-1">
-              {searchQuery ? `Results for "${searchQuery}"` : 'All Homestays'}
-            </h1>
-            <p className="text-cream-200/70 text-sm">
-              {loading ? 'Searching…' : `${homestays.length} propert${homestays.length === 1 ? 'y' : 'ies'} found in Uttarakhand`}
-            </p>
-          </div>
+    <>
+      {/* page header */}
+      <div className="bg-forest-gradient text-white">
+        <div className="container-px py-12">
+          <p className="text-terra-400 text-xs font-semibold uppercase tracking-[0.18em] mb-2">Find your stay</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-white">
+            {q ? `Results for "${q}"` : category ? `${category} homestays` : district ? `Homestays in ${district}` : 'All Homestays'}
+          </h1>
+          <p className="text-cream-100/70 mt-2">Verified Pahadi homestays across Uttarakhand</p>
         </div>
+      </div>
 
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
-          {/* district filter chips — only shown when not in search mode */}
-          {!searchQuery && (
-            <div className="flex gap-2 flex-wrap mb-8">
-              {districts.map(d => (
-                <button
-                  key={d}
-                  onClick={() => setDistrict(d)}
-                  className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                    selectedDistrict === d
-                      ? 'bg-forest-900 text-white'
-                      : 'bg-white text-gray-600 border border-gray-200 hover:border-forest-700'
-                  }`}
-                >
-                  {d}
+      <div className="container-px py-8">
+        <div className="grid lg:grid-cols-[260px_1fr] gap-8">
+          {/* Filters */}
+          <aside className={`${showFilters ? 'block' : 'hidden'} lg:block`}>
+            <div className="card p-5 lg:sticky lg:top-32 space-y-6">
+              <div className="flex items-center justify-between">
+                <h3 className="font-semibold text-forest-800">Filters</h3>
+                {activeFilterCount > 0 && (
+                  <button onClick={clearAll} className="text-xs text-terra-500 hover:underline">Clear all</button>
+                )}
+              </div>
+
+              {/* district */}
+              <div>
+                <label className="label">District</label>
+                <select value={district} onChange={(e) => setParam('district', e.target.value)} className="input">
+                  <option value="">All districts</option>
+                  {districts.map((d) => <option key={d} value={d}>{d}</option>)}
+                </select>
+              </div>
+
+              {/* category */}
+              <div>
+                <label className="label">Experience</label>
+                <div className="flex flex-wrap gap-2">
+                  {CATEGORIES.map(({ key, Icon }) => (
+                    <button
+                      key={key}
+                      onClick={() => setParam('category', category === key ? '' : key)}
+                      className={`pill border text-xs ${category === key ? 'bg-forest-600 text-white border-forest-600' : 'bg-white text-forest-700 border-cream-300 hover:border-forest-400'}`}
+                    >
+                      <Icon className="w-3.5 h-3.5" /> {key}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* price */}
+              <div>
+                <label className="label">Max price · ₹{maxPrice.toLocaleString('en-IN')}</label>
+                <input type="range" min={1000} max={5000} step={100} value={maxPrice}
+                  onChange={(e) => setMaxPrice(Number(e.target.value))}
+                  className="w-full accent-forest-600" />
+                <div className="flex justify-between text-xs text-gray-400 mt-1">
+                  <span>₹1,000</span><span>₹5,000</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          {/* Results */}
+          <section>
+            <div className="flex items-center justify-between mb-5">
+              <p className="text-sm text-gray-500">
+                {loading ? 'Loading…' : `${results.length} stay${results.length !== 1 ? 's' : ''} found`}
+              </p>
+              <div className="flex items-center gap-2">
+                <button onClick={() => setShowFilters((s) => !s)} className="lg:hidden btn-outline !py-2 !px-3 text-sm">
+                  Filters {activeFilterCount > 0 && `(${activeFilterCount})`}
                 </button>
-              ))}
+                <select value={sort} onChange={(e) => setSort(e.target.value)} className="input !w-auto !py-2 text-sm">
+                  {Object.entries(SORTS).map(([k, v]) => <option key={k} value={k}>{v.label}</option>)}
+                </select>
+              </div>
             </div>
-          )}
 
-          {loading ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[1, 2, 3, 4, 5, 6].map(i => <Skeleton key={i} variant="card" />)}
-            </div>
-          ) : homestays.length === 0 ? (
-            <div className="text-center py-20 text-gray-400">
-              <p className="text-4xl mb-3">🏔</p>
-              <p className="font-medium text-gray-600">No homestays found</p>
-              <p className="text-sm mt-1">Try a different location or clear the filter</p>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {homestays.map(stay => (
-                <HomestayCard key={stay._id} homestay={stay} />
-              ))}
-            </div>
-          )}
+            {loading ? (
+              <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-5">
+                {[1, 2, 3, 4, 5, 6].map((i) => <Skeleton key={i} variant="card" />)}
+              </div>
+            ) : results.length === 0 ? (
+              <div className="card p-12 text-center">
+                <FaMountain className="w-14 h-14 mx-auto mb-4 text-forest-300" />
+                <h3 className="font-semibold mb-1">No homestays match your filters</h3>
+                <p className="text-sm text-gray-500 mb-4">Try widening your price range or clearing filters.</p>
+                <button onClick={clearAll} className="btn-primary">Clear filters</button>
+              </div>
+            ) : (
+              <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-5">
+                {results.map((h, i) => <HomestayCard key={h._id} homestay={h} index={i} />)}
+              </div>
+            )}
+          </section>
         </div>
-      </main>
-
-      <Footer />
-    </div>
+      </div>
+    </>
   )
 }
