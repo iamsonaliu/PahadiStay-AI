@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
 import { homestayService, bookingService } from '../services/api'
+import { useAuth } from '../context/AuthContext'
 import WeatherCard from '../components/homestay/WeatherCard'
 import MiniMap from '../components/map/MiniMap'
 import { coordsFor } from '../utils/coords'
@@ -9,6 +10,7 @@ import {
   FaWifi, FaShower, FaFire, FaUtensils, FaSquareParking, FaPersonHiking,
   FaLeaf, FaAppleWhole, FaFish, FaTree, FaBinoculars, FaBook, FaDove,
   FaPersonSkiing, FaMountain, FaCheck, FaLocationDot, FaWhatsapp, FaEnvelope, FaStar,
+  FaPenToSquare, FaTrash,
 } from 'react-icons/fa6'
 
 const AMENITY_ICONS = {
@@ -25,6 +27,107 @@ function Stars({ rating, size = 'w-4 h-4' }) {
         <FaStar key={i} className={`${size} ${i <= Math.round(rating) ? 'text-gold-500' : 'text-gray-300'}`} />
       ))}
     </span>
+  )
+}
+
+// Week 5 — DB CRUD demo: lets a signed-in owner/admin edit or delete this homestay
+// directly from the frontend (Update + Delete against the real Mongo-backed API).
+function OwnerTools({ homestay, onUpdated }) {
+  const { user } = useAuth()
+  const navigate = useNavigate()
+  const [editing, setEditing] = useState(false)
+  const [saving, setSaving] = useState(false)
+  const [deleting, setDeleting] = useState(false)
+  const [form, setForm] = useState({
+    pricePerNight: homestay.pricePerNight,
+    description: homestay.description || '',
+    available: homestay.available,
+  })
+
+  const canManage = user && (user.role === 'owner' || user.role === 'admin')
+  if (!canManage) return null
+
+  async function save(e) {
+    e.preventDefault()
+    setSaving(true)
+    try {
+      await homestayService.update(homestay._id, {
+        pricePerNight: Number(form.pricePerNight),
+        description: form.description,
+        available: form.available,
+      })
+      toast.success('Homestay updated')
+      setEditing(false)
+      onUpdated()
+    } catch (err) {
+      toast.error(err.message || 'Update failed')
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  async function remove() {
+    if (!window.confirm(`Delete "${homestay.name}"? This cannot be undone.`)) return
+    setDeleting(true)
+    try {
+      await homestayService.delete(homestay._id)
+      toast.success('Homestay deleted')
+      navigate('/homestays')
+    } catch (err) {
+      toast.error(err.message || 'Delete failed')
+      setDeleting(false)
+    }
+  }
+
+  return (
+    <div className="card p-4 mb-6 border-2 border-amber-300 bg-amber-50 dark:bg-amber-950/20">
+      <div className="flex items-center justify-between gap-3 mb-2">
+        <span className="text-sm font-semibold text-amber-800 dark:text-amber-300">
+          Owner tools — signed in as {user.name} ({user.role})
+        </span>
+        {!editing && (
+          <div className="flex gap-2">
+            <button onClick={() => setEditing(true)} className="btn-outline !py-1.5 !px-3 text-xs flex items-center gap-1.5">
+              <FaPenToSquare className="w-3.5 h-3.5" /> Edit
+            </button>
+            <button onClick={remove} disabled={deleting}
+              className="!py-1.5 !px-3 text-xs rounded-lg bg-red-600 text-white flex items-center gap-1.5 disabled:opacity-60">
+              <FaTrash className="w-3.5 h-3.5" /> {deleting ? 'Deleting…' : 'Delete'}
+            </button>
+          </div>
+        )}
+      </div>
+
+      {editing && (
+        <form onSubmit={save} className="space-y-3 mt-2">
+          <div>
+            <label className="label text-xs">Price per night (₹)</label>
+            <input type="number" min="0" required value={form.pricePerNight}
+              onChange={(e) => setForm({ ...form, pricePerNight: e.target.value })}
+              className="input !py-2 text-sm" />
+          </div>
+          <div>
+            <label className="label text-xs">Description</label>
+            <textarea rows={2} value={form.description}
+              onChange={(e) => setForm({ ...form, description: e.target.value })}
+              className="input resize-none text-sm" />
+          </div>
+          <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-cream-100/80">
+            <input type="checkbox" checked={form.available}
+              onChange={(e) => setForm({ ...form, available: e.target.checked })} />
+            Available for booking
+          </label>
+          <div className="flex gap-2">
+            <button type="submit" disabled={saving} className="btn-primary !py-2 !px-4 text-sm disabled:opacity-60">
+              {saving ? 'Saving…' : 'Save changes'}
+            </button>
+            <button type="button" onClick={() => setEditing(false)} className="btn-outline !py-2 !px-4 text-sm">
+              Cancel
+            </button>
+          </div>
+        </form>
+      )}
+    </div>
   )
 }
 
@@ -238,6 +341,8 @@ export default function HomestayDetail() {
         </div>
         <span className="pill bg-forest-100 text-forest-700">{homestay.propertyType}</span>
       </div>
+
+      <OwnerTools homestay={homestay} onUpdated={load} />
 
       {/* gallery */}
       <div className="grid lg:grid-cols-[1fr_auto] gap-3 mb-8">

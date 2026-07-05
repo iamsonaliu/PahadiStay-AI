@@ -185,13 +185,14 @@ SMTP_PASS=your_brevo_password
 ```
 
 ---
-## ⚡ How to Run Backend Locally (Week 4)
+## ⚡ How to Run Backend Locally (Week 5)
 
-The backend uses **Node.js + Express** with in-memory data (MongoDB integration comes in Week 5).
+The backend uses **Node.js + Express + Mongoose**. It runs against **MongoDB Atlas** when `MONGO_URI` is set, and automatically falls back to in-memory data when it's not — so the app never hard-crashes if the DB is unreachable.
 
 ### Prerequisites
 - Node.js v18+
 - npm v9+
+- A free MongoDB Atlas cluster (see below)
 
 ### Steps
 
@@ -204,9 +205,12 @@ npm install
 
 # 3. Create your environment file
 cp .env.example .env
-# Edit .env if needed — defaults work for local dev
+# Paste your MongoDB Atlas connection string into MONGO_URI
 
-# 4. Start the dev server (with auto-reload)
+# 4. (First time only) Seed the database from the Kaggle dataset
+npm run import:kaggle
+
+# 5. Start the dev server (with auto-reload)
 npm run dev
 
 # Or start without nodemon:
@@ -214,6 +218,46 @@ npm start
 ```
 
 The API will be available at **http://localhost:5000**
+
+---
+## 🗄️ Database (Week 5)
+
+### Why MongoDB (via Mongoose + Atlas)
+
+PahadiStay AI's core data — homestays, reviews, bookings, users — is document-shaped rather than strictly relational: homestays have a variable number of amenities/images, reviews have an optional nested `dimensions` object, and none of the entities need multi-table joins. MongoDB's flexible schema fits this better than forcing it into rigid relational tables, and MongoDB Atlas's free M0 tier is enough for a project of this size.
+
+### Schema / Data Model
+
+Four collections, modeled with Mongoose schemas in `server/models/`:
+
+| Collection | Key fields | Relationships |
+|---|---|---|
+| **User** | name, email (unique), passwordHash, role (`traveller`/`owner`/`admin`), phone | referenced by `Homestay.owner` |
+| **Homestay** | name, village, district, pricePerNight, propertyType, category, amenities[], averageRating, owner | 1 User → many Homestays; 1 Homestay → many Reviews/Bookings |
+| **Review** | homestayId, guestName, rating (1-5), comment, date, dimensions{} | belongs to 1 Homestay |
+| **Booking** | homestayId, guestName/Email/Phone, checkIn/checkOut, nights, totalAmount, status | belongs to 1 Homestay |
+
+Full diagram: [`W5_SchemaDiagram_[InternID].pdf`](./W5_SchemaDiagram_InternID.pdf)
+
+![Schema Diagram](./docs/schema-diagram.png)
+
+### Set Up the Database
+
+1. Go to [mongodb.com/cloud/atlas](https://mongodb.com/cloud/atlas) and create a free account.
+2. Create a new project → build a free **M0** cluster.
+3. Under **Database Access**, add a database user with a username/password.
+4. Under **Network Access**, add IP `0.0.0.0/0` (allow access from anywhere) so it works from both your machine and Render.
+5. Click **Connect → Drivers**, copy the connection string, and replace `<password>` with your database user's password.
+6. Paste it into `server/.env` as `MONGO_URI=...` (locally) and into Render's environment variables (for production).
+
+### Importing Data
+
+`npm run import:kaggle` (from `/server`) clears the `Homestay` and `Review` collections and re-imports them from `server/data/Uttarakhand_HomeStay_Reviews.csv` — the Kaggle "Uttarakhand HomeStay Reviews" dataset (3,500 reviews across 15 homestays). See `server/scripts/importKaggleReviews.js` for the full transform logic and the assumptions it makes about fields the raw dataset doesn't provide.
+
+`npm run seed` still works and seeds the original 8 hand-written demo homestays from `server/data/seed.js`, if you ever want to reset to that smaller dataset instead.
+
+---
+
 
 ### Available Endpoints (Week 4)
 
