@@ -207,8 +207,8 @@ npm install
 cp .env.example .env
 # Paste your MongoDB Atlas connection string into MONGO_URI
 
-# 4. (First time only) Seed the database from the Kaggle dataset
-npm run import:kaggle
+# 4. (First time only) Seed the database — see "Importing Data" below
+npm run seed:dataset
 
 # 5. Start the dev server (with auto-reload)
 npm run dev
@@ -237,9 +237,6 @@ Four collections, modeled with Mongoose schemas in `server/models/`:
 | **Review** | homestayId, guestName, rating (1-5), comment, date, dimensions{} | belongs to 1 Homestay |
 | **Booking** | homestayId, guestName/Email/Phone, checkIn/checkOut, nights, totalAmount, status | belongs to 1 Homestay |
 
-Full diagram: [`W5_SchemaDiagram_[InternID].pdf`](./W5_SchemaDiagram_InternID.pdf)
-
-![Schema Diagram](./docs/schema-diagram.png)
 
 ### Set Up the Database
 
@@ -252,9 +249,25 @@ Full diagram: [`W5_SchemaDiagram_[InternID].pdf`](./W5_SchemaDiagram_InternID.pd
 
 ### Importing Data
 
-`npm run import:kaggle` (from `/server`) clears the `Homestay` and `Review` collections and re-imports them from `server/data/Uttarakhand_HomeStay_Reviews.csv` — the Kaggle "Uttarakhand HomeStay Reviews" dataset (3,500 reviews across 15 homestays). See `server/scripts/importKaggleReviews.js` for the full transform logic and the assumptions it makes about fields the raw dataset doesn't provide.
+There are three data sources in `server/data/`, from three earlier exploration steps — here's what each is and which one to actually use:
 
-`npm run seed` still works and seeds the original 8 hand-written demo homestays from `server/data/seed.js`, if you ever want to reset to that smaller dataset instead.
+| Script | What it does | Should you run it? |
+|---|---|---|
+| **`npm run seed:dataset`** | Loads `data/uttarakhand.dataset.json` — 50 homestays + 391 real guest reviews, already aggregated (by `scripts/build_dataset.py`) from the Kaggle "Uttarakhand HomeStay Reviews" CSV and a second scraped review file, already shaped to match the Homestay/Review schema exactly. | ✅ **Yes — this is the one to run.** |
+| `npm run import:kaggle` | Derives homestays directly from the raw 3,500-row Kaggle CSV (grouped by homestay name, since the raw file's `homestay_id` field isn't a reliable key). Kept as a fallback if you ever want to rebuild straight from the raw CSV instead. | Optional / not needed if `seed:dataset` works. |
+| `npm run seed` | Seeds the original 8 hand-written demo homestays from `data/seed.js`. | Only if you want to reset to the small demo set. |
+| `node scripts/importOSM.js` | Pulls real Uttarakhand guest houses/hotels from OpenStreetMap into `data/homestays.osm.json` — a separate, review-less real-world dataset. Already run once (the output files are already in the repo). | Not required for Week 5; it doesn't write to Mongo, only to local JSON/CSV. |
+
+So the actual sequence, after `MONGO_URI` is set in `.env`:
+
+```bash
+cd server
+npm install
+npm run seed:dataset
+npm run dev
+```
+
+You should see `Loaded dataset: 50 homestays, 391 reviews.` followed by `Inserted 50 homestays.` and `Inserted 391 reviews.` in the terminal.
 
 ---
 
@@ -286,9 +299,6 @@ npm run dev
 
 Frontend: **http://localhost:5173** (proxies `/api` calls to port 5000 automatically)
 
-### API Testing (Postman)
-
-Import `W4_APICollection_SIP2026.json` into Postman or Thunder Client. Set the `base_url` variable to `http://localhost:5000/api`. All 11 endpoints have saved example responses.
 
 ---
 
