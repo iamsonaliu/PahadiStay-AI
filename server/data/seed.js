@@ -73,7 +73,7 @@ const homestays = [
     amenities: ['Bonfire', 'Home-cooked Meals', 'Fishing', 'Nature Walks'],
     maxGuests: 5,
     description: 'Set along the Khoh river with bird-watching and angling opportunities. A peaceful escape from city life.',
-    imageUrls: ['https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80'],
+    imageUrls: ['/images/chopta-forest.jpg'],
     ownerName: 'Suresh Rawat',
     ownerContact: '+91-9123456780',
     geo: { lat: 29.8377, lng: 78.6820 },

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import toast from 'react-hot-toast'
-import { FaStar } from 'react-icons/fa6'
+import { FaStar, FaWandMagicSparkles } from 'react-icons/fa6'
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import { bookingService, dashboardService } from '../../services/api'
 
@@ -87,6 +87,29 @@ export default function Overview() {
       <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
         {stats.map((stat) => <StatCard key={stat.label} {...stat} />)}
       </div>
+
+      {/* AI Monthly Summary Card */}
+      {overview?.summary?.summary && (
+        <section className="card p-6 bg-gradient-to-r from-forest-900 to-forest-800 text-white relative overflow-hidden shadow-md">
+          <div className="absolute right-0 top-0 translate-x-12 -translate-y-12 w-48 h-48 bg-white/5 rounded-full blur-xl pointer-events-none" />
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-white/10 grid place-items-center text-terra-400 shrink-0">
+              <FaWandMagicSparkles className="w-6 h-6 animate-pulse" />
+            </div>
+            <div className="space-y-2">
+              <div className="flex items-center gap-3">
+                <h3 className="font-bold text-lg text-white">AI Monthly Insights</h3>
+                <span className="text-[10px] uppercase font-semibold bg-white/10 text-cream-100/90 px-2 py-0.5 rounded-full tracking-wider border border-white/5">
+                  {overview?.summary?.provider === 'gemini' ? 'Gemini AI' : 'Deterministic fallback'}
+                </span>
+              </div>
+              <p className="text-sm text-cream-100/95 leading-relaxed font-light">
+                {overview.summary.summary}
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
 
       <div className="grid xl:grid-cols-[1fr_0.9fr] gap-6">
         <section className="card p-6">

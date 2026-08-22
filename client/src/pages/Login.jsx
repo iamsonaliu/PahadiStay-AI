@@ -33,7 +33,7 @@ export default function Login() {
         <div className="card overflow-hidden grid lg:grid-cols-2 min-h-[680px] animate-fade-up">
           <aside className="relative hidden lg:flex flex-col justify-between overflow-hidden bg-forest-gradient p-10 text-white">
             <img
-              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&q=80"
+              src="/images/hero-himalaya.jpg"
               alt="Snowy Himalayan peaks at sunrise"
               className="absolute inset-0 h-full w-full object-cover opacity-45"
             />

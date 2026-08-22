@@ -11,49 +11,64 @@ function Stars({ rating }) {
   )
 }
 
-export default function HomestayCard({ homestay, index = 0 }) {
+export default function HomestayCard({ homestay, index = 0, aiScore, aiReason }) {
   const {
     _id, name, village, district, pricePerNight,
     averageRating, totalReviews, imageUrls = [], propertyType, category,
   } = homestay
 
-  const cover = imageUrls[0] || 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80'
+  const cover = imageUrls[0] || '/images/hero-himalaya.jpg'
 
   return (
     <Link
       to={`/homestays/${_id}`}
-      className="group card overflow-hidden hover:-translate-y-1 hover:shadow-card transition-all duration-300 animate-fade-up"
+      className="group card overflow-hidden hover:-translate-y-1 hover:shadow-card transition-all duration-300 animate-fade-up flex flex-col justify-between"
       style={{ animationDelay: `${(index % 4) * 70}ms` }}
     >
-      <div className="relative h-52 overflow-hidden">
-        <img src={cover} alt={name}
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-60" />
-        {propertyType && (
-          <span className="absolute top-3 left-3 glass !bg-white/85 text-forest-700 pill">
-            {propertyType}
-          </span>
-        )}
-        {category && (
-          <span className="absolute top-3 right-3 pill bg-forest-900/70 text-white backdrop-blur-sm">
-            {category}
-          </span>
-        )}
-        <div className="absolute bottom-3 left-3 text-white">
-          <p className="text-xs flex items-center gap-1 drop-shadow">
-            <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"/></svg>
-            {village}, {district}
-          </p>
+      <div>
+        <div className="relative h-52 overflow-hidden">
+          <img src={cover} alt={name}
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-60" />
+          {aiScore ? (
+            <span className="absolute top-3 left-3 bg-amber-500 text-white font-bold px-2.5 py-1 rounded-lg text-xs shadow-md flex items-center gap-1 z-10">
+              🤖 {aiScore}% Match
+            </span>
+          ) : propertyType && (
+            <span className="absolute top-3 left-3 glass !bg-white/85 text-forest-700 pill">
+              {propertyType}
+            </span>
+          )}
+          {category && (
+            <span className="absolute top-3 right-3 pill bg-forest-900/70 text-white backdrop-blur-sm">
+              {category}
+            </span>
+          )}
+          <div className="absolute bottom-3 left-3 text-white">
+            <p className="text-xs flex items-center gap-1 drop-shadow">
+              <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" /></svg>
+              {village}, {district}
+            </p>
+          </div>
+        </div>
+
+        <div className="p-4">
+          <div className="flex justify-between items-start gap-2 mb-3">
+            <h3 className="font-semibold text-gray-900 dark:text-cream-50 leading-snug group-hover:text-forest-600 transition-colors">
+              {name}
+            </h3>
+            {averageRating > 0 && <Stars rating={averageRating.toFixed(1)} />}
+          </div>
         </div>
       </div>
 
-      <div className="p-4">
-        <div className="flex justify-between items-start gap-2 mb-3">
-          <h3 className="font-semibold text-gray-900 dark:text-cream-50 leading-snug group-hover:text-forest-600 transition-colors">
-            {name}
-          </h3>
-          {averageRating > 0 && <Stars rating={averageRating.toFixed(1)} />}
-        </div>
+      <div className="p-4 pt-0">
+        {aiReason && (
+          <div className="mb-3 pt-3 border-t border-dashed border-cream-200 dark:border-white/10 text-xs text-forest-700/80 dark:text-cream-200/80 leading-relaxed italic bg-cream-50/50 dark:bg-forest-900/40 p-2 rounded-xl">
+            <span className="font-semibold not-italic text-forest-800 dark:text-amber-500">AI Match Insight: </span>
+            "{aiReason}"
+          </div>
+        )}
 
         <div className="flex items-end justify-between border-t border-cream-200 dark:border-white/10 pt-3">
           <div>

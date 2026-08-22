@@ -4,6 +4,48 @@ const recommendationPrompt = require('../prompts/recommendationPrompt')
 const reviewAnalysisPrompt = require('../prompts/reviewAnalysisPrompt')
 const monthlySummaryPrompt = require('../prompts/monthlySummaryPrompt')
 
+const parseJsonFromMarkdown = (text) => {
+  if (!text) return null
+  let cleaned = text.trim()
+  
+  // Extract content between ```json and ``` if present
+  if (cleaned.includes('```')) {
+    const match = cleaned.match(/```(?:json)?\s*([\s\S]*?)\s*```/)
+    if (match) {
+      cleaned = match[1]
+    }
+  }
+  cleaned = cleaned.trim()
+
+  try {
+    return JSON.parse(cleaned)
+  } catch (firstError) {
+    // Attempt to extract the JSON object/array substring in case of preambles
+    const startObj = cleaned.indexOf('{')
+    const startArr = cleaned.indexOf('[')
+    let startIdx = -1
+    let endIdx = -1
+    
+    if (startObj !== -1 && (startArr === -1 || startObj < startArr)) {
+      startIdx = startObj
+      endIdx = cleaned.lastIndexOf('}')
+    } else if (startArr !== -1) {
+      startIdx = startArr
+      endIdx = cleaned.lastIndexOf(']')
+    }
+    
+    if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
+      try {
+        return JSON.parse(cleaned.substring(startIdx, endIdx + 1))
+      } catch (secondError) {
+        console.error('JSON parsing failed even after extracting block:', secondError)
+      }
+    }
+    console.error('Failed to parse JSON from Gemini response:', firstError)
+    return null
+  }
+}
+
 const keywordThemes = reviews => {
   const terms = ['food', 'view', 'views', 'wifi', 'host', 'trek', 'bird', 'clean', 'bonfire', 'location']
   const text = reviews.map(r => r.comment || '').join(' ').toLowerCase()
@@ -66,20 +108,62 @@ const planTrip = async input => {
 }
 
 const recommendHomestays = async (prefs, homestays) => {
+  const fallback = fallbackRecommendations(prefs, homestays)
   try {
     const text = await generate(recommendationPrompt(prefs, homestays))
-    return { recommendations: fallbackRecommendations(prefs, homestays), aiNote: text, provider: 'gemini' }
+    const parsed = parseJsonFromMarkdown(text)
+    if (Array.isArray(parsed) && parsed.length > 0) {
+      const recommendations = parsed.map(item => {
+        const h = homestays.find(home => String(home._id) === String(item.homestayId || item._id))
+        if (!h) return null
+        return {
+          homestay: h,
+          score: typeof item.score === 'number' ? item.score : 50,
+          reason: item.reason || 'Matches your travel preferences.'
+        }
+      }).filter(Boolean)
+
+      if (recommendations.length > 0) {
+        recommendations.sort((a, b) => b.score - a.score)
+        return { recommendations, aiNote: 'AI recommendation model complete.', provider: 'gemini' }
+      }
+    }
+    return { recommendations: fallback, aiNote: 'AI could not rank homestays. Local ranking applied.', provider: 'gemini' }
   } catch (_error) {
-    return { recommendations: fallbackRecommendations(prefs, homestays), provider: 'fallback' }
+    console.error('Gemini recommendHomestays failed:', _error)
+    return { recommendations: fallback, provider: 'fallback' }
   }
 }
 
 const analyzeReviews = async reviews => {
+  const fallback = fallbackReviewAnalysis(reviews)
   try {
     const text = await generate(reviewAnalysisPrompt(reviews))
-    return { ...fallbackReviewAnalysis(reviews), aiAnalysis: text, provider: 'gemini' }
+    const parsed = parseJsonFromMarkdown(text)
+    if (parsed) {
+      let themes = parsed.themes || parsed.topThemes || parsed.keywords || fallback.themes
+      if (Array.isArray(themes)) {
+        themes = themes.map(t => {
+          if (typeof t === 'string') return { theme: t, label: t }
+          return { theme: t.theme || t.label || t.keyword || 'Insight', count: t.count || 1 }
+        })
+      }
+      return {
+        sentiment: parsed.sentiment || parsed.overallSentiment || fallback.sentiment,
+        averageRating: fallback.averageRating,
+        reviewCount: fallback.reviewCount,
+        themes: themes,
+        suggestedReply: parsed.suggestedReply || parsed.reply || fallback.suggestedReply,
+        risks: parsed.risks || [],
+        opportunities: parsed.opportunities || [],
+        aiAnalysis: text,
+        provider: 'gemini'
+      }
+    }
+    return { ...fallback, aiAnalysis: text, provider: 'gemini' }
   } catch (_error) {
-    return { ...fallbackReviewAnalysis(reviews), provider: 'fallback' }
+    console.error('Gemini analyzeReviews failed:', _error)
+    return { ...fallback, provider: 'fallback' }
   }
 }
 
@@ -91,11 +175,36 @@ const monthlySummary = async data => {
   }
 }
 
-const chat = async ({ message }) => {
-  const prompt = `You are PahadiStay AI, a friendly Uttarakhand homestay and travel assistant. Answer safely and practically. User: ${message}`
+const chat = async ({ message, history = [] }) => {
   try {
-    return { reply: await generate(prompt), provider: 'gemini' }
+    const contents = []
+    
+    if (Array.isArray(history)) {
+      history.forEach(h => {
+        if (h.role && h.content) {
+          contents.push({
+            role: h.role === 'assistant' ? 'model' : 'user',
+            parts: [{ text: h.content }]
+          })
+        }
+      })
+    }
+    
+    contents.push({
+      role: 'user',
+      parts: [{ text: message }]
+    })
+    
+    const reply = await generate(contents, {
+      config: {
+        temperature: 0.7,
+        systemInstruction: "You are PahadiStay AI, a friendly, welcoming, and knowledgeable Uttarakhand travel guide and homestay assistant. Help travellers find verified homestays, plan day-by-day itineraries, suggest local food (like Mandua roti, Gahat dal, Bhang ki chutney), highlight safety on remote roads, and answer questions. Answer safely, warmly, and practically. Use friendly formatting with bullets or markdown when appropriate."
+      }
+    })
+    
+    return { reply, provider: 'gemini' }
   } catch (_error) {
+    console.error('Gemini chat failed:', _error)
     return { reply: `Namaste! For Uttarakhand travel, choose stays by district, season, and interests. If you like nature, try Chopta, Kanatal, Kausani, Pangot, or Chakrata. Tell me your dates, budget, guests, and interests, and I can suggest a practical plan.`, provider: 'fallback' }
   }
 }

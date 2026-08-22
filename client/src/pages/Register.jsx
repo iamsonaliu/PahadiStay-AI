@@ -47,7 +47,7 @@ export default function Register() {
         <div className="card overflow-hidden grid lg:grid-cols-2 animate-fade-up">
           <aside className="relative min-h-72 lg:min-h-[760px] bg-forest-gradient p-8 sm:p-10 text-white overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&q=80"
+              src="/images/hero-himalaya.jpg"
               alt="Layered Himalayan mountain landscape"
               className="absolute inset-0 h-full w-full object-cover opacity-40"
             />

@@ -319,7 +319,7 @@ export default function HomestayDetail() {
   if (!homestay) return null
 
   const [lat, lng] = coordsFor(homestay)
-  const images = homestay.imageUrls?.length ? homestay.imageUrls : ['https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=80']
+  const images = homestay.imageUrls?.length ? homestay.imageUrls : ['/images/hero-himalaya.jpg']
 
   return (
     <div className="container-px py-8">
